@@ -1,0 +1,32 @@
+/***
+  Theme Name: Kondado | HTML5 Template
+  Author: Spellon
+  Description: Kondado Development | HTML5 Template
+  Version: 1.0
+*/
+
+/*** CSS Index
+-----------------------------------
+1. Theme default css
+2. Variable
+3. Mixin - Browser Support 
+4. Common - Global Style
+5. Header 
+6. Footer
+*/
+
+@import 'custom-font';
+@import 'common';
+@import 'button';
+@import './loader';
+
+@import 'header';
+@import 'footer';
+
+// Pages
+
+//Home page
+
+@import './Pages/Home/Bannar';
+@import './Pages/Home/brands';
+@import './Pages/Home/subscribe';

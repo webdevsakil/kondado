@@ -1,0 +1,174 @@
+// variables
+
+// fonts
+
+$inter: 'Inter', sans-serif;
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  overscroll-behavior: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a,
+.button,
+button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer
+}
+
+input:focus,
+textarea:focus,
+:focus {
+  outline: 0
+}
+
+button:focus {
+  outline: 0 none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  margin-bottom: 0;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 74px;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+  color: #07080C;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  color: #5D5F66;
+}
+
+h4 {
+  font-size: 48px;
+  line-height: 58px;
+}
+
+h5 {
+  font-size: 28px;
+  line-height: 38px;
+}
+
+h6 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: #7E7E81;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none
+}
+
+hr {
+  border-bottom: 1px solid #eceff8;
+  border-top: 0 none;
+  margin: 30px 0;
+  padding: 0;
+}
+
+label {
+  color: #7e7e7e;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+*::-moz-selection {
+  background-color: #d6b161;
+  color: #fff;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background-color: #444;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background-color: #444;
+  color: #fff;
+  text-shadow: none;
+}
+
+*::-moz-placeholder {
+  color: #555555;
+  font-size: 14px;
+  opacity: 1;
+}
+
+*::placeholder {
+  color: #555555;
+  font-size: 14px;
+  opacity: 1;
+}
+
+
+/*
+   Background Color
+*/
+
+.theme-bg-primary {
+  background: rgba(35, 59, 139, 1);
+}

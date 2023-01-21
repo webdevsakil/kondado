@@ -1,0 +1,12 @@
+{
+  "name": "starter-pack",
+  "version": "1.0.0",
+  "description": "��#\u0000#\u0000 \u0000S\u0000t\u0000a\u0000r\u0000t\u0000e\u0000r\u0000 \u0000P\u0000a\u0000c\u0000k\u0000 \u0000|\u0000 \u0000H\u0000T\u0000M\u0000L\u0000 \u0000T\u0000e\u0000m\u0000p\u0000l\u0000a\u0000t\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+      "buildcss": "sass --watch assets/scss/style.scss:css/style.css"
+  },
+  "keywords": [],
+  "author": "Sakil Anwar",
+  "license": "ISC"
+}

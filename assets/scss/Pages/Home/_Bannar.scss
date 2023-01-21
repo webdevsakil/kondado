@@ -1,0 +1,176 @@
+.bannar-area {
+    min-height: 880px;
+    position: relative;
+    .shape-one{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .shape-two{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .left-area {
+        p {
+            font-size: 24px;
+            line-height: 30px;
+            color: #EDEDED;
+            margin-top: 30px;
+            font-family: $inter;
+        }
+
+        .btn-play {
+            background: transparent;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 255, 255, 1);
+            color: #fff;
+            font-size: 22px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .left-area-video-player {
+            span {
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 700;
+                color: #FFFFFF;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    .right-area {
+        background-color: #fff;
+        padding: 50px 30px;
+
+        .right-top-area {
+            h3 {
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 40px;
+                color: #07080C;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 24px;
+                color: #7E7E81;
+                margin-top: 6px;
+            }
+        }
+
+        .login-btn-area {
+            max-width: 280px;
+            margin: auto;
+
+            li {
+                padding: 10px 12px;
+                margin-bottom: 6px;
+                &:first-child{
+                    a{
+                        position: relative;
+                        img{
+                            position: absolute;
+                            top: -10px;
+                            left: -10px;
+                        }
+                        span{
+                            margin-left: 40px;
+                        }
+                    }
+                }
+                span {
+                    font-weight: 700;
+                    font-size: 14px;
+                    color: #FFFFFF;
+                    margin-left: 10px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    text-transform: capitalize;
+                }
+
+                &:first-child {
+                    background-color: #4285F4;
+                }
+
+                &:nth-child(2) {
+                    background-color: #0077B5;
+                }
+
+                &:nth-child(3) {
+                    background-color: #2F2F2F;
+                }
+
+                &:nth-child(4) {
+                    background-color: #0077B5;
+                }
+            }
+
+        }
+
+        .spacer-text {
+            span {
+                color: #7E7E81;
+                font-size: 14px;
+                text-transform: capitalize;
+            }
+        }
+
+        .form-area {
+            max-width: 280px;
+            margin: auto;
+            h4{
+                font-size: 18px;
+                line-height: 20px;
+                color: #07080C;
+                text-align: center;
+                font-weight: 400;
+            }
+            form{
+                margin-top: 10px;
+                input{
+                    width: 100%;
+                    margin-bottom: 5px;
+                    border: none;
+                    background-color: #F4F4F4;
+                    padding: 10px;
+                    &::placeholder{
+                        text-align: center;
+                        text-transform: capitalize;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #7E7E81;
+                    }
+                    &.submit-btn{
+                        background-color: #1DA8DF;
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 17px;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+        .right-bottom-area{
+            p{
+                font-size: 13px;
+                font-family: $inter;
+                font-weight: 400;
+                color: #7E7E81;
+                line-height: 16px;
+                a{
+                    color: #008862;
+                }
+            }
+        }
+    }
+}

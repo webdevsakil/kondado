@@ -1,0 +1,62 @@
+.brands-area{
+    .section-heading{
+        padding: 0px 150px;
+    }
+    .left-bottom-area{
+        img{
+            margin-left: -120px;
+        }
+    }
+    .card-item{
+        padding: 30px;
+        background-color: #fff;
+        filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.06));
+        position: relative;
+        .count{
+            position: absolute;
+            right: 30px;
+            top: 30px;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 30px;
+            color: rgba(93, 95, 102, 0.06);
+        }
+        h3{
+            margin: 15px 0px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 24px;
+            color: #7E7E81;
+        }
+
+        a{
+            font-size: 18px;
+            font-weight: 400;
+            color: #233B8B;
+        }
+        img{
+            width: 74px;
+            height: 74px;
+        }
+       
+    }
+    .cards-row{
+        .col-lg-6{
+            &:nth-child(2){
+                .card-item{
+                    a{
+                        color: #1174B9;
+                    }
+                }
+            }
+            &:nth-child(3){
+                .card-item{
+                    a{
+                        color: #1174B9;
+                    }
+                }
+            }
+        }
+    }
+}
