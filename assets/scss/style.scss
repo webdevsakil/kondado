@@ -18,10 +18,14 @@
 @import 'custom-font';
 @import 'common';
 @import 'button';
-@import './loader';
+
 
 @import 'header';
 @import 'footer';
+
+// common
+
+@import './common/signupform';
 
 // Pages
 
@@ -30,3 +34,8 @@
 @import './Pages/Home/Bannar';
 @import './Pages/Home/brands';
 @import './Pages/Home/subscribe';
+
+// Platform Page
+@import './Pages/Platform/PlatformBannar';
+@import './Pages/Platform/dbArea';
+@import './Pages/Platform/blog';

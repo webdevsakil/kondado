@@ -1,15 +1,12 @@
-
-
 .header-area {
-   
-    &.transparent-header{
+    &.transparent-header {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         z-index: 9888;
     }
- 
+
 
     ul {
         list-style-type: none;
@@ -53,6 +50,7 @@
                         font-size: 16px;
                         font-weight: 700;
                         line-height: 18px;
+
                         &:hover {
                             color: #00ccff;
                         }
@@ -62,7 +60,8 @@
                     /* HAS DROPDOWN MENU */
                     &.has-dropdown {
                         position: relative;
-/*
+
+                        /*
                         &::before {
                             position: absolute;
                             top: 50px;
@@ -153,26 +152,27 @@
 
             }
         }
-        
+
     }
 
-  .btn-area {
-      a {
-          text-decoration: none;
-          font-weight: 700;
-          line-height: 18px;
-          font-size: 16px;
-          text-transform: capitalize;
-          color: #FFFFFF;
-        &.nav-btn{
-            background-color: #1DA8DF;
-            margin-left: 30px;
-            padding: 16px 34px;
-        }
-      }
+    .btn-area {
+        a {
+            text-decoration: none;
+            font-weight: 700;
+            line-height: 18px;
+            font-size: 16px;
+            text-transform: capitalize;
+            color: #FFFFFF;
 
-  }
- 
+            &.nav-btn {
+                background-color: #1DA8DF;
+                margin-left: 30px;
+                padding: 16px 34px;
+            }
+        }
+
+    }
+
 
     .mobile-menu-area {
         position: fixed;
@@ -301,6 +301,41 @@
     }
 }
 
+/*
+ White background header
+*/
+.header-area {
+    &.header {
+        .transparent-logo {
+            display: none;
+        }
+
+        .main-menu-area {
+            .primary-menu {
+                ul {
+                    li {
+                        a {
+                            color: #07080C;
+
+                            &:hover {
+                                color: #00ccff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .btn-area a {
+           &.nav-ts-btn{
+            color: #07080C;
+            &:hover{
+                color: #00ccff;
+            }
+           }
+        }
+    }
+}
 
 // menu space
 @media all and (max-width:991px) {

@@ -26,17 +26,18 @@
 
 <body>
 
-
-
     <!-- header -->
-    <header class="header-area transparent-header">
+    <header class="header-area header">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-2 col-xl-2 col-6">
                     <!-- logo area -->
                     <div class="logo-area">
-                        <a href="index.html">
+                        <a href="index.html" class="transparent-logo">
                             <img src="images/header/logo.png" class="img-fluid" alt="logo">
+                        </a>
+                        <a href="index.html" class="black-logo">
+                            <img src="images/header/black-logo.png" class="img-fluid" alt="logo">
                         </a>
                     </div>
                 </div>
@@ -76,7 +77,7 @@
                         </nav>
                     </div>
                 </div>
-               
+
                 <div class="col-lg-1 col-xl-3 d-none d-xl-flex justify-content-end">
                     <div class="btn-area d-flex align-items-center">
                         <a href="contact.html" class="nav-ts-btn">login </a>
@@ -139,32 +140,26 @@
 
     <!-- bannar area -->
 
-    <section class="bannar-area theme-bg-primary d-flex justify-content-center align-items-center pt-70">
-        <div class="shape-one">
-            <img src="images/bannar/shape-1.png" alt="">
-        </div>
-        <div class="shape-two">
-            <img src="images/bannar/shape-2.png" alt="">
-        </div>
+    <section class="platform-bannar d-flex justify-content-center align-items-center pt-70"
+        style="background: url('./images/plaform-bannar/background.png');">
+
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-7">
+                <div class="col-lg-5 pr-80 mt-45">
                     <div class="left-area">
                         <div class="bannar-heading">
-                            <h1>Your data <br>
-                                when you need it</h1>
+                            <h1>Our Platform</h1>
                         </div>
-                        <p>With a few clicks</p>
-                        <div class="d-flex align-items-center left-area-video-player mt-80">
-                            <button type="button" class="btn-play">
-                                <i class="fa-solid fa-play"></i>
-                            </button>
-                            <span class="d-block ms-4">watch the video</span>
+                        <div class="bannar-desc mt-20">
+                            <p>Our platform was designed to provide users with speed and autonomy to build data
+                                pipelines, transformations and
+                                documentation</p>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-2"></div>
                 <div class="col-lg-5">
-                    <div class="right-area">
+                    <div class="form-wrapper mt-100">
                         <div class="right-top-area text-center">
                             <h3>Get started for free</h3>
                             <p>No credit card required | 14 days | 5 million rows | 10 pipelines</p>
@@ -172,20 +167,20 @@
 
                         <ul class="login-btn-area">
                             <li><a href="#">
-                                <img src="images/bannar/google.png" alt="">
-                                <span>sign up with google</span></a>
+                                    <img src="images/bannar/google.png" alt="">
+                                    <span>sign up with google</span></a>
                             </li>
                             <li><a href="#">
-                                <img src="images/bannar/linkedin.png" alt="">
-                                <span>sign up with linkedin</span></a>
+                                    <img src="images/bannar/linkedin.png" alt="">
+                                    <span>sign up with linkedin</span></a>
                             </li>
                             <li><a href="#">
-                                <img src="images/bannar/microsoft.png" alt="">
-                                <span>sign up with
+                                    <img src="images/bannar/microsoft.png" alt="">
+                                    <span>sign up with
                                         microsoft</span></a></li>
                             <li><a href="#">
-                                <img src="images/bannar/Facebook.png" alt="">
-                                <span>sign up with facebook</span></a>
+                                    <img src="images/bannar/Facebook.png" alt="">
+                                    <span>sign up with facebook</span></a>
                             </li>
                         </ul>
                         <div class="text-center spacer-text mt-10">
@@ -209,90 +204,117 @@
             </div>
         </div>
     </section>
-    <!-- brands -->
-    <section class="brands-area pt-100 pb-100">
+
+    <!-- database -->
+    <section class="db-area pb-120">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-heading">
-                        <h2 class="text-center">Hundreds of data-driven companies trust Kondado</h2>
-                    </div>
-                    <ul class="brands-list d-flex justify-content-between mt-40">
-                        <li><a href="#"><img src="images/brands/logo-1.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brands/logo-2.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brands/logo-3.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brands/logo-4.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brands/logo-5.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brands/logo-6.png" alt=""></a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- brands area bottom -->
-            <div class="row   brands-area-bottom mt-70">
+            <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <div class="left-area">
-                        <div class="left-top-area">
-                            <h2>How it works</h2>
-                            <p class="mt-10 pr-90">Kondado helps you access your data so you can focus on growing your
-                                business</p>
-                        </div>
-                        <div class="left-bottom-area mt-75">
-                            <img src="images/brands/box-img.png" class="img-fluid" alt="">
-                        </div>
+                    <div class="img-area">
+                        <img src="images/database/db.png" class="img-fluid" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="row g-3 cards-row">
-                        <div class="col-lg-6">
-                            <div class="card-item ">
-                                <span class="count">01</span>
-                                <img src="images/brands/icon-1.png" alt="">
-                                <h3>Load into your <br>
-                                    own destination</h3>
-                                <p>Use your own analytic database to easily and quickly receive data from your data
-                                    pipelines</p>
-                                <a href="#">Learn more about destinations</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="card-item ">
-                                <span class="count">02</span>
-                                <img src="images/brands/icon-2.png" alt="">
-                                <h3>Connect your data sources</h3>
-                                <p>We support dozens of sources, simply connect them and start replicating data right
-                                    away</p>
-                                <a href="#">Check out our sources</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="card-item ">
-                                <span class="count">03</span>
-                                <img src="images/brands/icon-3.png" alt="">
-                                <h3>Build data <br> pipelines</h3>
-                                <p>Have data pipelines ready with a few clicks, and more importantly, without a single
-                                    line of code</p>
-                                <a href="#">Learn more about our platform</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="card-item ">
-                                <span class="count">04</span>
-                                <img src="images/brands/icon-4.png" alt="">
-                                <h3>Transform your <br> data</h3>
-                                <p>Create data transformations using our platform's data modeling feature</p>
-                                <a href="#" class="d-inline-block mt-20">See data models in action</a>
-                            </div>
-                        </div>
-
+                    <div class="list-area">
+                        <ul>
+                            <li>
+                                <div class="d-flex align-items-center">
+                                    <div class="count">
+                                        <span>01</span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Connect an existing or brand new Data Warehouse or Data Lake</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex align-items-center">
+                                    <div class="count">
+                                        <span>02</span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Select from 100+ data sources</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex align-items-center">
+                                    <div class="count">
+                                        <span>03</span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Choose the data you want with a few clicks</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex align-items-center">
+                                    <div class="count">
+                                        <span>04</span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Create ready-to-use tables, combining data from multiple sources</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     </section>
+
+    <!-- blog card -->
+    <section class="blog-area theme-bg-gray pt-95 pb-45">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card-item">
+                        <div class="icon">
+                            <img src="images/icon/icon-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-item-title">
+                            <h3>You own your data</h3>
+                        </div>
+                        <div class="card-item-desc">
+                            <p>Use your own analytic database to easily and quickly receive data from your data
+                                pipelines</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card-item">
+                        <div class="icon">
+                            <img src="images/icon/icon-2.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-item-title">
+                            <h3>Set it up as you like</h3>
+                        </div>
+                        <div class="card-item-desc">
+                            <p>Select which data you want, how often it gets replicated, the table names, and much more
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card-item">
+                        <div class="icon">
+                            <img src="images/icon/icon-3.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-item-title">
+                            <h3>Instant notifications</h3>
+                        </div>
+                        <div class="card-item-desc">
+                            <p>Kondado emails you important updates of your data pipelines and transformations</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <section class="subscribe-area pt-50 pb-60 bg-cover" style="background-image: url('./images/cta/cta-bg.png');">
         <div class="container">
             <div class="row">
@@ -308,6 +330,7 @@
             </div>
         </div>
     </section>
+
     <footer class="pt-100 pb-100 footer-area">
         <div class="container">
             <div class="row">
@@ -347,7 +370,7 @@
                     </div>
                     <div class="text-widgets">
                         <p>Sign up for a free 14 day trial</p>
-                        <a href="#" >signup</a>
+                        <a href="#">signup</a>
                     </div>
 
 

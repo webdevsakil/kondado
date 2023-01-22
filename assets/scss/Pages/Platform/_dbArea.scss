@@ -1,0 +1,42 @@
+.db-area {
+    padding-top: 200px;
+
+    .list-area {
+        ul {
+            li {
+                margin-bottom: 40px;
+                padding: 35px 30px;
+                background-color: #f2f6f9;
+                .count {
+                    span {
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 30px;
+                        color: rgba(255, 255, 255, 0.15);
+                        display: block;
+                        margin-right: 10px;
+                    }
+                }
+
+                .text {
+                    p {
+                        font-weight: 700;
+                        font-size: 22px;
+                        margin-top: 15px;
+                        color: rgba(7, 8, 12, 1);
+                    }
+                }
+
+                &:hover {
+                    background-color: #233B8B;
+
+                    .text {
+                        p {
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
