@@ -1,0 +1,90 @@
+.why-kondado {
+    .section-top {
+        .section-heading {
+            h2 {
+                line-height: 54px;
+            }
+        }
+
+        .section-desc {
+            p {
+                font-size: 20px;
+                line-height: 32px;
+                color: #5D5F66;
+            }
+        }
+    }
+
+    .cards-wrapper {
+        .single-item {
+            background-color: #fff;
+            filter: drop-shadow(0 4px 120px rgba(17, 116, 185, 0.1));
+            padding: 30px;
+            min-height: 330px;
+            .title {
+                margin-top: 30px;
+
+                h3 {
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 30px;
+                    color: rgba(93, 95, 102, 1);
+                }
+            }
+
+            .desc {
+                margin-top: 20px;
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: rgba(126, 126, 129, 1);
+                }
+            }
+
+            .link {
+                a {
+                    text-decoration: none;
+                    font-size: 16px;
+                    line-height: 18px;
+                    font-weight: 400;
+                }
+            }
+        }
+        .col{
+            &:nth-child(1){
+                .link{
+                    a{
+                        color: #233B8B;
+                        border-bottom: 1px solid #233B8B;
+                    }
+                }
+            }
+            &:nth-child(2){
+                .link{
+                    a{
+                        color: #1174B9;
+                        border-bottom: 1px solid #1174B9;
+                    }
+                }
+            }
+            &:nth-child(3){
+                .link{
+                    a{
+                        color: #1DA8DF;
+                        border-bottom: 1px solid #1DA8DF;
+                    }
+                }
+            }
+            &:nth-child(4){
+                .link{
+                    a{
+                        color: #44378D;
+                        border-bottom: 1px solid #44378D;
+                    }
+                }
+            }
+        }
+    }
+}

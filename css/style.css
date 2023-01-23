@@ -775,6 +775,10 @@ label {
   font-size: 15px;
   text-transform: capitalize;
 }
+.subscribe-area.description-page form {
+  max-width: 870px;
+  margin: auto;
+}
 
 .platform-bannar {
   background-repeat: no-repeat !important;
@@ -862,7 +866,8 @@ label {
 }
 .data-sources .search-form {
   max-width: 480px;
-  margin: 45px auto;
+  margin: auto;
+  margin-top: 40px;
 }
 .data-sources .search-form input {
   width: 100%;
@@ -897,7 +902,7 @@ label {
   background-color: #fff;
   padding: 40px;
   filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.08));
-  min-height: 250px;
+  min-height: 245px;
 }
 .data-sources .data-card .title {
   margin-top: 20px;
@@ -907,6 +912,10 @@ label {
   font-size: 20px;
   line-height: 30px;
   color: #5D5F66;
+}
+.data-sources .data-card .btn-area {
+  opacity: 0;
+  visibility: hidden;
 }
 .data-sources .data-card .btn-area a {
   text-decoration: none;
@@ -921,9 +930,113 @@ label {
   display: inline-block;
 }
 .data-sources .data-card:hover {
+  padding: 20px;
   transition: all ease-in-out 0.4s;
-  filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.15));
-  transform: scale(1.06);
+}
+.data-sources .data-card:hover .btn-area {
+  opacity: 1;
+  visibility: visible;
+}
+.data-sources .data-card:hover .title {
+  margin-top: 20px;
+}
+.data-sources .data-card:hover .title h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #07080C;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.description-bannar {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 560px;
+}
+.description-bannar .left-area .bannar-heading h1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #fff;
+}
+
+.description-area p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Inter", sans-serif;
+}
+
+.why-kondado .section-top .section-heading h2 {
+  line-height: 54px;
+}
+.why-kondado .section-top .section-desc p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #5D5F66;
+}
+.why-kondado .cards-wrapper .single-item {
+  background-color: #fff;
+  filter: drop-shadow(0 4px 120px rgba(17, 116, 185, 0.1));
+  padding: 30px;
+  min-height: 330px;
+}
+.why-kondado .cards-wrapper .single-item .title {
+  margin-top: 30px;
+}
+.why-kondado .cards-wrapper .single-item .title h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  color: rgb(93, 95, 102);
+}
+.why-kondado .cards-wrapper .single-item .desc {
+  margin-top: 20px;
+}
+.why-kondado .cards-wrapper .single-item .desc p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(126, 126, 129);
+}
+.why-kondado .cards-wrapper .single-item .link a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.why-kondado .cards-wrapper .col:nth-child(1) .link a {
+  color: #233B8B;
+  border-bottom: 1px solid #233B8B;
+}
+.why-kondado .cards-wrapper .col:nth-child(2) .link a {
+  color: #1174B9;
+  border-bottom: 1px solid #1174B9;
+}
+.why-kondado .cards-wrapper .col:nth-child(3) .link a {
+  color: #1DA8DF;
+  border-bottom: 1px solid #1DA8DF;
+}
+.why-kondado .cards-wrapper .col:nth-child(4) .link a {
+  color: #44378D;
+  border-bottom: 1px solid #44378D;
+}
+
+.capaign-data .campaign-heading {
+  padding: 0px 250px;
+}
+.capaign-data .campaign-heading h2 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #07080C;
+}
+.capaign-data .data-sources .data-card {
+  height: 205px;
 }
 
 /*# sourceMappingURL=style.css.map */
