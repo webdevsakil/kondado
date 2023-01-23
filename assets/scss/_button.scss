@@ -4,11 +4,21 @@
     display: inline-block;
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 18px;
-    line-height: 27px;
-    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
     transition: all ease-in-out 0.3s;
     text-transform: capitalize;
+    padding: 15px 20px;
+    border: 1px solid #1DA8DF;
+}
+.theme-btn-primary{
+    background-color: #1DA8DF;
+    color: #fff;
+    &:hover{
+        background-color: transparent;
+        color: #fff;
+    }
 }
 .theme-btn-bordered{
     border: 1px solid #000E28;

@@ -26,17 +26,18 @@
 
 <body>
 
-
-
     <!-- header -->
-    <header class="header-area transparent-header">
+    <header class="header-area header">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-2 col-xl-2 col-6">
                     <!-- logo area -->
                     <div class="logo-area">
-                        <a href="index.html">
+                        <a href="index.html" class="transparent-logo">
                             <img src="images/header/logo.png" class="img-fluid" alt="logo">
+                        </a>
+                        <a href="index.html" class="black-logo">
+                            <img src="images/header/black-logo.png" class="img-fluid" alt="logo">
                         </a>
                     </div>
                 </div>
@@ -47,7 +48,7 @@
                             <ul>
 
                                 <li><a href="services.html">How it works</a></li>
-                                <li><a href="pipelines.html">Pipelines</a></li>
+                                <li><a href="industries.html">Pipelines</a></li>
                                 <li><a href="industries.html">Resources</a></li>
                                 <li><a href="industries.html">Pricing</a></li>
                                 <li><a href="industries.html">contact us</a></li>
@@ -139,32 +140,29 @@
 
     <!-- bannar area -->
 
-    <section class="bannar-area theme-bg-primary d-flex justify-content-center align-items-center pt-70">
-        <div class="shape-one">
-            <img src="images/bannar/shape-1.png" alt="">
-        </div>
-        <div class="shape-two">
-            <img src="images/bannar/shape-2.png" alt="">
-        </div>
+    <section class="platform-bannar d-flex justify-content-center align-items-center pt-70"
+        style="background: url('./images/pipelines-bannar/pipeline-bannar.png');">
+
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-7">
+                <div class="col-lg-5 pr-80 ">
                     <div class="left-area">
                         <div class="bannar-heading">
-                            <h1>Your data <br>
-                                when you need it</h1>
+                            <h1>Data sources</h1>
                         </div>
-                        <p>With a few clicks</p>
-                        <div class="d-flex align-items-center left-area-video-player mt-80">
-                            <button type="button" class="btn-play">
-                                <i class="fa-solid fa-play"></i>
-                            </button>
-                            <span class="d-block ms-4">watch the video</span>
+                        <div class="bannar-desc mt-20">
+                            <p>We help startups and large enterprises connect with their most important data. We are
+                                constantly adding more data
+                                sources and more destinations</p>
+                        </div>
+                        <div class="btn-area mt-20">
+                            <a href="#" class="theme-btn theme-btn-primary">Check out our sources!</a>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-2"></div>
                 <div class="col-lg-5">
-                    <div class="right-area">
+                    <div class="form-wrapper mt-100">
                         <div class="right-top-area text-center">
                             <h3>Get started for free</h3>
                             <p>No credit card required | 14 days | 5 million rows | 10 pipelines</p>
@@ -209,91 +207,55 @@
             </div>
         </div>
     </section>
-    <!-- brands -->
-    <section class="brands-area pt-100 pb-100">
+
+    <!-- blog card -->
+
+
+    <!-- blog card -->
+    <section class="blog-area pipeline-blog theme-bg-gray   pb-45">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-heading">
-                        <h2 class="text-center">Hundreds of data-driven companies trust Kondado</h2>
+                <div class="col-lg-4">
+                    <div class="card-item">
+                        <div class="icon">
+                            <img src="images/icon/icon-4.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-item-desc">
+                            <p>The same source can be replicated with many accounts at the same time</p>
+                        </div>
                     </div>
-                    <ul class="brands-list d-flex justify-content-between mt-40">
-                        <li><a href="#"><img src="images/brands/logo-1.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brands/logo-2.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brands/logo-3.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brands/logo-4.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brands/logo-5.png" alt=""></a></li>
-                        <li><a href="#"><img src="images/brands/logo-6.png" alt=""></a></li>
-                    </ul>
                 </div>
+                <div class="col-lg-4">
+                    <div class="card-item">
+                        <div class="icon">
+                            <img src="images/icon/icon-5.png" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="card-item-desc">
+                            <p>Select which data you would like to replicate from your source</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card-item">
+                        <div class="icon">
+                            <img src="images/icon/icon-6.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-item-desc">
+                            <p>Free historical data replication</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-
-            <!-- brands area bottom -->
-            <div class="row   brands-area-bottom mt-70">
-                <div class="col-lg-6">
-                    <div class="left-area">
-                        <div class="left-top-area">
-                            <h2>How it works</h2>
-                            <p class="mt-10 pr-90">Kondado helps you access your data so you can focus on growing your
-                                business</p>
-                        </div>
-                        <div class="left-bottom-area mt-75">
-                            <img src="images/brands/box-img.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="row g-3 cards-row">
-                        <div class="col-lg-6">
-                            <div class="card-item ">
-                                <span class="count">01</span>
-                                <img src="images/brands/icon-1.png" alt="">
-                                <h3>Load into your <br>
-                                    own destination</h3>
-                                <p>Use your own analytic database to easily and quickly receive data from your data
-                                    pipelines</p>
-                                <a href="#">Learn more about destinations</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="card-item ">
-                                <span class="count">02</span>
-                                <img src="images/brands/icon-2.png" alt="">
-                                <h3>Connect your data sources</h3>
-                                <p>We support dozens of sources, simply connect them and start replicating data right
-                                    away</p>
-                                <a href="#">Check out our sources</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="card-item ">
-                                <span class="count">03</span>
-                                <img src="images/brands/icon-3.png" alt="">
-                                <h3>Build data <br> pipelines</h3>
-                                <p>Have data pipelines ready with a few clicks, and more importantly, without a single
-                                    line of code</p>
-                                <a href="#">Learn more about our platform</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="card-item ">
-                                <span class="count">04</span>
-                                <img src="images/brands/icon-4.png" alt="">
-                                <h3>Transform your <br> data</h3>
-                                <p>Create data transformations using our platform's data modeling feature</p>
-                                <a href="#" class="d-inline-block mt-20">See data models in action</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-
         </div>
     </section>
-    <section class="subscribe-area pt-50 pb-60 bg-cover" style="background-image: url('./images/cta/cta-bg.png');">
+
+    <!-- subscribe area -->
+
+    <section class="subscribe-area pt-50 pb-60 bg-cover"
+        style="background-image: url('./images/cta/cta-pipelines.png');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
@@ -304,6 +266,131 @@
                         <input type="email" placeholder="enter your email">
                         <input type="submit" value="signup" class="subscribe-btn">
                     </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- data sources -->
+
+    <section class="data-sources mt-100 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="heading">
+                        <h2>Search for data sources</h2>
+                    </div>
+                    <form class="search-form ">
+                        <div class="input-wrapper">
+                            <input type="text" placeholder="search">
+                            <button type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row  mt-50  gy-5">
+                <div class="col-lg-3">
+                    <div class="data-card text-center">
+                        <div class="icon">
+                            <img src="images/data/icon-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="title ">
+                            <h3>ActiveCampaign</h3>
+                        </div>
+                        <div class="btn-area">
+                            <a href="#">learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="data-card text-center">
+                        <div class="icon">
+                            <img src="images/data/icon-2.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="title ">
+                            <h3>55 PBX</h3>
+                        </div>
+                        <div class="btn-area">
+                            <a href="#">learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="data-card text-center">
+                        <div class="icon">
+                            <img src="images/data/icon-3.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="title ">
+                            <h3>AdWords (Google Ads)</h3>
+                        </div>
+                        <div class="btn-area">
+                            <a href="#">learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="data-card text-center">
+                        <div class="icon">
+                            <img src="images/data/icon-4.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="title ">
+                            <h3>Amazon S3</h3>
+                        </div>
+                        <div class="btn-area">
+                            <a href="#">learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="data-card text-center">
+                        <div class="icon">
+                            <img src="images/data/icon-5.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="title ">
+                            <h3>ActiveCampaign</h3>
+                        </div>
+                        <div class="btn-area">
+                            <a href="#">learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="data-card text-center">
+                        <div class="icon">
+                            <img src="images/data/icon-6.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="title ">
+                            <h3>AdWords (Google Ads)</h3>
+                        </div>
+                        <div class="btn-area">
+                            <a href="#">learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="data-card text-center">
+                        <div class="icon">
+                            <img src="images/data/icon-7.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>AdWords (Google Ads)</h3>
+                        </div>
+                        <div class="btn-area">
+                            <a href="#">learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="data-card text-center">
+                        <div class="icon">
+                            <img src="images/data/icon-8.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Amazon S3</h3>
+                        </div>
+                        <div class="btn-area">
+                            <a href="#">learn more</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
