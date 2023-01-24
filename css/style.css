@@ -675,11 +675,14 @@ label {
   width: 60px;
   border-radius: 50%;
   border: 2px solid rgb(255, 255, 255);
-  color: #fff;
-  font-size: 22px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.bannar-area .left-area .btn-play a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
 }
 .bannar-area .left-area .left-area-video-player span {
   font-size: 16px;

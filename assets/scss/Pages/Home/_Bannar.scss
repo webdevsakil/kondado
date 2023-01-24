@@ -1,16 +1,19 @@
 .bannar-area {
     min-height: 880px;
     position: relative;
-    .shape-one{
+
+    .shape-one {
         position: absolute;
         left: 0;
         bottom: 0;
     }
-    .shape-two{
+
+    .shape-two {
         position: absolute;
         top: 0;
         right: 0;
     }
+
     .left-area {
         p {
             font-size: 24px;
@@ -26,11 +29,15 @@
             width: 60px;
             border-radius: 50%;
             border: 2px solid rgba(255, 255, 255, 1);
-            color: #fff;
-            font-size: 22px;
             display: flex;
             justify-content: center;
             align-items: center;
+
+            a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 22px;
+            }
         }
 
         .left-area-video-player {
@@ -44,5 +51,5 @@
         }
     }
 
-    
+
 }
