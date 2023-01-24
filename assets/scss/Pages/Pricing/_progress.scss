@@ -1,0 +1,63 @@
+.progress-wrapper {
+    padding: 20px 40px;
+
+    .range {
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    .price {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #5D5F66;
+    }
+
+   
+}
+
+ .list-area {
+     ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+         li {
+            margin-bottom: 15px;
+             .icon {
+                 margin-right: 10px;
+             }
+             .text-content{
+                p{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #5D5F66;
+                    margin-bottom: 0px;
+                }
+             }
+         }
+     }
+ }
+
+ .choose-plan-area{
+    .btn-area{
+        .theme-btn{
+            padding: 16px 33px;
+            &:hover{
+                background-color: black;
+            }
+        }
+    }
+    .text-area{
+        p{
+            font-family: $inter;
+            font-weight: 200;
+            font-size: 16px;
+            line-height: 24px;
+            color: rgba(126, 126, 129, 1);
+            a{
+                color: #0077B5;
+                text-decoration: none;
+            }
+        }
+    }
+ }

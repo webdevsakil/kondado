@@ -1,0 +1,50 @@
+.pricing-bannar{
+    .subscribe-form-area{
+        max-width: 530px;
+        margin: 0 auto;
+        text-align: center;
+        .subscribe-heading{
+            h1{
+                font-size: 44px;
+                line-height: 54px;
+            }
+        }
+        .subscribe-desc{
+            p{
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: #EDEDED;
+            }
+        }
+        form{
+            position: relative;
+            margin-top: 35px;
+            input{
+                width: 100%;
+                border: none;
+                padding: 12px 30px;
+                font-weight: 400;
+                font-size: 15px;
+                &::placeholder{
+                    color: #7E7E81;
+                }
+            }
+            button{
+                position: absolute;
+                top:0;
+                right: 0;
+                height: 47px;
+                border: none;
+                padding: 0px 34px;
+                font-family: $inter;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 18px;
+                color: #fff;
+                background-color: #1DA8DF;
+              
+            }
+        }
+    }
+}

@@ -271,7 +271,7 @@ label {
   align-items: center;
   color: rgb(255, 255, 255);
   text-transform: capitalize;
-  margin-right: 20px;
+  margin-right: 30px;
   min-height: 80px;
   padding: 0px 5px;
   font-size: 16px;
@@ -283,34 +283,29 @@ label {
 }
 .header-area .main-menu-area .primary-menu ul li.has-dropdown {
   position: relative;
-  /*
-                          &::before {
-                              position: absolute;
-                              top: 50px;
-                              right: -2px;
-                              content: "\f078";
-                              font-size: 16px;
-                              line-height: 20px;
-                              font-family: 'Font Awesome 6 Free';
-                              font-weight: bold;
-                              font-size: 16px;
-                              transition: transform ease-in 0.5s;
-                          }
-
-                          &:hover {
-                              &::before {
-                                  transform: rotate(180deg);
-
-                              }
-                          }
-  */
+}
+.header-area .main-menu-area .primary-menu ul li.has-dropdown::before {
+  position: absolute;
+  top: 31px;
+  right: 10px;
+  content: "\f078";
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Font Awesome 6 Free";
+  font-weight: bold;
+  font-size: 14px;
+  transition: transform ease-in 0.5s;
+  color: #fff;
+}
+.header-area .main-menu-area .primary-menu ul li.has-dropdown:hover::before {
+  transform: rotate(180deg);
 }
 .header-area .main-menu-area .primary-menu ul li.has-dropdown ul {
   position: absolute;
   top: 100%;
   left: 0px;
-  min-width: 300px;
-  background: #222;
+  min-width: 250px;
+  background: #fff;
   display: block;
   border-top: 5px solid rgba(6, 113, 100, 0.0392156863);
   border-radius: 4px;
@@ -328,10 +323,10 @@ label {
 .header-area .main-menu-area .primary-menu ul li.has-dropdown ul li a {
   min-height: fit-content;
   display: block;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.072);
-  padding: 10px 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.072);
+  padding: 14px 25px;
   margin: 0px;
-  color: rgba(255, 255, 255, 0.609);
+  color: #222;
 }
 .header-area .main-menu-area .primary-menu ul li.has-dropdown ul li a:hover {
   color: #00ccff;
@@ -571,7 +566,7 @@ label {
 }
 .form-wrapper .login-btn-area li:first-child a img {
   position: absolute;
-  top: -10px;
+  top: -11px;
   left: -10px;
 }
 .form-wrapper .login-btn-area li:first-child a span {
@@ -776,6 +771,10 @@ label {
   text-transform: capitalize;
 }
 .subscribe-area.description-page form {
+  max-width: 870px;
+  margin: auto;
+}
+.subscribe-area.pricing-page form {
   max-width: 870px;
   margin: auto;
 }
@@ -1037,6 +1036,149 @@ label {
 }
 .capaign-data .data-sources .data-card {
   height: 205px;
+}
+
+.pricing-bannar .subscribe-form-area {
+  max-width: 530px;
+  margin: 0 auto;
+  text-align: center;
+}
+.pricing-bannar .subscribe-form-area .subscribe-heading h1 {
+  font-size: 44px;
+  line-height: 54px;
+}
+.pricing-bannar .subscribe-form-area .subscribe-desc p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #EDEDED;
+}
+.pricing-bannar .subscribe-form-area form {
+  position: relative;
+  margin-top: 35px;
+}
+.pricing-bannar .subscribe-form-area form input {
+  width: 100%;
+  border: none;
+  padding: 12px 30px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.pricing-bannar .subscribe-form-area form input::placeholder {
+  color: #7E7E81;
+}
+.pricing-bannar .subscribe-form-area form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 47px;
+  border: none;
+  padding: 0px 34px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+  background-color: #1DA8DF;
+}
+
+.choose-plan-area {
+  background-color: #f8f7fa;
+}
+.choose-plan-area .heading {
+  padding: 0px 380px;
+}
+.choose-plan-area .heading h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #07080C;
+}
+
+.progress-wrapper {
+  padding: 20px 40px;
+}
+.progress-wrapper .range {
+  font-weight: 400;
+  font-size: 24px;
+}
+.progress-wrapper .price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #5D5F66;
+}
+
+.list-area ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.list-area ul li {
+  margin-bottom: 15px;
+}
+.list-area ul li .icon {
+  margin-right: 10px;
+}
+.list-area ul li .text-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5D5F66;
+  margin-bottom: 0px;
+}
+
+.choose-plan-area .btn-area .theme-btn {
+  padding: 16px 33px;
+}
+.choose-plan-area .btn-area .theme-btn:hover {
+  background-color: black;
+}
+.choose-plan-area .text-area p {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(126, 126, 129);
+}
+.choose-plan-area .text-area p a {
+  color: #0077B5;
+  text-decoration: none;
+}
+
+.faq-area {
+  background-color: #f2f2f2;
+}
+.faq-area .accordion-area {
+  min-height: 640px;
+}
+.faq-area .accordion-area .accordion-button:not(.collapsed)::after {
+  display: none;
+}
+.faq-area .accordion-area .accordion-button::after {
+  display: none;
+}
+.faq-area .accordion-area .accordion-button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #5D5F66;
+  background-color: #fff;
+  border-color: transparent;
+}
+.faq-area .accordion-area .accordion-button:focus {
+  outline: none;
+  box-shadow: unset;
+}
+.faq-area .accordion-area .accordion-item {
+  margin-bottom: 20px;
+  filter: drop-shadow(0px 4px 120px rgba(27, 62, 87, 0.1));
+}
+.faq-area .accordion-area .accordion-body p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */
