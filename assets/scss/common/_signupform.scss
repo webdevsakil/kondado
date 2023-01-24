@@ -1,5 +1,3 @@
-   
-   
    .form-wrapper {
        background-color: #fff;
        padding: 50px 30px;
@@ -78,8 +76,9 @@
 
        .spacer-text {
            span {
-               color: #7E7E81;
+               color: #07080C;
                font-size: 14px;
+               font-weight: 600;
                text-transform: capitalize;
            }
        }
@@ -99,6 +98,7 @@
            }
        }
    }
+
    .form-area {
        max-width: 280px;
        margin: auto;
@@ -138,5 +138,26 @@
                    color: #FFFFFF;
                }
            }
+       }
+   }
+
+   @media screen and (max-width:576px) {
+       .form-wrapper {
+           padding: 30px 20px;
+       }
+
+       .form-wrapper .right-top-area h3 {
+           font-size: 24px;
+           line-height: 22px;
+       }
+
+       .form-wrapper .right-top-area p {
+           font-size: 14px;
+           line-height: 22px;
+       }
+
+       .form-wrapper .right-bottom-area p {
+           padding: 0px 20px;
+           line-height: 20px;
        }
    }

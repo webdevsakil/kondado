@@ -1,23 +1,92 @@
-.blog-area{
-    .card-item{
+.blog-area {
+    .card-item {
         background-color: #FFFFFF;
         padding: 25px;
-        .card-item-title{
-            h3{
+
+        .card-item-title {
+            h3 {
                 font-weight: 700;
                 font-size: 26px;
                 line-height: 30px;
                 color: #5D5F66;
             }
         }
-        .card-item-desc{
+
+        .card-item-desc {
             margin-top: 10px;
-            p{
+
+            p {
                 font-weight: 400;
                 font-size: 18px;
                 line-height: 28px;
                 color: rgba(126, 126, 129, 1);
             }
         }
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1000px) {
+    .platform-blog-area {
+
+
+        .card-item {
+            .icon {
+                img {
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+        }
+    }
+
+    .blog-area .card-item .card-item-title h3 {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .blog-area .card-item .card-item-desc p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .platform-blog-area {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .platform-blog-area {
+        padding: 50px 30px;
+
+        .card-item {
+            .icon {
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .blog-area .card-item .card-item-title h3 {
+
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+
+    .blog-area .card-item .card-item-desc p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .blog-area .card-item {
+        padding: 20px;
     }
 }

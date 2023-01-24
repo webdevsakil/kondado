@@ -53,3 +53,97 @@
 
 
 }
+
+@media screen and (min-width:769px) and (max-width:991px) {
+    .bannar-area {
+        min-height: fit-content;
+        padding-bottom: 40px;
+    }
+
+    .bannar-area .shape-one,
+    .bannar-area .shape-two {
+        display: none;
+    }
+
+    .bannar-heading {
+        margin-top: 80px;
+
+        h1 {
+            font-size: 46px;
+            line-height: 56px;
+        }
+    }
+
+    .bannar-area .form-wrapper .login-btn-area {
+        max-width: 380px;
+        margin: auto;
+    }
+
+    .bannar-area .form-wrapper .right-bottom-area p {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    .bannar-area {
+        min-height: fit-content;
+        padding-bottom: 40px;
+    }
+
+    .bannar-area .shape-one,
+    .bannar-area .shape-two {
+        display: none;
+    }
+
+    .bannar-heading {
+        margin-top: 80px;
+
+        h1 {
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+
+    .bannar-area .left-area p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .bannar-area {
+        min-height: fit-content;
+        padding-bottom: 40px;
+    }
+
+    .bannar-area .shape-one,
+    .bannar-area .shape-two {
+        display: none;
+    }
+
+    .bannar-heading {
+        margin-top: 80px;
+
+        h1 {
+            font-size: 34px;
+            line-height: 36px;
+        }
+    }
+
+    .bannar-area .left-area p {
+        font-size: 20px;
+    }
+
+    .left-area-video-player {
+        margin-top: 32px;
+    }
+
+    .bannar-area .left-area .btn-play {
+
+        height: 43px;
+        width: 43px;
+
+        i {
+            font-size: 16px;
+        }
+    }
+}

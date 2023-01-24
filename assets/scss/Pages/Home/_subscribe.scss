@@ -48,10 +48,48 @@
             margin: auto;
         }
     }
-    &.pricing-page{
+
+    &.pricing-page {
         form {
-                max-width: 870px;
-                margin: auto;
-            }
+            max-width: 870px;
+            margin: auto;
+        }
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .subscribe-area .subscribe-heading {
+        padding: 20px 80px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    .subscribe-area .subscribe-heading {
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .subscribe-area .subscribe-heading {
+        padding: 20px 0px;
+
+        h2 {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+
+    .subscribe-area {
+        padding: 24px;
+    }
+
+    .subscribe-area form input.subscribe-btn {
+        width: 100%;
+        padding-left: 0px;
+        position: unset;
+        margin-top: 15px;
+    }
+
+    .subscribe-area form input {
+        height: 40px;
     }
 }

@@ -5,6 +5,10 @@
         left: 0;
         width: 100%;
         z-index: 9888;
+
+        .black-logo {
+            display: none;
+        }
     }
 
 
@@ -61,7 +65,7 @@
                     &.has-dropdown {
                         position: relative;
 
-                        
+
                         &::before {
                             position: absolute;
                             top: 31px;
@@ -328,12 +332,13 @@
         }
 
         .btn-area a {
-           &.nav-ts-btn{
-            color: #07080C;
-            &:hover{
-                color: #00ccff;
+            &.nav-ts-btn {
+                color: #07080C;
+
+                &:hover {
+                    color: #00ccff;
+                }
             }
-           }
         }
     }
 }

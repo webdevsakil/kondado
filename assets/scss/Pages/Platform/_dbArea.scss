@@ -1,12 +1,14 @@
 .db-area {
     padding-top: 200px;
 
-    .list-area {
+    .db-list-area {
         ul {
             li {
                 margin-bottom: 40px;
                 padding: 35px 30px;
-                background-color: #f2f6f9;
+                // background-color: #f2f6f9;
+                background-color: #233B8B;
+
                 .count {
                     span {
                         font-weight: 700;
@@ -23,7 +25,8 @@
                         font-weight: 700;
                         font-size: 22px;
                         margin-top: 15px;
-                        color: rgba(7, 8, 12, 1);
+                        // color: rgba(7, 8, 12, 1);
+                        color: #FFFFFF;
                     }
                 }
 
@@ -38,5 +41,21 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .db-area {
+        padding-top: 50px;
+    }
+
+    .db-area .db-list-area ul li .text p {
+
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .db-area .db-list-area ul li {
+        padding: 20px;
     }
 }

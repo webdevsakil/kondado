@@ -21,3 +21,43 @@
         }
     }
 }
+
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .platform-bannar {
+        height: fit-content;
+
+        .bannar-heading {
+            margin-top: 40px;
+
+            h1 {
+                font-size: 36px;
+                line-height: 46px;
+            }
+        }
+    }
+
+    .platform-bannar .bannar-desc p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width:768px) {
+    .platform-bannar {
+        height: fit-content;
+
+        .bannar-heading {
+            margin-top: 40px;
+
+            h1 {
+                font-size: 34px;
+                line-height: 36px;
+            }
+        }
+    }
+
+    .platform-bannar .bannar-desc p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
