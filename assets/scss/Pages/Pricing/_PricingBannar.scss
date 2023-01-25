@@ -1,38 +1,44 @@
-.pricing-bannar{
-    .subscribe-form-area{
+.pricing-bannar {
+    .subscribe-form-area {
         max-width: 530px;
         margin: 0 auto;
         text-align: center;
-        .subscribe-heading{
-            h1{
+
+        .subscribe-heading {
+            h1 {
                 font-size: 44px;
                 line-height: 54px;
             }
         }
-        .subscribe-desc{
-            p{
+
+        .subscribe-desc {
+            p {
                 font-weight: 400;
                 font-size: 20px;
                 line-height: 30px;
                 color: #EDEDED;
             }
         }
-        form{
+
+        form {
             position: relative;
             margin-top: 35px;
-            input{
+
+            input {
                 width: 100%;
                 border: none;
                 padding: 12px 30px;
                 font-weight: 400;
                 font-size: 15px;
-                &::placeholder{
+
+                &::placeholder {
                     color: #7E7E81;
                 }
             }
-            button{
+
+            button {
                 position: absolute;
-                top:0;
+                top: 0;
                 right: 0;
                 height: 47px;
                 border: none;
@@ -43,8 +49,25 @@
                 line-height: 18px;
                 color: #fff;
                 background-color: #1DA8DF;
-              
+
             }
         }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .pricing-bannar .subscribe-form-area .subscribe-heading h1 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .pricing-bannar .subscribe-form-area form button {
+        position: unset;
+        width: 100%;
+    }
+
+    .pricing-bannar .subscribe-form-area .subscribe-desc p {
+        font-size: 16px;
+        line-height: 24px;
     }
 }
