@@ -1,15 +1,49 @@
 .pipeline-blog {
-    padding-top: 235px;
+
     padding-bottom: 85px;
 
     .card-item {
         .card-item-desc {
             margin-top: 20px;
+
             p {
                 font-weight: 400;
                 font-size: 20px;
                 line-height: 30px;
                 color: #7E7E81;
+            }
+        }
+    }
+
+    &.blog-area .card-item {
+        background-color: #FFFFFF;
+        padding: 25px;
+        min-height: 216px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .pipeline-blog {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .pipeline-blog {
+        .card-item {
+            .icon {
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+
+            .card-item-desc {
+                p {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
             }
         }
     }

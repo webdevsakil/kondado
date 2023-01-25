@@ -23,6 +23,17 @@
 }
 
 
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .platform-bannar {
+        padding: 0px 80px;
+
+ 
+            padding-bottom: 50px;
+        
+    }
+}
+
 @media screen and (min-width:769px) and (max-width:992px) {
     .platform-bannar {
         height: fit-content;
@@ -42,6 +53,7 @@
         line-height: 24px;
     }
 }
+
 @media screen and (max-width:768px) {
     .platform-bannar {
         height: fit-content;

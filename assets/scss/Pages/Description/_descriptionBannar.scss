@@ -1,32 +1,98 @@
-.bg-white{
+.bg-white {
     background-color: #fff;
 }
-.description-bannar{
+
+.description-bannar {
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
 
     height: 560px;
-    .left-area{
-        
-        .bannar-heading{
-           
-            h1{
+
+    .left-area {
+
+        .bannar-heading {
+
+            h1 {
                 font-weight: 700;
                 font-size: 44px;
                 line-height: 54px;
                 color: #fff;
             }
         }
-       
+
     }
 }
 
-.description-area{
-    p{
+.description-area {
+    p {
         font-weight: 400;
         font-size: 20px;
         line-height: 32px;
         font-family: $inter;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+        .description-bannar .left-area .bannar-heading h1 {
+            font-size: 32px;
+            line-height: 48px;
+        }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    .description-bannar {
+        height: fit-content;
+
+        .bannar-icon {
+            img {
+                width: 170px;
+                height: auto;
+            }
+        }
+    }
+        .description-bannar .left-area .bannar-heading h1 {
+            font-size: 36px;
+            line-height: 46px;
+        }
+}
+
+@media screen and (min-width:577px) and (max-width:767px) {
+    .description-bannar {
+        height: fit-content;
+
+        .bannar-icon {
+            img {
+                width: 170px;
+                height: auto;
+            }
+        }
+    }
+        .description-bannar .left-area .bannar-heading h1 {
+            font-size: 36px;
+            line-height: 46px;
+        }
+}
+
+@media screen and (max-width:576px) {
+    .description-bannar {
+        height: fit-content;
+
+        .bannar-icon {
+            img {
+                width: 170px;
+                height: auto;
+            }
+        }
+    }
+
+    .description-bannar .left-area .bannar-heading h1 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .description-area p {
+        font-size: 16px;
+        line-height: 24px;
     }
 }

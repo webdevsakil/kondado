@@ -1,0 +1,71 @@
+@media screen and (min-width:992px) and (max-width:1350px) {
+    .trust-area{
+
+        .brands-wrapper{
+            ul{
+                li{
+                    img{
+                        width: 140px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .trust-area{
+        h2{
+            font-size: 32px;
+            line-height: 42px;
+            padding: 0px 50px;
+        }
+        .brands-wrapper{
+            ul{
+                li{
+                    img{
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    .trust-area{
+        h2{
+            font-size: 28px;
+            line-height: 38px;
+            color: #5D5F66;
+        }
+        .brands-wrapper{
+            ul{
+                li{
+                    img{
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .trust-area{
+        h2{
+            font-size: 24px;
+            line-height: 32px;
+            color: #5D5F66;
+        }
+        .brands-wrapper{
+            ul{
+                li{
+                    img{
+                        width: 100px;
+                    }
+                }
+            }
+        }
+    }
+}

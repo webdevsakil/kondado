@@ -21,6 +21,7 @@
             filter: drop-shadow(0 4px 120px rgba(17, 116, 185, 0.1));
             padding: 30px;
             min-height: 330px;
+
             .title {
                 margin-top: 30px;
 
@@ -52,39 +53,103 @@
                 }
             }
         }
-        .col{
-            &:nth-child(1){
-                .link{
-                    a{
+
+        .col {
+            &:nth-child(1) {
+                .link {
+                    a {
                         color: #233B8B;
                         border-bottom: 1px solid #233B8B;
                     }
                 }
             }
-            &:nth-child(2){
-                .link{
-                    a{
+
+            &:nth-child(2) {
+                .link {
+                    a {
                         color: #1174B9;
                         border-bottom: 1px solid #1174B9;
                     }
                 }
             }
-            &:nth-child(3){
-                .link{
-                    a{
+
+            &:nth-child(3) {
+                .link {
+                    a {
                         color: #1DA8DF;
                         border-bottom: 1px solid #1DA8DF;
                     }
                 }
             }
-            &:nth-child(4){
-                .link{
-                    a{
+
+            &:nth-child(4) {
+                .link {
+                    a {
                         color: #44378D;
                         border-bottom: 1px solid #44378D;
                     }
                 }
             }
         }
+    }
+}
+
+
+@media screen and (min-width:769px) and (max-width:991px) {
+    .why-kondado .section-top .section-heading h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .why-kondado .section-top .section-desc p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    .why-kondado .section-top .section-heading h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .why-kondado .section-top .section-desc p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .why-kondado .section-top .section-heading h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .why-kondado .section-top .section-desc p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .why-kondado .cards-wrapper {
+        .single-item {
+            .icon {
+                img {
+                    width: 40px;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    .why-kondado .cards-wrapper .single-item .title h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .why-kondado .cards-wrapper .single-item {
+        filter: drop-shadow(0 4px 50px rgba(17, 116, 185, 0.1));
+        min-height: fit-content;
+
     }
 }
