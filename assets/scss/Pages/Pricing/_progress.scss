@@ -21,6 +21,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 100px;
+
         li {
             margin-bottom: 15px;
 
@@ -68,6 +69,17 @@
     }
 }
 
+@media screen and (min-width:992px) and (max-width:1250px) {
+    .list-area ul {
+        column-gap: 20px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    .list-area ul {
+        column-gap: 20px;
+    }
+}
+
 @media screen and (max-width:575px) {
     .list-area {
         ul {
@@ -92,8 +104,9 @@
     .choose-plan-area .btn-area .theme-btn {
         padding: 10px 33px;
     }
-        .choose-plan-area .text-area p {
-            font-size: 14px;
-            text-align: center;
-        }
+
+    .choose-plan-area .text-area p {
+        font-size: 14px;
+        text-align: center;
+    }
 }

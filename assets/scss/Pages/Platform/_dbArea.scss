@@ -1,48 +1,54 @@
 .db-area {
-    padding-top: 200px;
+   // padding-top: 200px;
 
-    .db-list-area {
-        ul {
-            li {
-                margin-bottom: 40px;
-                padding: 35px 30px;
-                // background-color: #f2f6f9;
-                background-color: #233B8B;
+    .swiper {
+        height: 100vh;
+        .swiper-slide{
+            height: 100vh;
+            display: flex;
+       
+            align-items: center;
+        }
+    }
 
-                .count {
-                    span {
-                        font-weight: 700;
-                        font-size: 48px;
-                        line-height: 30px;
-                        color: rgba(255, 255, 255, 0.15);
-                        display: block;
-                        margin-right: 10px;
-                    }
-                }
+    .db-data-area {
+        background-color: #233B8B;
+        padding: 35px 32px;
 
-                .text {
-                    p {
-                        font-weight: 700;
-                        font-size: 22px;
-                        margin-top: 15px;
-                        // color: rgba(7, 8, 12, 1);
-                        color: #FFFFFF;
-                    }
-                }
+        .count {
+            span {
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 30px;
+                color: rgba(255, 255, 255, 0.15);
+                display: block;
+                margin-right: 12px;
+            }
+        }
 
-                &:hover {
-                    background-color: #233B8B;
+        .text {
+            p {
+                font-weight: 700;
+                font-size: 22px;
+                margin-top: 15px;
+                // color: rgba(7, 8, 12, 1);
+                color: #FFFFFF;
+            }
+        }
 
-                    .text {
-                        p {
-                            color: #FFFFFF;
-                        }
-                    }
+        &:hover {
+            background-color: #233B8B;
+
+            .text {
+                p {
+                    color: #FFFFFF;
                 }
             }
         }
     }
 }
+
+
 
 @media screen and (max-width:576px) {
     .db-area {

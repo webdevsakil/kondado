@@ -1047,32 +1047,36 @@ label {
     line-height: 24px;
   }
 }
-.db-area {
-  padding-top: 200px;
+.db-area .swiper {
+  height: 100vh;
 }
-.db-area .db-list-area ul li {
-  margin-bottom: 40px;
-  padding: 35px 30px;
+.db-area .swiper .swiper-slide {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.db-area .db-data-area {
   background-color: #233B8B;
+  padding: 35px 32px;
 }
-.db-area .db-list-area ul li .count span {
+.db-area .db-data-area .count span {
   font-weight: 700;
   font-size: 48px;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.15);
   display: block;
-  margin-right: 10px;
+  margin-right: 12px;
 }
-.db-area .db-list-area ul li .text p {
+.db-area .db-data-area .text p {
   font-weight: 700;
   font-size: 22px;
   margin-top: 15px;
   color: #FFFFFF;
 }
-.db-area .db-list-area ul li:hover {
+.db-area .db-data-area:hover {
   background-color: #233B8B;
 }
-.db-area .db-list-area ul li:hover .text p {
+.db-area .db-data-area:hover .text p {
   color: #FFFFFF;
 }
 
@@ -1744,6 +1748,16 @@ label {
   text-decoration: none;
 }
 
+@media screen and (min-width: 992px) and (max-width: 1250px) {
+  .list-area ul {
+    column-gap: 20px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .list-area ul {
+    column-gap: 20px;
+  }
+}
 @media screen and (max-width: 575px) {
   .list-area ul {
     display: grid;
