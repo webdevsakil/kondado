@@ -579,7 +579,7 @@ label {
 }
 .form-wrapper .login-btn-area li:first-child a img {
   position: absolute;
-  top: -12px;
+  top: -11px;
   left: -10px;
   height: 40px;
   width: 40px;
@@ -1055,10 +1055,10 @@ label {
   }
 }
 .db-area .swiper {
-  height: 100vh;
+  height: 80vh;
 }
 .db-area .swiper .swiper-slide {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
 }

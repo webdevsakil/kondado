@@ -1,19 +1,5 @@
 gsap.registerPlugin(Observer);
 
-// if (document.getElementById("range") !== null) {
-
-//     const range = document.getElementById("range");
-//     const total = document.getElementById("totalData");
-
-//     range.addEventListener('change', function (e) {
-//         document.querySelector(".progress-wrapper .price strong").innerText = range.value;
-//         const totalAmount = parseInt(total.dataset.total);
-//         console.log(typeof totalAmount)
-//     })
-
-
-
-// }
 
 if (document.querySelector('.db-vertical-slider') !== null) {
     const slides = document.querySelectorAll('.db-vertical-slider .swiper-slide');
@@ -24,6 +10,7 @@ if (document.querySelector('.db-vertical-slider') !== null) {
         type: "wheel,touch",
         onDown: () => {
             location.href = "#blog";
+
         }
     });
     Observer.create({
@@ -167,8 +154,8 @@ var swiper = new Swiper(".brands-slider", {
             if (this.value == 0) {
                 this.value = 1;
             }
-    
-            
+
+
             $('#price').text(plans[this.value].price[locale_currency]);
             if (parseInt(plans[this.value].million_rows) < 1000) {
                 $('#million_rows').text(plans[this.value].million_rows);
@@ -181,7 +168,7 @@ var swiper = new Swiper(".brands-slider", {
                 $('#million_qualifier').text("billion rows/month ");
             }
             $('#pipelines').text(plans[this.value].pipelines);
-            
+
         });
 
 
