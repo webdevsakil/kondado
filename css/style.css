@@ -553,6 +553,9 @@ label {
 .form-wrapper {
   background-color: #fff;
   padding: 50px 30px;
+  filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.1));
+  position: relative;
+  z-index: 988;
 }
 .form-wrapper .right-top-area h3 {
   font-weight: 700;
