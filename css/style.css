@@ -1128,6 +1128,11 @@ label {
     margin-top: 40px;
   }
 }
+@media screen and (max-width: 480px) {
+  .db-area .swiper {
+    height: 60vh;
+  }
+}
 .blog-area .card-item {
   background-color: #FFFFFF;
   padding: 25px;

@@ -58,8 +58,9 @@
     .db-area .db-data-area {
         padding: 22px 24px;
     }
-    .db-area{
-        img{
+
+    .db-area {
+        img {
             margin-top: 30px;
         }
     }
@@ -100,4 +101,10 @@
         }
     }
 
+}
+
+@media screen and (max-width:480px) {
+    .db-area .swiper {
+        height: 60vh;
+    }
 }
