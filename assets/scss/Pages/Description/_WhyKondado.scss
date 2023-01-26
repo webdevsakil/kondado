@@ -94,6 +94,36 @@
     }
 }
 
+@media screen and (min-width:1400px)  {
+    .why-kondado {
+        .cards-wrapper {
+            .single-item {
+                position: relative;
+                min-height: 320px;
+
+                .link {
+                    position: absolute;
+                    bottom: 20px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    .why-kondado {
+        .cards-wrapper {
+            .single-item {
+                position: relative;
+                min-height: 360px;
+
+                .link {
+                    position: absolute;
+                    bottom: 20px;
+                }
+            }
+        }
+    }
+}
 
 @media screen and (min-width:769px) and (max-width:991px) {
     .why-kondado .section-top .section-heading h2 {
