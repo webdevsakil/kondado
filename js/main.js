@@ -1,41 +1,12 @@
-gsap.registerPlugin(Observer);
-gsap.registerPlugin(ScrollToPlugin);
-const verticalSlides = document.querySelectorAll('.db-vertical-slider .swiper-slide');
-const slidesCount = verticalSlides.length;
 
 
-
-Observer.create({
-    target: "#platformBannar",
-    type: "wheel,touch",
-    onDown: () => {
-        gsap.to(window, { duration: 1, scrollTo: 600 });
-    }
-});
-Observer.create({
-    target: verticalSlides[0],
-    type: "wheel,touch",
-    onUp: () => {
-        gsap.to(window, { duration: 1, scrollTo: "#platformBannar" });
-    }
-});
-
-Observer.create({
-    target: verticalSlides[slidesCount - 1],
-    type: "wheel,touch",
-    onDown: () => {
-        gsap.to(window, { duration: 1, scrollTo: "#blog" });
-    }
-});
-Observer.create({
-    target: "#blog",
-    type: "wheel,touch",
-    onUp: () => {
-        gsap.to(window, { duration: 1, scrollTo:"#database" });
-    }
-});
-
-
+if (document.getElementById("range") !== null) {
+    const range = document.getElementById("range");
+    range.addEventListener('change', function (e) {
+        document.querySelector(".progress-wrapper .price strong").innerText = range.value;
+    })
+  
+}
 
 
 var swiper = new Swiper(".brands-slider", {
@@ -66,13 +37,6 @@ var swiper = new Swiper(".brands-slider", {
     },
 });
 
-var dbSlider = new Swiper(".db-vertical-slider", {
-    direction: "vertical",
-    slidesPerView: 1,
-    spaceBetween: 0,
-    mousewheel: true,
-    speed: 1500
-});
 
 
 

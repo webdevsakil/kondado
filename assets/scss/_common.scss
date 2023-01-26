@@ -7,8 +7,7 @@ $inter: 'Inter', sans-serif;
 body {
   font-family: 'Helvetica', sans-serif;
   overflow-x: hidden;
-  overflow-y: scroll;
-  overscroll-behavior: none;
+  scroll-behavior: smooth;
   font-weight: 400;
   font-size: 16px;
 }
