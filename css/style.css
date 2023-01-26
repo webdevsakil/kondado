@@ -579,8 +579,10 @@ label {
 }
 .form-wrapper .login-btn-area li:first-child a img {
   position: absolute;
-  top: -11px;
+  top: -12px;
   left: -10px;
+  height: 40px;
+  width: 40px;
 }
 .form-wrapper .login-btn-area li:first-child a span {
   margin-left: 40px;
