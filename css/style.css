@@ -1822,9 +1822,16 @@ label {
   outline: none;
   box-shadow: unset;
 }
+.faq-area .accordion-area .accordion-button:not(.collapsed) {
+  box-shadow: unset;
+}
+.faq-area .accordion-area .accordion {
+  --bs-accordion-bg: transparent;
+}
 .faq-area .accordion-area .accordion-item {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   filter: drop-shadow(0px 4px 120px rgba(27, 62, 87, 0.041));
+  border: none;
 }
 .faq-area .accordion-area .accordion-body p {
   font-weight: 400;

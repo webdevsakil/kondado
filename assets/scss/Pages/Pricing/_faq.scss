@@ -28,9 +28,20 @@
 
         }
 
+        .accordion-button:not(.collapsed) {
+            box-shadow: unset;
+        }
+
+        .accordion {
+
+            --bs-accordion-bg: transparent;
+
+        }
+
         .accordion-item {
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             filter: drop-shadow(0px 4px 120px rgba(27, 62, 87, 0.041));
+            border: none;
         }
 
         .accordion-body {
@@ -45,9 +56,9 @@
 }
 
 @media screen and (max-width:576px) {
-    .faq-area{
-        .heading{
-            h2{
+    .faq-area {
+        .heading {
+            h2 {
                 font-size: 24px;
                 line-height: 32px;
             }
