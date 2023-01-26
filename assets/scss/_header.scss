@@ -22,6 +22,7 @@
 
     .logo-area {
         position: relative;
+
         a {
             text-decoration: none;
 
@@ -327,10 +328,17 @@
                                 color: #00ccff;
                             }
                         }
+
+                        &.has-dropdown {
+                            &::before {
+                                color: #222;
+                            }
+                        }
                     }
                 }
             }
         }
+
 
         .btn-area a {
             &.nav-ts-btn {
