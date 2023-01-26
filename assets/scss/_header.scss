@@ -204,7 +204,7 @@
                         border-bottom: 1px solid rgba(255, 255, 255, 0.045);
                         margin-left: 0px;
                         padding: 10px 20px;
-
+                        color: #fff !important;
                         &:hover {
                             color: #00ccff;
                         }
@@ -224,7 +224,7 @@
                             content: "\f078";
                             font-family: 'Font Awesome 6 Free';
                             font-weight: 700;
-                            color: #fff;
+                            color: #fff !important;
                             font-size: 14px;
                         }
 
@@ -234,13 +234,13 @@
 
                             li {
                                 a {
-                                    color: #222;
+                                    color: #222 !important;
                                     border-bottom: 1px solid rgba(128, 128, 128, 0.265);
                                     padding: 8px 20px;
 
                                     &:hover {
                                         background: #222;
-                                        color: #fff;
+                                        color: #fff !important;
                                     }
                                 }
 

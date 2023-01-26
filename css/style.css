@@ -394,6 +394,7 @@ label {
   border-bottom: 1px solid rgba(255, 255, 255, 0.045);
   margin-left: 0px;
   padding: 10px 20px;
+  color: #fff !important;
 }
 .header-area .mobile-menu-area .primary-menu ul li a:hover {
   color: #00ccff;
@@ -411,7 +412,7 @@ label {
   content: "\f078";
   font-family: "Font Awesome 6 Free";
   font-weight: 700;
-  color: #fff;
+  color: #fff !important;
   font-size: 14px;
 }
 .header-area .mobile-menu-area .primary-menu ul li.has-dropdown ul {
@@ -419,13 +420,13 @@ label {
   border-top: none;
 }
 .header-area .mobile-menu-area .primary-menu ul li.has-dropdown ul li a {
-  color: #222;
+  color: #222 !important;
   border-bottom: 1px solid rgba(128, 128, 128, 0.265);
   padding: 8px 20px;
 }
 .header-area .mobile-menu-area .primary-menu ul li.has-dropdown ul li a:hover {
   background: #222;
-  color: #fff;
+  color: #fff !important;
 }
 .header-area .mobile-menu-area .primary-menu ul li.has-dropdown ul li ul {
   left: 50px;
