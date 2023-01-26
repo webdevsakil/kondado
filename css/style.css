@@ -1087,9 +1087,21 @@ label {
   color: #FFFFFF;
 }
 
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .db-area .db-data-area .text p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .db-area .db-data-area {
+    padding: 22px 24px;
+  }
+  .db-area img {
+    margin-top: 30px;
+  }
+}
 @media screen and (max-width: 576px) {
   .db-area {
-    padding-top: 50px;
+    padding-top: 0px;
   }
   .db-area .db-list-area ul li .text p {
     font-size: 16px;
@@ -1097,6 +1109,19 @@ label {
   }
   .db-area .db-list-area ul li {
     padding: 20px;
+  }
+  .db-area .swiper {
+    height: 75vh;
+  }
+  .db-area .db-data-area .text p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .db-area .db-data-area .count span {
+    font-size: 40px;
+  }
+  .db-area .img-area {
+    margin-top: 40px;
   }
 }
 .blog-area .card-item {
@@ -1142,7 +1167,7 @@ label {
 }
 @media screen and (max-width: 768px) {
   .platform-blog-area {
-    padding: 50px 30px;
+    padding: 0px 30px;
   }
   .platform-blog-area .card-item .icon {
     margin-bottom: 20px;

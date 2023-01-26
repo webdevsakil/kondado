@@ -176,9 +176,13 @@
             <div class="row g-5 align-items-center mt-xs-10 mt-sm-10 mt-md-20 mt-lg-20 mt-65">
                 <div class="col-lg-6">
                     <div class="progress-wrapper bg-white ml-xs-10 mr-xs-10">
-                        <p class="range">10 million rows/month</p>
-                        <input type="range" min="1" max="100" value="30" class="range-slider form-range" id="range">
-                        <p class="price ">$<strong>30</strong>/ month</p>
+                        <p class="range"><span id="million_rows">10</span>
+                            <span id="million_qualifier">million rows/month</span>
+                            </p>
+                        <form id="price_sliderData">
+                            <input type="range" min="0" max="12" value="1" class="range-slider form-range"  id="price_slider">
+                        </form>
+                        <p class="price ">$<strong id="price">89</strong>/ month</p>
                     </div>
 
                     <div class="list-area mt-50 mt-xs-20 pl-xs-20">
@@ -189,7 +193,7 @@
                                         <img src="images/icon/check-icon.png" alt="">
                                     </div>
                                     <div class="text-content">
-                                        <p>30 pipelines</p>
+                                        <p><span id="pipelines">30</span> pipelines</p>
                                     </div>
                                 </div>
                             </li>
@@ -546,7 +550,7 @@
     </section>
 
 
-    <footer class="pt-100 pb-100 footer-area pt-xs-40 pb-xs-40 pt-sm-50 pb-sm-50 pt-md-60 pb-md-60 pt-lg-70 pb-lg-70">
+    <footer class="pt-100 pb-100 footer-area pt-xs-40 pb-xs-40 pt-sm-50 pb-sm-50 pt-md-60 pb-md-60 pt-lg-70 pb-lg-70" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-3">
@@ -614,7 +618,7 @@
 
 
     <!-- all js files -->
-    
+
     <script src="js/modernizr-3.11.2.min.js"></script>
     <script src="js/jquery-3.6.2.min.js"></script>
     <script src="js/popper.min.js"></script>

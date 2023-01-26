@@ -1,30 +1,51 @@
 gsap.registerPlugin(Observer);
 
-if (document.getElementById("range") !== null) {
-    const range = document.getElementById("range");
-    range.addEventListener('change', function (e) {
-        document.querySelector(".progress-wrapper .price strong").innerText = range.value;
-    })
+// if (document.getElementById("range") !== null) {
+
+//     const range = document.getElementById("range");
+//     const total = document.getElementById("totalData");
+
+//     range.addEventListener('change', function (e) {
+//         document.querySelector(".progress-wrapper .price strong").innerText = range.value;
+//         const totalAmount = parseInt(total.dataset.total);
+//         console.log(typeof totalAmount)
+//     })
+
+   
+
+// }
+
+if (document.querySelector('.db-vertical-slider') !== null) {
+    const slides = document.querySelectorAll('.db-vertical-slider .swiper-slide');
+    const slidesLength = slides.length;
+
+    Observer.create({
+        target: slides[slidesLength - 1],
+        type: "wheel,touch",
+        onDown: () => {
+            location.href = "#blog";
+        }
+    });
+    Observer.create({
+        target: slides[0],
+        type: "wheel,touch",
+        onUp: () => {
+            location.href = "#platformBannar";
+        }
+    });
+ 
+    // Observer.create({
+    //     target: "#blog",
+    //     type: "wheel,touch",
+    //     onUp: () => {
+    //         location.href = "";
+    //     },
+    //     onDown: () => {
+    //         location.href = "";
+    //     }
+    // });
 
 }
-
-const slides = document.querySelectorAll('.db-vertical-slider .swiper-slide');
-const slidesLength = slides.length;
-
-Observer.create({
-    target: slides[slidesLength-1],        
-    type: "wheel,touch",    
-    onDown: () => {
-        location.href = "#blog";
-    }
-});
-Observer.create({
-    target: slides[0],        
-    type: "wheel,touch",    
-    onUp: () => {
-        location.href = "#platformBannar";
-    }
-});
 
 const verticalSlider = new Swiper(".db-vertical-slider", {
     direction: "vertical",
@@ -32,12 +53,14 @@ const verticalSlider = new Swiper(".db-vertical-slider", {
     spaceBetween: 0,
     mousewheel: true,
     speed: 1000,
- 
+
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
     },
 })
+
+
 
 var swiper = new Swiper(".brands-slider", {
     slidesPerView: 2,
@@ -119,6 +142,7 @@ var swiper = new Swiper(".brands-slider", {
             }
             // other options
         });
+    
 
     });
 })(jQuery);
