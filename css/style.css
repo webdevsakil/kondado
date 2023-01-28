@@ -1206,6 +1206,21 @@ label {
     padding: 20px;
   }
 }
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .banner.pipelines-banner .form-wrapper {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .banner.pipelines-banner .form-wrapper {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .banner.pipelines-banner .form-wrapper {
+    margin-top: 25px;
+  }
+}
 .pipeline-blog {
   padding-bottom: 85px;
 }
