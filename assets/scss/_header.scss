@@ -9,10 +9,21 @@
         .black-logo {
             display: none;
         }
-        .open-menu-btn{
-            button{
-                i{
+
+        .open-menu-btn {
+            button {
+                i {
                     color: #fff;
+                }
+            }
+        }
+
+        &.sticky-header {
+            .open-menu-btn {
+                button {
+                    i {
+                        color: #222;
+                    }
                 }
             }
         }

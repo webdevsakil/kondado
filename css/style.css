@@ -249,6 +249,9 @@ label {
 .header-area.transparent-header .open-menu-btn button i {
   color: #fff;
 }
+.header-area.transparent-header.sticky-header .open-menu-btn button i {
+  color: #222;
+}
 .header-area.sticky-header {
   position: fixed;
   top: 0;
