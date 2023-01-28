@@ -9,6 +9,13 @@
         .black-logo {
             display: none;
         }
+        .open-menu-btn{
+            button{
+                i{
+                    color: #fff;
+                }
+            }
+        }
     }
 
     &.sticky-header {

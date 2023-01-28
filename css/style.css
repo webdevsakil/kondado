@@ -246,6 +246,9 @@ label {
 .header-area.transparent-header .black-logo {
   display: none;
 }
+.header-area.transparent-header .open-menu-btn button i {
+  color: #fff;
+}
 .header-area.sticky-header {
   position: fixed;
   top: 0;
