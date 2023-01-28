@@ -1,7 +1,16 @@
-.platform-bannar {
+.banner {
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
+}
+
+.platform-banner {
+    &.pipelines-banner {
+        .form-wrapper {
+            margin-top: 120px;
+        }
+    }
+
     height: 480px;
 
     .bannar-heading {

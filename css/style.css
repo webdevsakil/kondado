@@ -989,18 +989,24 @@ label {
     height: 40px;
   }
 }
-.platform-bannar {
+.banner {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
+}
+
+.platform-banner {
   height: 480px;
 }
-.platform-bannar .bannar-heading h1 {
+.platform-banner.pipelines-banner .form-wrapper {
+  margin-top: 120px;
+}
+.platform-banner .bannar-heading h1 {
   font-weight: 700;
   font-size: 44px;
   line-height: 54px;
 }
-.platform-bannar .bannar-desc p {
+.platform-banner .bannar-desc p {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
