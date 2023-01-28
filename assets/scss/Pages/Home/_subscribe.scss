@@ -70,7 +70,7 @@
 
 @media screen and (max-width:768px) {
     .subscribe-area .subscribe-heading {
-        padding: 20px 0px;
+        padding: 0px 0px;
 
         h2 {
             font-size: 24px;
@@ -78,9 +78,6 @@
         }
     }
 
-    .subscribe-area {
-        padding: 24px;
-    }
 
     .subscribe-area form input.subscribe-btn {
         width: 100%;

@@ -1,19 +1,8 @@
-.bannar-area {
+.banner-area {
     min-height: 880px;
     position: relative;
 
-    .shape-one {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-    }
-
-    .shape-two {
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-
+   
     .left-area {
         p {
             font-size: 24px;
@@ -55,17 +44,13 @@
 }
 
 @media screen and (min-width:769px) and (max-width:991px) {
-    .bannar-area {
+    .banner-area {
         min-height: fit-content;
         padding-bottom: 40px;
     }
 
-    .bannar-area .shape-one,
-    .bannar-area .shape-two {
-        display: none;
-    }
 
-    .bannar-heading {
+    .banner-heading {
         margin-top: 80px;
 
         h1 {
@@ -74,28 +59,24 @@
         }
     }
 
-    .bannar-area .form-wrapper .login-btn-area {
+    .banner-area .form-wrapper .login-btn-area {
         max-width: 380px;
         margin: auto;
     }
 
-    .bannar-area .form-wrapper .right-bottom-area p {
+    .banner-area .form-wrapper .right-bottom-area p {
         text-align: center;
     }
 }
 
 @media screen and (min-width:577px) and (max-width:768px) {
-    .bannar-area {
+    .banner-area {
         min-height: fit-content;
         padding-bottom: 40px;
     }
 
-    .bannar-area .shape-one,
-    .bannar-area .shape-two {
-        display: none;
-    }
 
-    .bannar-heading {
+    .banner-heading {
         margin-top: 80px;
 
         h1 {
@@ -104,23 +85,20 @@
         }
     }
 
-    .bannar-area .left-area p {
+    .banner-area .left-area p {
         font-size: 20px;
     }
 }
 
 @media screen and (max-width:576px) {
-    .bannar-area {
+    .banner-area {
         min-height: fit-content;
         padding-bottom: 40px;
     }
 
-    .bannar-area .shape-one,
-    .bannar-area .shape-two {
-        display: none;
-    }
 
-    .bannar-heading {
+
+    .banner-heading {
         margin-top: 80px;
 
         h1 {
@@ -129,7 +107,7 @@
         }
     }
 
-    .bannar-area .left-area p {
+    .banner-area .left-area p {
         font-size: 20px;
     }
 
@@ -137,7 +115,7 @@
         margin-top: 32px;
     }
 
-    .bannar-area .left-area .btn-play {
+    .banner-area .left-area .btn-play {
 
         height: 43px;
         width: 43px;

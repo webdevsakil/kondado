@@ -246,6 +246,30 @@ label {
 .header-area.transparent-header .black-logo {
   display: none;
 }
+.header-area.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #fff;
+  filter: drop-shadow(0px 0px 20px gray);
+}
+.header-area.sticky-header .logo-area .transparent-logo {
+  display: none;
+}
+.header-area.sticky-header .logo-area .black-logo {
+  display: block;
+}
+.header-area.sticky-header .main-menu-area .primary-menu ul li a {
+  color: #222;
+}
+.header-area.sticky-header .main-menu-area .primary-menu ul li.has-dropdown::before {
+  color: #222;
+}
+.header-area.sticky-header .btn-area a {
+  color: #222;
+}
 .header-area ul {
   list-style-type: none;
   padding: 0;
@@ -256,10 +280,6 @@ label {
 }
 .header-area .logo-area a {
   text-decoration: none;
-}
-.header-area .logo-area a img {
-  width: 160px;
-  height: auto;
 }
 .header-area .main-menu-area .primary-menu ul {
   display: flex;
@@ -555,8 +575,6 @@ label {
   background-color: #fff;
   padding: 50px 30px;
   filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.1));
-  position: relative;
-  z-index: 988;
 }
 .form-wrapper .right-top-area h3 {
   font-weight: 700;
@@ -574,26 +592,23 @@ label {
   max-width: 280px;
   margin: auto;
 }
+.form-wrapper .login-btn-area .icon {
+  width: 41px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .form-wrapper .login-btn-area li {
-  padding: 10px 12px;
+  padding: 2px;
   margin-bottom: 6px;
 }
-.form-wrapper .login-btn-area li:first-child a {
-  position: relative;
-}
-.form-wrapper .login-btn-area li:first-child a img {
-  position: absolute;
-  top: -11px;
-  left: -10px;
-  height: 40px;
-  width: 40px;
-}
-.form-wrapper .login-btn-area li:first-child a span {
-  margin-left: 40px;
+.form-wrapper .login-btn-area li:first-child .icon {
+  background-color: #fff;
 }
 .form-wrapper .login-btn-area li span {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 15px;
   color: #FFFFFF;
   margin-left: 10px;
 }
@@ -612,11 +627,12 @@ label {
   background-color: #2F2F2F;
 }
 .form-wrapper .login-btn-area li:nth-child(4) {
-  background-color: #0077B5;
+  background-color: #3975EA;
 }
 .form-wrapper .spacer-text span {
-  color: #07080C;
+  color: #7E7E81;
   font-size: 14px;
+  line-height: 16px;
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -636,9 +652,9 @@ label {
   margin: auto;
 }
 .form-area h4 {
-  font-size: 18px;
-  line-height: 20px;
-  color: #07080C;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7E7E81;
   text-align: center;
   font-weight: 400;
 }
@@ -685,28 +701,18 @@ label {
     line-height: 20px;
   }
 }
-.bannar-area {
+.banner-area {
   min-height: 880px;
   position: relative;
 }
-.bannar-area .shape-one {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-.bannar-area .shape-two {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.bannar-area .left-area p {
+.banner-area .left-area p {
   font-size: 24px;
   line-height: 30px;
   color: #EDEDED;
   margin-top: 30px;
   font-family: "Inter", sans-serif;
 }
-.bannar-area .left-area .btn-play {
+.banner-area .left-area .btn-play {
   background: transparent;
   height: 60px;
   width: 60px;
@@ -716,12 +722,12 @@ label {
   justify-content: center;
   align-items: center;
 }
-.bannar-area .left-area .btn-play a {
+.banner-area .left-area .btn-play a {
   text-decoration: none;
   color: #fff;
   font-size: 22px;
 }
-.bannar-area .left-area .left-area-video-player span {
+.banner-area .left-area .left-area-video-player span {
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -730,76 +736,64 @@ label {
 }
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
-  .bannar-area {
+  .banner-area {
     min-height: fit-content;
     padding-bottom: 40px;
   }
-  .bannar-area .shape-one,
-.bannar-area .shape-two {
-    display: none;
-  }
-  .bannar-heading {
+  .banner-heading {
     margin-top: 80px;
   }
-  .bannar-heading h1 {
+  .banner-heading h1 {
     font-size: 46px;
     line-height: 56px;
   }
-  .bannar-area .form-wrapper .login-btn-area {
+  .banner-area .form-wrapper .login-btn-area {
     max-width: 380px;
     margin: auto;
   }
-  .bannar-area .form-wrapper .right-bottom-area p {
+  .banner-area .form-wrapper .right-bottom-area p {
     text-align: center;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
-  .bannar-area {
+  .banner-area {
     min-height: fit-content;
     padding-bottom: 40px;
   }
-  .bannar-area .shape-one,
-.bannar-area .shape-two {
-    display: none;
-  }
-  .bannar-heading {
+  .banner-heading {
     margin-top: 80px;
   }
-  .bannar-heading h1 {
+  .banner-heading h1 {
     font-size: 40px;
     line-height: 50px;
   }
-  .bannar-area .left-area p {
+  .banner-area .left-area p {
     font-size: 20px;
   }
 }
 @media screen and (max-width: 576px) {
-  .bannar-area {
+  .banner-area {
     min-height: fit-content;
     padding-bottom: 40px;
   }
-  .bannar-area .shape-one,
-.bannar-area .shape-two {
-    display: none;
-  }
-  .bannar-heading {
+  .banner-heading {
     margin-top: 80px;
   }
-  .bannar-heading h1 {
+  .banner-heading h1 {
     font-size: 34px;
     line-height: 36px;
   }
-  .bannar-area .left-area p {
+  .banner-area .left-area p {
     font-size: 20px;
   }
   .left-area-video-player {
     margin-top: 32px;
   }
-  .bannar-area .left-area .btn-play {
+  .banner-area .left-area .btn-play {
     height: 43px;
     width: 43px;
   }
-  .bannar-area .left-area .btn-play i {
+  .banner-area .left-area .btn-play i {
     font-size: 16px;
   }
 }
@@ -813,16 +807,6 @@ label {
   padding: 30px;
   background-color: #fff;
   filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.06));
-  position: relative;
-}
-.brands-area .card-item .count {
-  position: absolute;
-  right: 30px;
-  top: 30px;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 30px;
-  color: rgba(93, 95, 102, 0.06);
 }
 .brands-area .card-item h3 {
   margin: 15px 0px;
@@ -983,14 +967,11 @@ label {
 }
 @media screen and (max-width: 768px) {
   .subscribe-area .subscribe-heading {
-    padding: 20px 0px;
+    padding: 0px 0px;
   }
   .subscribe-area .subscribe-heading h2 {
     font-size: 24px;
     line-height: 32px;
-  }
-  .subscribe-area {
-    padding: 24px;
   }
   .subscribe-area form input.subscribe-btn {
     width: 100%;

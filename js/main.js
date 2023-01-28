@@ -172,6 +172,15 @@ var swiper = new Swiper(".brands-slider", {
         });
 
 
+        // sticky menu
+
+        $(window).scroll(function () {
+          if ($(window).scrollTop() >= 330) {
+            $(".header-area").addClass("sticky-header");
+          } else {
+            $(".header-area").removeClass("sticky-header");
+          }
+        });
 
     });
 
