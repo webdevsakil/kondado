@@ -1362,13 +1362,13 @@ label {
   background-color: #fff;
 }
 
-.description-bannar {
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-  background-position: center !important;
+.description-banner {
   height: 560px;
 }
-.description-bannar .left-area .bannar-heading h1 {
+.description-banner .form-wrapper {
+  margin-top: 50px;
+}
+.description-banner .left-area .banner-heading h1 {
   font-weight: 700;
   font-size: 44px;
   line-height: 54px;
@@ -1383,46 +1383,46 @@ label {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  .description-bannar .left-area .bannar-heading h1 {
+  .description-banner .left-area .banner-heading h1 {
     font-size: 32px;
     line-height: 48px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .description-bannar {
+  .description-banner {
     height: fit-content;
   }
-  .description-bannar .bannar-icon img {
+  .description-banner .bannar-icon img {
     width: 170px;
     height: auto;
   }
-  .description-bannar .left-area .bannar-heading h1 {
+  .description-banner .left-area .banner-heading h1 {
     font-size: 36px;
     line-height: 46px;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 767px) {
-  .description-bannar {
+  .description-banner {
     height: fit-content;
   }
-  .description-bannar .bannar-icon img {
+  .description-banner .bannar-icon img {
     width: 170px;
     height: auto;
   }
-  .description-bannar .left-area .bannar-heading h1 {
+  .description-banner .left-area .banner-heading h1 {
     font-size: 36px;
     line-height: 46px;
   }
 }
 @media screen and (max-width: 576px) {
-  .description-bannar {
+  .description-banner {
     height: fit-content;
   }
-  .description-bannar .bannar-icon img {
+  .description-banner .bannar-icon img {
     width: 170px;
     height: auto;
   }
-  .description-bannar .left-area .bannar-heading h1 {
+  .description-banner .left-area .banner-heading h1 {
     font-size: 34px;
     line-height: 44px;
   }
@@ -1468,22 +1468,10 @@ label {
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
+  color: gray;
 }
-.why-kondado .cards-wrapper .col:nth-child(1) .link a {
-  color: #233B8B;
-  border-bottom: 1px solid #233B8B;
-}
-.why-kondado .cards-wrapper .col:nth-child(2) .link a {
-  color: #1174B9;
-  border-bottom: 1px solid #1174B9;
-}
-.why-kondado .cards-wrapper .col:nth-child(3) .link a {
-  color: #1DA8DF;
-  border-bottom: 1px solid #1DA8DF;
-}
-.why-kondado .cards-wrapper .col:nth-child(4) .link a {
-  color: #44378D;
-  border-bottom: 1px solid #44378D;
+.why-kondado .cards-wrapper .single-item .link a:hover {
+  color: #243b8b;
 }
 
 @media screen and (min-width: 1400px) {
@@ -1597,11 +1585,10 @@ label {
     line-height: 32px;
   }
 }
-@media screen and (min-width: 992px) and (max-width: 1350px) {
-  .trust-area .brands-wrapper ul li img {
-    width: 140px;
-  }
+.trust-area .brands-wrapper img {
+  max-width: 180px;
 }
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .trust-area h2 {
     font-size: 32px;

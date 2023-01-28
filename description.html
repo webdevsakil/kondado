@@ -6,9 +6,9 @@
     <title>Kondado | HTML WEBSITE TEMPLATE</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png">
     <!-- Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="./images/favicon.png">
 
     <!-- all css files -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/swiper.bundle.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/default.css">
@@ -34,19 +33,19 @@
                     <!-- logo area -->
                     <div class="logo-area">
                         <a href="index.html" class="transparent-logo">
-                            <img src="images/header/logo.png" class="img-fluid" alt="logo">
+                            <img src="./images/header/logo.png" class="img-fluid" alt="logo">
                         </a>
                         <a href="index.html" class="black-logo">
-                            <img src="images/header/black-logo.png" class="img-fluid" alt="logo">
+                            <img src="./images/header/black-logo.png" class="img-fluid" alt="logo">
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-9 col-xl-7 d-none d-lg-block">
+                <div class="col-lg-10 col-xl-7 d-none d-lg-block">
                     <!-- menu area -->
                     <div class="main-menu-area">
                         <nav class="primary-menu">
                             <ul>
-    
+
                                 <li class="has-dropdown"><a href="#">How it works</a>
                                     <ul>
                                         <li><a href="platform.html">platform</a></li>
@@ -74,7 +73,7 @@
                         </nav>
                     </div>
                 </div>
-    
+
                 <div class="col-lg-1 col-xl-3 d-none d-xl-flex justify-content-end">
                     <div class="btn-area d-flex align-items-center">
                         <a href="contact.html" class="nav-ts-btn">login </a>
@@ -83,7 +82,7 @@
                 </div>
                 <div class="open-menu-btn d-flex justify-content-end d-lg-none col-6">
                     <button type="button"><i class="fa-solid fa-bars"></i></button>
-    
+
                 </div>
             </div>
         </div>
@@ -92,7 +91,7 @@
             <div class="d-flex justify-content-between mobile-menu-top">
                 <div class="logo-area">
                     <a href="index.html">
-                        <img src="images/header/logo.png" alt="logo">
+                        <img src="./images/header/logo.png" alt="logo">
                     </a>
                 </div>
                 <div class="close-btn">
@@ -101,7 +100,7 @@
             </div>
             <nav class="primary-menu">
                 <ul>
-    
+
                     <li class="has-dropdown"><a href="#">How it works</a>
                         <ul>
                             <li><a href="platform.html">platform</a></li>
@@ -131,52 +130,82 @@
     </header>
     <!-- bannar area -->
 
-    <section class="description-bannar mb-xs-20 " style="background: url('./images/description-bannar/bannar.png');">
+    <section class="banner description-banner mb-xs-20 "
+        style="background: url('././images/description-bannar/bannar.png');">
 
         <div class="container">
             <div class="row pl-md-50 pr-md-50">
                 <div class="col-lg-6 order-1 order-lg-0 ">
                     <div class="left-area mt-xs-40 mt-sm-40 mt-md-50 mt-140">
-                        <div class="bannar-heading pr-xs-0 pr-50">
+                        <div class="banner-heading pr-xs-0 pr-50">
                             <h1>ETL ActiveCampaign data into your Data Warehouse or Data Lake</h1>
                         </div>
                         <div class="bannar-icon mt-xs-40 mt-md-40 mt-70">
-                            <img src="images/description-bannar/icon.png" alt="">
+                            <img src="./images/description-bannar/icon.png" alt="">
                         </div>
 
                     </div>
                 </div>
 
                 <div class="offset-lg-1 col-lg-5">
-                    <div class="form-wrapper mt-xs-40 mt-xs-40 mt-sm-50 mt-md-50 mt-100">
+                    <div class="form-wrapper">
                         <div class="right-top-area text-center">
                             <h3>Get started for free</h3>
                             <p>No credit card required | 14 days | 5 million rows | 10 pipelines</p>
                         </div>
 
                         <ul class="login-btn-area">
-                            <li><a href="#">
-                                    <img src="images/bannar/google.png" alt="">
-                                    <span>sign up with google</span></a>
+                            <li>
+                                <a href="#" class="d-flex align-items-center">
+                                    <div class="icon">
+                                        <img src="././images/icon/google-icon.svg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <span>sign up with google</span>
+                                    </div>
+                                </a>
                             </li>
-                            <li><a href="#">
-                                    <img src="images/bannar/linkedin.png" alt="">
-                                    <span>sign up with linkedin</span></a>
+                            <li>
+                                <a href="#" class="d-flex align-items-center">
+                                    <div class="icon">
+                                        <img src="././images/icon/linkedin.svg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <span>sign up with linkedin</span>
+                                    </div>
+                                </a>
+
                             </li>
-                            <li><a href="#">
-                                    <img src="images/bannar/microsoft.png" alt="">
-                                    <span>sign up with
-                                        microsoft</span></a></li>
-                            <li><a href="#">
-                                    <img src="images/bannar/Facebook.png" alt="">
-                                    <span>sign up with facebook</span></a>
+                            <li>
+                                <a href="#" class="d-flex align-items-center">
+                                    <div class="icon">
+                                        <img src="././images/icon/mincrosoft.svg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <span>sign up with
+                                            microsoft</span>
+                                    </div>
+                                </a>
+
+                            </li>
+                            <li>
+
+                                <a href="#" class="d-flex align-items-center">
+                                    <div class="icon">
+                                        <img src="././images/icon/fb.svg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <span>Continue with facebook</span>
+                                    </div>
+                                </a>
+
                             </li>
                         </ul>
-                        <div class="text-center spacer-text mt-10">
+                        <div class="text-center spacer-text mt-15">
                             <span>or</span>
                         </div>
-                        <div class="form-area">
-                            <h4>Sign up with your email</h4>
+                        <div class="form-area ">
+                            <h4 class="mb-25">Sign up with your email</h4>
                             <form>
                                 <input type="email" placeholder="enter your email">
                                 <input type="submit" value="sign up" class="submit-btn">
@@ -230,15 +259,19 @@
                         <h2>Hundreds Of Data-driven Companies Trust Kondado</h2>
                     </div>
                     <div class="brands-wrapper mt-xs-32 mt-sm-40 mt-80">
-                        <ul class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-4 align-items-center gy-5">
-                            <li><img src="images/brands/brands-1.png" class="img-fluid" alt=""></li>
-                            <li><img src="images/brands/brands-2.png" class="img-fluid" alt=""></li>
-                            <li><img src="images/brands/brands-3.png" class="img-fluid" alt=""></li>
-                            <li><img src="images/brands/brands-4.png" class="img-fluid" alt=""></li>
-                            <li><img src="images/brands/brands-5.png" class="img-fluid" alt=""></li>
-                            <li><img src="images/brands/brands-6.png" class="img-fluid" alt=""></li>
-                            <li><img src="images/brands/brands-7.png" class="img-fluid" alt=""></li>
-                            <li><img src="images/brands/brands-8.png" class="img-fluid" alt=""></li>
+                        <ul class="row row-cols-auto align-items-center justify-content-between gy-5 gx-5">
+                            <li><img src="./images/brands/brands-1.png" alt=""></li>
+                            <li><img src="./images/brands/brands-2.png" alt=""></li>
+                            <li><img src="./images/brands/brands-3.png" alt=""></li>
+                            <li><img src="./images/brands/brands-4.png" alt=""></li>
+                            <li><img src="./images/brands/brands-5.png" alt=""></li>
+                            <li><img src="./images/brands/brands-6.png" alt=""></li>
+                            <li><img src="./images/brands/brands-7.png" alt=""></li>
+                            <li><img src="./images/brands/brands-8.png" alt=""></li>
+                            <li><img src="./images/brands/brands-9.png" alt=""></li>
+                            <li><img src="./images/brands/brands-10.png" alt=""></li>
+                            <li><img src="./images/brands/brands-11.png" alt=""></li>
+                            <li><img src="./images/brands/brands-12.png" alt=""></li>
                         </ul>
                     </div>
                 </div>
@@ -268,7 +301,7 @@
                 <div class="col">
                     <div class="single-item">
                         <div class="icon">
-                            <img src="images/why-kondado/icon-1.png" class="img-fluid" alt="">
+                            <img src="./images/why-kondado/icon-1.png" class="img-fluid" alt="">
                         </div>
                         <div class="title">
                             <h3>You own your data</h3>
@@ -284,7 +317,7 @@
                 <div class="col">
                     <div class="single-item">
                         <div class="icon">
-                            <img src="images/why-kondado/icon-2.png" class="img-fluid" alt="">
+                            <img src="./images/why-kondado/icon-2.png" class="img-fluid" alt="">
                         </div>
                         <div class="title">
                             <h3>Simplify your relationship with data</h3>
@@ -300,7 +333,7 @@
                 <div class="col">
                     <div class="single-item">
                         <div class="icon">
-                            <img src="images/why-kondado/icon-3.png" class="img-fluid" alt="">
+                            <img src="./images/why-kondado/icon-3.png" class="img-fluid" alt="">
                         </div>
                         <div class="title">
                             <h3>Predictable pricing</h3>
@@ -316,7 +349,7 @@
                 <div class="col">
                     <div class="single-item">
                         <div class="icon">
-                            <img src="images/why-kondado/icon-4.png" class="img-fluid" alt="">
+                            <img src="./images/why-kondado/icon-4.png" class="img-fluid" alt="">
                         </div>
                         <div class="title">
                             <h3>Transform your data</h3>
@@ -338,7 +371,7 @@
     <!-- subscribe area -->
 
     <section class="subscribe-area description-page pt-50 pb-60 bg-cover"
-        style="background-image: url('./images/cta/cta-bg.png');">
+        style="background-image: url('././images/cta/cta-bg.png');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
@@ -368,7 +401,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="data-card text-center">
                         <div class="icon">
-                            <img src="images/data/icon-1.png" class="img-fluid" alt="">
+                            <img src="./images/data/icon-1.png" class="img-fluid" alt="">
                         </div>
                         <div class="title ">
                             <h3>ActiveCampaign</h3>
@@ -381,7 +414,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="data-card text-center">
                         <div class="icon">
-                            <img src="images/data/icon-2.png" class="img-fluid" alt="">
+                            <img src="./images/data/icon-2.png" class="img-fluid" alt="">
                         </div>
                         <div class="title ">
                             <h3>55 PBX</h3>
@@ -394,7 +427,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="data-card text-center">
                         <div class="icon">
-                            <img src="images/data/icon-3.png" class="img-fluid" alt="">
+                            <img src="./images/data/icon-3.png" class="img-fluid" alt="">
                         </div>
                         <div class="title ">
                             <h3>AdWords (Google Ads)</h3>
@@ -407,7 +440,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="data-card text-center">
                         <div class="icon">
-                            <img src="images/data/icon-4.png" class="img-fluid" alt="">
+                            <img src="./images/data/icon-4.png" class="img-fluid" alt="">
                         </div>
                         <div class="title ">
                             <h3>Amazon S3</h3>
@@ -443,7 +476,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="data-card text-center">
                         <div class="icon">
-                            <img src="images/data/icon-1.png" class="img-fluid" alt="">
+                            <img src="./images/data/icon-1.png" class="img-fluid" alt="">
                         </div>
                         <div class="title ">
                             <h3>ActiveCampaign</h3>
@@ -456,7 +489,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="data-card text-center">
                         <div class="icon">
-                            <img src="images/data/icon-2.png" class="img-fluid" alt="">
+                            <img src="./images/data/icon-2.png" class="img-fluid" alt="">
                         </div>
                         <div class="title ">
                             <h3>55 PBX</h3>
@@ -469,7 +502,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="data-card text-center">
                         <div class="icon">
-                            <img src="images/data/icon-3.png" class="img-fluid" alt="">
+                            <img src="./images/data/icon-3.png" class="img-fluid" alt="">
                         </div>
                         <div class="title ">
                             <h3>AdWords (Google Ads)</h3>
@@ -482,7 +515,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="data-card text-center">
                         <div class="icon">
-                            <img src="images/data/icon-4.png" class="img-fluid" alt="">
+                            <img src="./images/data/icon-4.png" class="img-fluid" alt="">
                         </div>
                         <div class="title ">
                             <h3>Amazon S3</h3>
@@ -495,7 +528,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="data-card text-center">
                         <div class="icon">
-                            <img src="images/data/icon-5.png" class="img-fluid" alt="">
+                            <img src="./images/data/icon-5.png" class="img-fluid" alt="">
                         </div>
                         <div class="title ">
                             <h3>ActiveCampaign</h3>
@@ -508,7 +541,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="data-card text-center">
                         <div class="icon">
-                            <img src="images/data/icon-6.png" class="img-fluid" alt="">
+                            <img src="./images/data/icon-6.png" class="img-fluid" alt="">
                         </div>
                         <div class="title ">
                             <h3>AdWords (Google Ads)</h3>
@@ -521,7 +554,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="data-card text-center">
                         <div class="icon">
-                            <img src="images/data/icon-7.png" class="img-fluid" alt="">
+                            <img src="./images/data/icon-7.png" class="img-fluid" alt="">
                         </div>
                         <div class="title">
                             <h3>AdWords (Google Ads)</h3>
@@ -534,7 +567,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="data-card text-center">
                         <div class="icon">
-                            <img src="images/data/icon-8.png" class="img-fluid" alt="">
+                            <img src="./images/data/icon-8.png" class="img-fluid" alt="">
                         </div>
                         <div class="title">
                             <h3>Amazon S3</h3>
@@ -558,7 +591,7 @@
                     <div class="logo-area">
                         <div class="logo">
                             <a href="#">
-                                <img src="images/footer/black-logo.png" class="img-fluid" alt="">
+                                <img src="./images/footer/black-logo.png" class="img-fluid" alt="">
                             </a>
                         </div>
                         <p class="mt-20">&copy; kondado 2023</p>
