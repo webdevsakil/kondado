@@ -1,0 +1,23 @@
+.platform-banner {
+    .form-wrapper {
+        margin-top: 140px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:991px) {
+    .platform-banner .form-wrapper {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    .platform-banner .form-wrapper {
+        margin-top: 55px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .platform-banner .form-wrapper {
+        margin-top: -5px;
+    }
+}

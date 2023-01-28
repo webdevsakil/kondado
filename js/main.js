@@ -17,7 +17,7 @@ if (document.querySelector('.db-vertical-slider') !== null) {
         target: slides[0],
         type: "wheel,touch",
         onUp: () => {
-            location.href = "#platformBannar";
+            location.href = "#platformBanner";
         }
     });
 

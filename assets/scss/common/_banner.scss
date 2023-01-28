@@ -1,10 +1,10 @@
+
+
 .banner {
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
-}
 
-.platform-banner {
     &.pipelines-banner {
         .form-wrapper {
             margin-top: 120px;
@@ -35,14 +35,14 @@
 
 
 @media screen and (min-width:576px) and (max-width:768px) {
-    .platform-bannar {
+    .banner {
         padding: 0px 80px;
         padding-bottom: 50px;
     }
 }
 
 @media screen and (min-width:769px) and (max-width:992px) {
-    .platform-bannar {
+    .banner {
         height: fit-content;
 
         .bannar-heading {
@@ -55,14 +55,14 @@
         }
     }
 
-    .platform-bannar .bannar-desc p {
+    .banner.bannar-desc p {
         font-size: 16px;
         line-height: 24px;
     }
 }
 
 @media screen and (max-width:768px) {
-    .platform-bannar {
+    .banner {
         height: fit-content;
 
         .bannar-heading {
@@ -75,7 +75,7 @@
         }
     }
 
-    .platform-bannar .bannar-desc p {
+    .banner.bannar-desc p {
         font-size: 16px;
         line-height: 24px;
     }
