@@ -1,11 +1,13 @@
 .choose-plan-area {
     background-color: #f8f7fa;
 
-    .form-wrapper {
-        @media screen and (min-width:1200px) {
-            margin-right: 80px;
+    @media screen and (min-width:1200px) {
+        .container {
+            padding-right: 80px;
+            padding-left: 80px;
         }
     }
+
 
     .heading {
         padding: 0px 380px;

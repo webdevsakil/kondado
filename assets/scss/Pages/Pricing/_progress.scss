@@ -3,7 +3,54 @@
 
     .range {
         font-weight: 400;
-        font-size: 24px;
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+
+
+
+    .range-input {
+
+        height: 8px;
+        width: 100%;
+        border: none;
+        appearance: auto;
+        outline: none;
+        background-color: #D4DEFF;
+        border-radius: 8px;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::-moz-range-thumb,
+        &::-webkit-slider-thumb {
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            background-color: #4285F4;
+            appearance: none;
+            border: none;
+            outline: none;
+        }
+
+        &::-moz-range-progress,
+        &::-webkit-slider-runnable-track {
+            height: 8px;
+            border-radius: 8px;
+            background-color: #4285F4;
+        }
+
+    }
+
+
+
+    .progress-wrapper .range {
+        margin-bottom: 0px;
+    }
+
+    #million_rows {
+        font-size: 40px;
     }
 
     .price {
@@ -11,24 +58,17 @@
         font-size: 18px;
         line-height: 20px;
         color: #5D5F66;
-    }
-    .range-slider{
-        margin-top: -15px;
+
+        #price {
+            font-size: 32px;
+            font-weight: 300;
+        }
+        span{
+            font-size: 32px;
+            font-weight: 300;
+        }
     }
 
-    .form-range::-moz-range-track {
-        width: 100%;
-        height: 8px;
-        color: transparent;
-        cursor: pointer;
-        background-color: #D4DEFF;
-        border-color: transparent;
-        border-radius: 1rem;
-    }
-
-    .progress-wrapper .range {
-        margin-bottom: 0px;
-    }
 
 
 
@@ -38,7 +78,7 @@
     ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 100px;
+        column-gap: 0px;
 
         li {
             margin-bottom: 15px;
@@ -66,7 +106,7 @@
             padding: 16px 33px;
 
             &:hover {
-                background-color: black;
+                color: #222;
             }
         }
     }
@@ -75,7 +115,7 @@
         p {
             font-family: $inter;
             font-weight: 200;
-            font-size: 16px;
+            font-size: 14px;
             line-height: 24px;
             color: rgba(126, 126, 129, 1);
 

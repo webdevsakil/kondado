@@ -1,28 +1,28 @@
 gsap.registerPlugin(Observer);
 
 
-if (document.querySelector('.db-vertical-slider') !== null) {
-    const slides = document.querySelectorAll('.db-vertical-slider .swiper-slide');
-    const slidesLength = slides.length;
+// if (document.querySelector('.db-vertical-slider') !== null) {
+//     const slides = document.querySelectorAll('.db-vertical-slider .swiper-slide');
+//     const slidesLength = slides.length;
 
-    Observer.create({
-        target: slides[slidesLength - 1],
-        type: "wheel,touch",
-        onDown: () => {
-            location.href = "#blog";
+//     Observer.create({
+//         target: slides[slidesLength - 1],
+//         type: "wheel,touch",
+//         onDown: () => {
+//             location.href = "#blog";
 
-        }
-    });
-    Observer.create({
-        target: slides[0],
-        type: "wheel,touch",
-        onUp: () => {
-            location.href = "#platformBanner";
-        }
-    });
+//         }
+//     });
+//     Observer.create({
+//         target: slides[0],
+//         type: "wheel,touch",
+//         onUp: () => {
+//             location.href = "#platformBanner";
+//         }
+//     });
 
 
-}
+// }
 
 const verticalSlider = new Swiper(".db-vertical-slider", {
     direction: "vertical",
@@ -143,7 +143,7 @@ var swiper = new Swiper(".brands-slider", {
         $('#price_slider').attr('min', "0");
         $('#price_slider').attr('value', "1");
 
-        $('#price').text(plans[1].price[locale_currency]);
+        $('#price').text( plans[1].price[locale_currency]);
         $('#million_rows').text(plans[1].million_rows);
         $('#pipelines').text(plans[1].pipelines);
 

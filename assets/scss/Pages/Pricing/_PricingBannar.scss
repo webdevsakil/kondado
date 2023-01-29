@@ -1,4 +1,4 @@
-.pricing-bannar {
+.pricing-banner {
     .subscribe-form-area {
         max-width: 530px;
         margin: 0 auto;
@@ -56,17 +56,17 @@
 }
 
 @media screen and (max-width:768px) {
-    .pricing-bannar .subscribe-form-area .subscribe-heading h1 {
+    .pricing-banner .subscribe-form-area .subscribe-heading h1 {
         font-size: 34px;
         line-height: 44px;
     }
 
-    .pricing-bannar .subscribe-form-area form button {
+    .pricing-banner .subscribe-form-area form button {
         position: unset;
         width: 100%;
     }
 
-    .pricing-bannar .subscribe-form-area .subscribe-desc p {
+    .pricing-banner .subscribe-form-area .subscribe-desc p {
         font-size: 16px;
         line-height: 24px;
     }

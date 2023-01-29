@@ -133,7 +133,7 @@
     <!-- bannar area -->
 
     <section
-        class="platform-bannar pricing-bannar d-flex justify-content-center align-items-center pt-70 pb-xs-50 pb-md-50"
+        class="banner pricing-banner d-flex justify-content-center align-items-center pt-70 pb-xs-50 pb-md-50"
         style="background: url('./images/pricing-bannar/bannar.png') ;">
         <div class="container">
             <div class="row">
@@ -166,17 +166,16 @@
                     </div>
                 </div>
             </div>
-            <div class="row g-5 align-items-center mt-xs-10 mt-sm-10 mt-md-20 mt-lg-20 mt-65">
+            <div class="row g-5  mt-xs-10 mt-sm-10 mt-md-20 mt-lg-20 mt-65">
                 <div class="col-lg-6">
                     <div class="progress-wrapper bg-white ml-xs-10 mr-xs-10">
                         <p class="range"><span id="million_rows">10</span>
                             <span id="million_qualifier">million rows/month</span>
                         </p>
                         <form id="price_sliderData">
-                            <input type="range" min="0" max="12" value="1" class="range-slider form-range"
-                                id="price_slider">
+                            <input type="range" min="0" max="12" value="1" class="range-input" style="accent-color: #4285F4;"  id="price_slider">
                         </form>
-                        <p class="price ">$<strong id="price">89</strong>/ month</p>
+                        <p class="price mt-10"><span>$</span><strong id="price">89</strong>/ month</p>
                     </div>
 
                     <div class="list-area mt-50 mt-xs-20 pl-xs-20">
@@ -262,36 +261,65 @@
                                 Tax Identification Number, CNPJ) </a></p>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="form-wrapper mr-xs-0 ">
+                <div class="col-lg-6 ">
+                    <div class="form-wrapper">
                         <div class="right-top-area text-center">
                             <h3>Get started for free</h3>
                             <p>No credit card required | 14 days | 5 million rows | 10 pipelines</p>
                         </div>
 
                         <ul class="login-btn-area">
-                            <li><a href="#">
-                                    <img src="images/bannar/google.png" alt="">
-                                    <span>sign up with google</span></a>
+                            <li>
+                                <a href="#" class="d-flex align-items-center">
+                                    <div class="icon">
+                                        <img src="./images/icon/google-icon.svg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <span>sign up with google</span>
+                                    </div>
+                                </a>
                             </li>
-                            <li><a href="#">
-                                    <img src="images/bannar/linkedin.png" alt="">
-                                    <span>sign up with linkedin</span></a>
+                            <li>
+                                <a href="#" class="d-flex align-items-center">
+                                    <div class="icon">
+                                        <img src="./images/icon/linkedin.svg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <span>sign up with linkedin</span>
+                                    </div>
+                                </a>
+
                             </li>
-                            <li><a href="#">
-                                    <img src="images/bannar/microsoft.png" alt="">
-                                    <span>sign up with
-                                        microsoft</span></a></li>
-                            <li><a href="#">
-                                    <img src="images/bannar/Facebook.png" alt="">
-                                    <span>sign up with facebook</span></a>
+                            <li>
+                                <a href="#" class="d-flex align-items-center">
+                                    <div class="icon">
+                                        <img src="./images/icon/mincrosoft.svg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <span>sign up with
+                                            microsoft</span>
+                                    </div>
+                                </a>
+
+                            </li>
+                            <li>
+
+                                <a href="#" class="d-flex align-items-center">
+                                    <div class="icon">
+                                        <img src="./images/icon/fb.svg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <span>Continue with facebook</span>
+                                    </div>
+                                </a>
+
                             </li>
                         </ul>
-                        <div class="text-center spacer-text mt-10">
+                        <div class="text-center spacer-text mt-15">
                             <span>or</span>
                         </div>
-                        <div class="form-area">
-                            <h4>Sign up with your email</h4>
+                        <div class="form-area ">
+                            <h4 class="mb-25">Sign up with your email</h4>
                             <form>
                                 <input type="email" placeholder="enter your email">
                                 <input type="submit" value="sign up" class="submit-btn">
@@ -321,7 +349,7 @@
                     </div>
                     <form class="mt-25">
                         <input type="email" placeholder="enter your email">
-                        <input type="submit" value="signup" class="subscribe-btn">
+                        <input type="submit" value="sign up" class="subscribe-btn">
                     </form>
                 </div>
             </div>
@@ -584,7 +612,7 @@
                     </div>
                     <div class="text-widgets">
                         <p>Sign up for a free 14 day trial</p>
-                        <a href="#">signup</a>
+                        <a href="#" class="text-capitalize">sign up</a>
                     </div>
 
 

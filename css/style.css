@@ -1619,36 +1619,36 @@ label {
     width: 100px;
   }
 }
-.pricing-bannar .subscribe-form-area {
+.pricing-banner .subscribe-form-area {
   max-width: 530px;
   margin: 0 auto;
   text-align: center;
 }
-.pricing-bannar .subscribe-form-area .subscribe-heading h1 {
+.pricing-banner .subscribe-form-area .subscribe-heading h1 {
   font-size: 44px;
   line-height: 54px;
 }
-.pricing-bannar .subscribe-form-area .subscribe-desc p {
+.pricing-banner .subscribe-form-area .subscribe-desc p {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   color: #EDEDED;
 }
-.pricing-bannar .subscribe-form-area form {
+.pricing-banner .subscribe-form-area form {
   position: relative;
   margin-top: 35px;
 }
-.pricing-bannar .subscribe-form-area form input {
+.pricing-banner .subscribe-form-area form input {
   width: 100%;
   border: none;
   padding: 12px 30px;
   font-weight: 400;
   font-size: 15px;
 }
-.pricing-bannar .subscribe-form-area form input::placeholder {
+.pricing-banner .subscribe-form-area form input::placeholder {
   color: #7E7E81;
 }
-.pricing-bannar .subscribe-form-area form button {
+.pricing-banner .subscribe-form-area form button {
   position: absolute;
   top: 0;
   right: 0;
@@ -1664,15 +1664,15 @@ label {
 }
 
 @media screen and (max-width: 768px) {
-  .pricing-bannar .subscribe-form-area .subscribe-heading h1 {
+  .pricing-banner .subscribe-form-area .subscribe-heading h1 {
     font-size: 34px;
     line-height: 44px;
   }
-  .pricing-bannar .subscribe-form-area form button {
+  .pricing-banner .subscribe-form-area form button {
     position: unset;
     width: 100%;
   }
-  .pricing-bannar .subscribe-form-area .subscribe-desc p {
+  .pricing-banner .subscribe-form-area .subscribe-desc p {
     font-size: 16px;
     line-height: 24px;
   }
@@ -1681,8 +1681,9 @@ label {
   background-color: #f8f7fa;
 }
 @media screen and (min-width: 1200px) {
-  .choose-plan-area .form-wrapper {
-    margin-right: 80px;
+  .choose-plan-area .container {
+    padding-right: 80px;
+    padding-left: 80px;
   }
 }
 .choose-plan-area .heading {
@@ -1783,7 +1784,40 @@ label {
 }
 .progress-wrapper .range {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.progress-wrapper .range-input {
+  height: 8px;
+  width: 100%;
+  border: none;
+  appearance: auto;
+  outline: none;
+  background-color: #D4DEFF;
+  border-radius: 8px;
+}
+.progress-wrapper .range-input:focus {
+  outline: none;
+}
+.progress-wrapper .range-input::-moz-range-thumb, .progress-wrapper .range-input::-webkit-slider-thumb {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #4285F4;
+  appearance: none;
+  border: none;
+  outline: none;
+}
+.progress-wrapper .range-input::-moz-range-progress, .progress-wrapper .range-input::-webkit-slider-runnable-track {
+  height: 8px;
+  border-radius: 8px;
+  background-color: #4285F4;
+}
+.progress-wrapper .progress-wrapper .range {
+  margin-bottom: 0px;
+}
+.progress-wrapper #million_rows {
+  font-size: 40px;
 }
 .progress-wrapper .price {
   font-weight: 400;
@@ -1791,26 +1825,19 @@ label {
   line-height: 20px;
   color: #5D5F66;
 }
-.progress-wrapper .range-slider {
-  margin-top: -15px;
+.progress-wrapper .price #price {
+  font-size: 32px;
+  font-weight: 300;
 }
-.progress-wrapper .form-range::-moz-range-track {
-  width: 100%;
-  height: 8px;
-  color: transparent;
-  cursor: pointer;
-  background-color: #D4DEFF;
-  border-color: transparent;
-  border-radius: 1rem;
-}
-.progress-wrapper .progress-wrapper .range {
-  margin-bottom: 0px;
+.progress-wrapper .price span {
+  font-size: 32px;
+  font-weight: 300;
 }
 
 .list-area ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 100px;
+  column-gap: 0px;
 }
 .list-area ul li {
   margin-bottom: 15px;
@@ -1830,12 +1857,12 @@ label {
   padding: 16px 33px;
 }
 .choose-plan-area .btn-area .theme-btn:hover {
-  background-color: black;
+  color: #222;
 }
 .choose-plan-area .text-area p {
   font-family: "Inter", sans-serif;
   font-weight: 200;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   color: rgb(126, 126, 129);
 }
