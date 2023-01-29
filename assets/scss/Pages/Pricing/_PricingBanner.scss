@@ -1,4 +1,11 @@
+
+.pricing-banner-wrapper{
+    background-color:#f2f2f2 ;
+}
+
 .pricing-banner {
+    min-height: 790px;
+
     .subscribe-form-area {
         max-width: 530px;
         margin: 0 auto;
@@ -52,6 +59,23 @@
 
             }
         }
+    }
+
+    .choose-plan-area {
+        .heading {
+            padding: 0px 0px;
+
+            h2 {
+                font-size: 32px;
+                line-height: 40px;
+            }
+        }
+    }
+
+    .form-wrapper {
+        background-color: transparent;
+        padding: 50px 30px;
+        filter: unset;
     }
 }
 

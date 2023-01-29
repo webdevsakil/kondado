@@ -1619,6 +1619,13 @@ label {
     width: 100px;
   }
 }
+.pricing-banner-wrapper {
+  background-color: #f2f2f2;
+}
+
+.pricing-banner {
+  min-height: 790px;
+}
 .pricing-banner .subscribe-form-area {
   max-width: 530px;
   margin: 0 auto;
@@ -1662,6 +1669,18 @@ label {
   color: #fff;
   background-color: #1DA8DF;
 }
+.pricing-banner .choose-plan-area .heading {
+  padding: 0px 0px;
+}
+.pricing-banner .choose-plan-area .heading h2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+.pricing-banner .form-wrapper {
+  background-color: transparent;
+  padding: 50px 30px;
+  filter: unset;
+}
 
 @media screen and (max-width: 768px) {
   .pricing-banner .subscribe-form-area .subscribe-heading h1 {
@@ -1678,13 +1697,7 @@ label {
   }
 }
 .choose-plan-area {
-  background-color: #f8f7fa;
-}
-@media screen and (min-width: 1200px) {
-  .choose-plan-area .container {
-    padding-right: 80px;
-    padding-left: 80px;
-  }
+  background-color: #f2f2f2;
 }
 .choose-plan-area .heading {
   padding: 0px 380px;
@@ -1696,17 +1709,7 @@ label {
   font-size: 44px;
   line-height: 54px;
   color: #07080C;
-}
-.choose-plan-area .progress-area {
-  position: relative;
-}
-.choose-plan-area .progress-area .progress-indicator {
-  position: absolute;
-  top: -4px;
-  height: 15px;
-  width: 15px;
-  background-color: #4285F4;
-  border-radius: 50%;
+  margin-left: -70px;
 }
 
 @media screen and (min-width: 991px) and (max-width: 1199px) {
@@ -1817,7 +1820,7 @@ label {
   margin-bottom: 0px;
 }
 .progress-wrapper #million_rows {
-  font-size: 40px;
+  font-size: 24px;
 }
 .progress-wrapper .price {
   font-weight: 400;
