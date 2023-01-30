@@ -411,16 +411,19 @@ label {
 }
 .header-area .mobile-menu-area .primary-menu ul {
   display: block;
+  padding: 0px;
+}
+.header-area .mobile-menu-area .primary-menu ul li {
+  margin: 0px;
+  padding: 0px;
 }
 .header-area .mobile-menu-area .primary-menu ul li a {
   min-height: fit-content;
-  padding: 8px 0px;
   display: block;
   width: 100%;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.045);
   margin-left: 0px;
-  padding: 10px 20px;
   color: #fff !important;
+  padding: 10px 15px;
 }
 .header-area .mobile-menu-area .primary-menu ul li a:hover {
   color: #00ccff;
@@ -428,34 +431,29 @@ label {
 .header-area .mobile-menu-area .primary-menu ul li ul {
   margin-left: 10px;
 }
-.header-area .mobile-menu-area .primary-menu ul li.has-dropdown {
-  position: relative;
-}
 .header-area .mobile-menu-area .primary-menu ul li.has-dropdown::before {
   position: absolute;
   top: 10px;
   right: 20px;
-  content: "\f078";
-  font-family: "Font Awesome 6 Free";
+  content: "+";
   font-weight: 700;
   color: #fff !important;
   font-size: 14px;
 }
+.header-area .mobile-menu-area .primary-menu ul li.has-dropdown:hover::before {
+  content: "-";
+  font-size: 20px;
+  font-weight: bold;
+}
 .header-area .mobile-menu-area .primary-menu ul li.has-dropdown ul {
-  background: #fff;
-  border-top: none;
+  position: relative;
 }
 .header-area .mobile-menu-area .primary-menu ul li.has-dropdown ul li a {
   color: #222 !important;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.265);
-  padding: 8px 20px;
+  padding: 10px 25px;
 }
 .header-area .mobile-menu-area .primary-menu ul li.has-dropdown ul li a:hover {
-  background: #222;
-  color: #fff !important;
-}
-.header-area .mobile-menu-area .primary-menu ul li.has-dropdown ul li ul {
-  left: 50px;
+  color: #00ccff !important;
 }
 .header-area .mobile-menu-area .mobile-menu-top {
   border-bottom: 1px solid rgba(255, 255, 255, 0.092);
@@ -575,6 +573,9 @@ label {
 @media screen and (max-width: 576px) {
   .footer-area {
     padding-left: 30px;
+  }
+  .footer-area .text-widgets p {
+    margin-top: -9px;
   }
 }
 .form-wrapper {
@@ -1694,10 +1695,14 @@ label {
   filter: unset;
 }
 .pricing-banner .form-wrapper input {
-  background: #fff;
+  background: #f4f4f4;
 }
 
 @media screen and (max-width: 768px) {
+  .pricing-banner {
+    height: fit-content;
+    padding-bottom: 50px;
+  }
   .pricing-banner .subscribe-form-area .subscribe-heading h1 {
     font-size: 34px;
     line-height: 44px;
@@ -1716,7 +1721,6 @@ label {
 }
 .choose-plan-area {
   filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.06));
-  background-color: #f2f2f2;
 }
 .choose-plan-area .heading {
   padding: 0px 380px;

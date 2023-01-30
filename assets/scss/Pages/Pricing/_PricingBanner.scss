@@ -85,12 +85,17 @@
         filter: unset;
 
         input {
-            background: #fff;
+            background: #f4f4f4;
         }
     }
 }
 
 @media screen and (max-width:768px) {
+    .pricing-banner {
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+
     .pricing-banner .subscribe-form-area .subscribe-heading h1 {
         font-size: 34px;
         line-height: 44px;

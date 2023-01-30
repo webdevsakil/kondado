@@ -239,18 +239,21 @@
         .primary-menu {
             ul {
                 display: block;
+                padding: 0px;
 
                 li {
+
+                    margin: 0px;
+                    padding: 0px;
+
                     a {
                         min-height: fit-content;
-                        padding: 8px 0px;
                         display: block;
                         width: 100%;
-                        border-bottom: 1px solid rgba(255, 255, 255, 0.045);
                         margin-left: 0px;
-                        padding: 10px 20px;
                         color: #fff !important;
-
+                        //border-bottom: 1px solid rgba(255, 255, 255, 0.109);
+                        padding: 10px 15px;
                         &:hover {
                             color: #00ccff;
                         }
@@ -261,41 +264,40 @@
                     }
 
                     &.has-dropdown {
-                        position: relative;
-
                         &::before {
                             position: absolute;
                             top: 10px;
                             right: 20px;
-                            content: "\f078";
-                            font-family: 'Font Awesome 6 Free';
+                            content: "+";
                             font-weight: 700;
                             color: #fff !important;
                             font-size: 14px;
                         }
 
+                        &:hover {
+                            &::before {
+                                content: "-";
+                                font-size: 20px;
+                                font-weight: bold;
+                            }
+                        }
+
                         ul {
-                            background: #fff;
-                            border-top: none;
+                            position: relative;
 
                             li {
                                 a {
                                     color: #222 !important;
-                                    border-bottom: 1px solid rgba(128, 128, 128, 0.265);
-                                    padding: 8px 20px;
+                                    padding: 10px 25px;
 
                                     &:hover {
-                                        background: #222;
-                                        color: #fff !important;
+                                        color: #00ccff !important;
                                     }
-                                }
-
-                                ul {
-                                    left: 50px;
                                 }
                             }
                         }
                     }
+
                 }
             }
         }
