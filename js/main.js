@@ -32,11 +32,21 @@ const verticalSlider = new Swiper(".vertical-slider", {
   direction: "vertical",
   mousewheel: true,
   effect: "fade",
-  speed: 500,
-  rewind:false
+  speed: 1000,
+  loop: true,
+  parallax: true,
+  autoplay: false,
+  grabCursor: true,
+  centerMode: false,
+  mousewheelSensitivity: 1,
+  mousewheel: {
+    releaseOnEdges: true,
+  },
+  loopFillGroupWithBlank: false,
+  slidesPerView: "auto",
+  touchReleaseOnEdges: true,
 });
-
-
+verticalSlider.swiper;
 
 (function ($) {
   "use strict";
