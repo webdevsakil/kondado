@@ -261,6 +261,9 @@ label {
   background-color: #fff;
   filter: drop-shadow(0px 0px 20px gray);
 }
+.header-area.sticky-header .btn-area .nav-btn {
+  color: #fff;
+}
 .header-area.sticky-header .logo-area .transparent-logo {
   display: none;
 }

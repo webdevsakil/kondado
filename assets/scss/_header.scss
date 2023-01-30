@@ -26,6 +26,8 @@
                     }
                 }
             }
+
+
         }
     }
 
@@ -37,6 +39,10 @@
         z-index: 9999;
         background-color: #fff;
         filter: drop-shadow(0px 0px 20px gray);
+
+        .btn-area .nav-btn {
+            color: #fff;
+        }
 
         .logo-area {
             .transparent-logo {
@@ -254,6 +260,7 @@
                         color: #fff !important;
                         //border-bottom: 1px solid rgba(255, 255, 255, 0.109);
                         padding: 10px 15px;
+
                         &:hover {
                             color: #00ccff;
                         }
