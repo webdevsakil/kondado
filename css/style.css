@@ -671,8 +671,8 @@ label {
   width: 100%;
   margin-bottom: 5px;
   border: none;
-  background-color: #F4F4F4;
   padding: 10px;
+  background: #F4F4F4;
 }
 .form-area form input::placeholder {
   text-align: center;
@@ -1681,6 +1681,9 @@ label {
   padding: 50px 30px;
   filter: unset;
 }
+.pricing-banner .form-wrapper input {
+  background: #fff;
+}
 
 @media screen and (max-width: 768px) {
   .pricing-banner .subscribe-form-area .subscribe-heading h1 {
@@ -1697,6 +1700,7 @@ label {
   }
 }
 .choose-plan-area {
+  filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.06));
   background-color: #f2f2f2;
 }
 .choose-plan-area .heading {
@@ -1713,11 +1717,21 @@ label {
 }
 
 @media screen and (min-width: 991px) and (max-width: 1199px) {
-  .choose-plan-area .heading {
-    padding: 0px 250px;
-  }
   .choose-plan-area .heading h2 {
-    font-size: 38px;
+    text-align: start;
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  .pricing-banner .choose-plan-area .heading h2 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .pricing-banner .form-wrapper .right-top-area h3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .pricing-banner .progress-wrapper {
+    padding: 10px 25px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -1740,19 +1754,22 @@ label {
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
-  .choose-plan-area .heading {
-    padding: 0px 100px;
-  }
   .choose-plan-area .heading h2 {
-    font-size: 28px;
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  .pricing-banner .choose-plan-area .heading h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .progress-wrapper #million_rows {
+    font-size: 20px;
   }
   .progress-wrapper .range {
     font-size: 16px !important;
   }
-  .progress-wrapper .price {
+  .progress-wrapper .price #price {
     font-size: 24px;
-    line-height: 24px;
-    margin-top: 10px;
   }
   .progress {
     margin-top: -11px;
@@ -1762,12 +1779,12 @@ label {
   .progress-wrapper {
     padding: 10px 20px !important;
   }
-  .choose-plan-area .heading {
-    padding: 0px 20px;
-  }
-  .choose-plan-area .heading h2 {
-    font-size: 24px;
+  .pricing-banner .choose-plan-area .heading h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
     line-height: 32px;
+    margin-left: 0px;
   }
   .progress-wrapper .range {
     font-size: 16px !important;
@@ -1876,12 +1893,26 @@ label {
 
 @media screen and (min-width: 992px) and (max-width: 1250px) {
   .list-area ul {
-    column-gap: 20px;
+    column-gap: 5px;
+  }
+  .progress-wrapper .price span {
+    font-size: 25px;
+  }
+  .progress-wrapper .price #price {
+    font-size: 25px;
+  }
+  .list-area ul li .text-content p {
+    font-size: 14px;
+    line-height: 15px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .list-area ul {
     column-gap: 20px;
+  }
+  .list-area ul {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 20px;
   }
 }
 @media screen and (max-width: 575px) {
@@ -1902,6 +1933,16 @@ label {
   .choose-plan-area .text-area p {
     font-size: 14px;
     text-align: center;
+  }
+  .progress-wrapper #million_rows {
+    font-size: 20px;
+  }
+  .progress-wrapper .price span {
+    font-size: 22px;
+    font-weight: 300;
+  }
+  .progress-wrapper .price #price {
+    font-size: 22px;
   }
 }
 .faq-area {

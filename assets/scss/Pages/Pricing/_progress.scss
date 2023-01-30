@@ -63,7 +63,8 @@
             font-size: 32px;
             font-weight: 300;
         }
-        span{
+
+        span {
             font-size: 32px;
             font-weight: 300;
         }
@@ -129,13 +130,31 @@
 
 @media screen and (min-width:992px) and (max-width:1250px) {
     .list-area ul {
-        column-gap: 20px;
+        column-gap: 5px;
+    }
+
+    .progress-wrapper .price span {
+        font-size: 25px;
+    }
+
+    .progress-wrapper .price #price {
+        font-size: 25px;
+    }
+
+    .list-area ul li .text-content p {
+        font-size: 14px;
+        line-height: 15px;
     }
 }
 
 @media screen and (min-width:576px) and (max-width:768px) {
     .list-area ul {
         column-gap: 20px;
+    }
+
+    .list-area ul {
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 20px;
     }
 }
 
@@ -167,5 +186,18 @@
     .choose-plan-area .text-area p {
         font-size: 14px;
         text-align: center;
+    }
+
+    .progress-wrapper #million_rows {
+        font-size: 20px;
+    }
+
+    .progress-wrapper .price span {
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    .progress-wrapper .price #price {
+        font-size: 22px;
     }
 }
