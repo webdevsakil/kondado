@@ -39,21 +39,9 @@
     }
 
     .cards-row {
-        .col-lg-6 {
-            &:nth-child(2) {
-                .card-item {
-                    a {
-                        color: #1174B9;
-                    }
-                }
-            }
-
-            &:nth-child(3) {
-                .card-item {
-                    a {
-                        color: #1174B9;
-                    }
-                }
+        .card-item{
+            a{
+                color: gray;
             }
         }
     }

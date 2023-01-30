@@ -1,6 +1,5 @@
-
-.pricing-banner-wrapper{
-    background-color:#f2f2f2 ;
+.pricing-banner-wrapper {
+    background-color: #f2f2f2;
 }
 
 .pricing-banner {
@@ -34,9 +33,10 @@
             input {
                 width: 100%;
                 border: none;
-                padding: 12px 30px;
+                padding: 0px 30px;
                 font-weight: 400;
                 font-size: 15px;
+                height: 50px;
 
                 &::placeholder {
                     color: #7E7E81;
@@ -47,7 +47,7 @@
                 position: absolute;
                 top: 0;
                 right: 0;
-                height: 47px;
+                height: 50px;
                 border: none;
                 padding: 0px 34px;
                 font-family: $inter;
@@ -70,6 +70,13 @@
                 line-height: 40px;
             }
         }
+
+        .btn-area {
+            .theme-btn {
+                padding: 10px 33px;
+            }
+
+        }
     }
 
     .form-wrapper {
@@ -77,7 +84,7 @@
         padding: 50px 30px;
         filter: unset;
 
-        input{
+        input {
             background: #fff;
         }
     }
@@ -98,7 +105,8 @@
         font-size: 16px;
         line-height: 24px;
     }
-    .pricing-banner-wrapper{
+
+    .pricing-banner-wrapper {
         padding-bottom: 0px;
     }
 }

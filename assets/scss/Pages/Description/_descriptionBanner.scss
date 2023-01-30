@@ -76,6 +76,16 @@
         font-size: 36px;
         line-height: 46px;
     }
+
+    .description-banner {
+        &.banner {
+            padding-bottom: 0px;
+        }
+    }
+
+    .description-banner .left-area {
+        margin-top: -30px;
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -98,5 +108,9 @@
     .description-area p {
         font-size: 16px;
         line-height: 24px;
+    }
+
+    .description-banner .left-area {
+        margin-top: -30px;
     }
 }

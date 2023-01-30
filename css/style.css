@@ -706,6 +706,9 @@ label {
     padding: 0px 20px;
     line-height: 20px;
   }
+  .form-wrapper .right-bottom-area p {
+    text-align: center;
+  }
 }
 .banner {
   background-repeat: no-repeat !important;
@@ -890,11 +893,8 @@ label {
   width: 74px;
   height: 74px;
 }
-.brands-area .cards-row .col-lg-6:nth-child(2) .card-item a {
-  color: #1174B9;
-}
-.brands-area .cards-row .col-lg-6:nth-child(3) .card-item a {
-  color: #1174B9;
+.brands-area .cards-row .card-item a {
+  color: gray;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1405,6 +1405,12 @@ label {
     font-size: 36px;
     line-height: 46px;
   }
+  .description-banner.banner {
+    padding-bottom: 0px;
+  }
+  .description-banner .left-area {
+    margin-top: -30px;
+  }
 }
 @media screen and (max-width: 576px) {
   .description-banner {
@@ -1421,6 +1427,9 @@ label {
   .description-area p {
     font-size: 16px;
     line-height: 24px;
+  }
+  .description-banner .left-area {
+    margin-top: -30px;
   }
 }
 .why-kondado .section-top .section-heading h2 {
@@ -1611,6 +1620,11 @@ label {
     width: 100px;
   }
 }
+@media screen and (min-width: 330px) and (max-width: 380px) {
+  .trust-area .brands-wrapper ul li img {
+    width: 75px;
+  }
+}
 .pricing-banner-wrapper {
   background-color: #f2f2f2;
 }
@@ -1640,9 +1654,10 @@ label {
 .pricing-banner .subscribe-form-area form input {
   width: 100%;
   border: none;
-  padding: 12px 30px;
+  padding: 0px 30px;
   font-weight: 400;
   font-size: 15px;
+  height: 50px;
 }
 .pricing-banner .subscribe-form-area form input::placeholder {
   color: #7E7E81;
@@ -1651,7 +1666,7 @@ label {
   position: absolute;
   top: 0;
   right: 0;
-  height: 47px;
+  height: 50px;
   border: none;
   padding: 0px 34px;
   font-family: "Inter", sans-serif;
@@ -1667,6 +1682,9 @@ label {
 .pricing-banner .choose-plan-area .heading h2 {
   font-size: 32px;
   line-height: 40px;
+}
+.pricing-banner .choose-plan-area .btn-area .theme-btn {
+  padding: 10px 33px;
 }
 .pricing-banner .form-wrapper {
   background-color: transparent;
