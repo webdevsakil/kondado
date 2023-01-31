@@ -710,7 +710,6 @@ label {
     line-height: 22px;
   }
   .form-wrapper .right-bottom-area p {
-    padding: 0px 20px;
     line-height: 20px;
   }
   .form-wrapper .right-bottom-area p {
@@ -1104,6 +1103,14 @@ label {
   color: #fff;
   padding: 0px 30px;
 }
+.vertical-slider .swiper-slide .row .col-lg-6:nth-child(2) {
+  height: 350px;
+  display: flex;
+  align-items: center;
+}
+.vertical-slider .swiper-slide .row .col-lg-6:nth-child(2) .text-content {
+  width: 100%;
+}
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
   .vertical-slider {
@@ -1123,8 +1130,14 @@ label {
   .vertical-slider .vertical-slider .swiper-slide .text-content {
     min-height: 115px;
   }
+  .vertical-slider .swiper-slide .row .col-lg-6:nth-child(2) {
+    height: fit-content;
+  }
 }
 @media screen and (max-width: 768px) {
+  .vertical-slider .swiper-slide .row .col-lg-6:nth-child(2) {
+    height: fit-content;
+  }
   .vertical-slider {
     height: 400px;
   }
