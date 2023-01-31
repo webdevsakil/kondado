@@ -416,17 +416,14 @@ label {
   display: block;
   padding: 0px;
 }
-.header-area .mobile-menu-area .primary-menu ul li {
-  margin: 0px;
-  padding: 0px;
-}
 .header-area .mobile-menu-area .primary-menu ul li a {
   min-height: fit-content;
   display: block;
   width: 100%;
   margin-left: 0px;
   color: #fff !important;
-  padding: 10px 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.109);
+  padding: 15px 15px;
 }
 .header-area .mobile-menu-area .primary-menu ul li a:hover {
   color: #00ccff;
@@ -448,8 +445,12 @@ label {
   font-size: 20px;
   font-weight: bold;
 }
+.header-area .mobile-menu-area .primary-menu ul li.has-dropdown::before {
+  top: 14px;
+}
 .header-area .mobile-menu-area .primary-menu ul li.has-dropdown ul {
   position: relative;
+  display: none;
 }
 .header-area .mobile-menu-area .primary-menu ul li.has-dropdown ul li a {
   color: #222 !important;
@@ -457,6 +458,9 @@ label {
 }
 .header-area .mobile-menu-area .primary-menu ul li.has-dropdown ul li a:hover {
   color: #00ccff !important;
+}
+.header-area .mobile-menu-area .primary-menu ul li.has-dropdown:hover ul {
+  display: block;
 }
 .header-area .mobile-menu-area .mobile-menu-top {
   border-bottom: 1px solid rgba(255, 255, 255, 0.092);

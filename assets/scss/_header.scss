@@ -248,18 +248,14 @@
                 padding: 0px;
 
                 li {
-
-                    margin: 0px;
-                    padding: 0px;
-
                     a {
                         min-height: fit-content;
                         display: block;
                         width: 100%;
                         margin-left: 0px;
                         color: #fff !important;
-                        //border-bottom: 1px solid rgba(255, 255, 255, 0.109);
-                        padding: 10px 15px;
+                        border-bottom: 1px solid rgba(255, 255, 255, 0.109);
+                        padding: 15px 15px;
 
                         &:hover {
                             color: #00ccff;
@@ -268,6 +264,7 @@
 
                     ul {
                         margin-left: 10px;
+
                     }
 
                     &.has-dropdown {
@@ -289,8 +286,13 @@
                             }
                         }
 
+                        &::before {
+                            top: 14px;
+                        }
+
                         ul {
                             position: relative;
+                            display: none;
 
                             li {
                                 a {
@@ -301,6 +303,12 @@
                                         color: #00ccff !important;
                                     }
                                 }
+                            }
+                        }
+
+                        &:hover {
+                            ul {
+                                display: block;
                             }
                         }
                     }
