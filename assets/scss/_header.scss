@@ -239,7 +239,7 @@
         min-height: 100vh;
         background: #222;
         padding-top: 20px;
-        min-width: 340px;
+        min-width: 300px;
         z-index: 9999;
 
         .primary-menu {
@@ -262,10 +262,6 @@
                         }
                     }
 
-                    ul {
-                        margin-left: 10px;
-
-                    }
 
                     &.has-dropdown {
                         &::before {
@@ -284,6 +280,9 @@
                                 font-size: 20px;
                                 font-weight: bold;
                             }
+                            ul{
+                                display: block;
+                            }
                         }
 
                         &::before {
@@ -293,6 +292,8 @@
                         ul {
                             position: relative;
                             display: none;
+                            width: 290px !important;
+                            margin-left: 5px;
 
                             li {
                                 a {
@@ -303,12 +304,6 @@
                                         color: #00ccff !important;
                                     }
                                 }
-                            }
-                        }
-
-                        &:hover {
-                            ul {
-                                display: block;
                             }
                         }
                     }
