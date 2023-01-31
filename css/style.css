@@ -1608,16 +1608,21 @@ label {
     line-height: 32px;
   }
 }
-.trust-area .brands-wrapper img {
+.trust-area .brands-wrapper ul li img {
   max-width: 180px;
   filter: grayscale(1);
   opacity: 0.5;
 }
-.trust-area .brands-wrapper img:hover {
+.trust-area .brands-wrapper ul li img:hover {
   opacity: 1;
   filter: grayscale(0);
 }
 
+@media screen and (min-width: 1400px) {
+  .trust-area .brands-wrapper ul li {
+    padding: 20px 20px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .trust-area h2 {
     font-size: 32px;
@@ -1645,7 +1650,7 @@ label {
     color: #5D5F66;
   }
   .trust-area .brands-wrapper ul li img {
-    width: 100px;
+    width: 90px;
   }
 }
 @media screen and (min-width: 330px) and (max-width: 380px) {
