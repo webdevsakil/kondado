@@ -1610,6 +1610,12 @@ label {
 }
 .trust-area .brands-wrapper img {
   max-width: 180px;
+  filter: grayscale(1);
+  opacity: 0.5;
+}
+.trust-area .brands-wrapper img:hover {
+  opacity: 1;
+  filter: grayscale(0);
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
