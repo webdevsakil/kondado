@@ -42,6 +42,10 @@
         .card-item{
             a{
                 color: gray;
+                text-decoration: none;
+                &:hover{
+                    color: #243b8b;;
+                }
             }
         }
     }

@@ -901,6 +901,10 @@ label {
 }
 .brands-area .cards-row .card-item a {
   color: gray;
+  text-decoration: none;
+}
+.brands-area .cards-row .card-item a:hover {
+  color: #243b8b;
 }
 
 @media screen and (max-width: 1200px) {
