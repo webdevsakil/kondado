@@ -1,5 +1,3 @@
-
-
 .banner {
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -13,7 +11,7 @@
 
     height: 480px;
 
-    .bannar-heading {
+    .banner-heading {
         h1 {
             font-weight: 700;
             font-size: 44px;
@@ -21,7 +19,7 @@
         }
     }
 
-    .bannar-desc {
+    .banner-desc {
         p {
             font-weight: 400;
             font-size: 20px;
@@ -45,7 +43,7 @@
     .banner {
         height: fit-content;
 
-        .bannar-heading {
+        .banner-heading {
             margin-top: 40px;
 
             h1 {
@@ -55,7 +53,7 @@
         }
     }
 
-    .banner.bannar-desc p {
+    .banner.banner-desc p {
         font-size: 16px;
         line-height: 24px;
     }
@@ -65,7 +63,7 @@
     .banner {
         height: fit-content;
 
-        .bannar-heading {
+        .banner-heading {
             margin-top: 40px;
 
             h1 {
@@ -75,7 +73,7 @@
         }
     }
 
-    .banner.bannar-desc p {
+    .banner.banner-desc p {
         font-size: 16px;
         line-height: 24px;
     }
