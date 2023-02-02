@@ -1,71 +1,28 @@
 .header-area {
-    &.transparent-header {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 9888;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #fff;
+    filter: drop-shadow(0px 0px 20px gray);
 
-        .black-logo {
+    &.transparent-header {
+        .transparent-logo{
             display: none;
         }
 
         .open-menu-btn {
             button {
                 i {
-                    color: #fff;
+                    color: #222;
                 }
             }
         }
 
-        &.sticky-header {
-            .open-menu-btn {
-                button {
-                    i {
-                        color: #222;
-                    }
-                }
-            }
-
-
-        }
     }
 
-    &.sticky-header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 9999;
-        background-color: #fff;
-        filter: drop-shadow(0px 0px 20px gray);
 
-        .btn-area .nav-btn {
-            color: #fff;
-        }
-
-        .logo-area {
-            .transparent-logo {
-                display: none;
-            }
-
-            .black-logo {
-                display: block;
-            }
-        }
-
-        .main-menu-area .primary-menu ul li a {
-            color: #222;
-        }
-
-        .main-menu-area .primary-menu ul li.has-dropdown::before {
-            color: #222;
-        }
-
-        .btn-area a {
-            color: #222;
-        }
-    }
 
     ul {
         list-style-type: none;
@@ -99,7 +56,8 @@
                         display: inline-flex;
                         justify-content: center;
                         align-items: center;
-                        color: rgba(255, 255, 255, 1);
+                        //color: rgba(255, 255, 255, 1);
+                        color: #07080C;
                         text-transform: capitalize;
                         margin-right: 30px;
                         min-height: 80px;
@@ -130,7 +88,7 @@
                             font-weight: bold;
                             font-size: 14px;
                             transition: transform ease-in 0.5s;
-                            color: #fff;
+                            color: #07080C;
                         }
 
                         &:hover {
@@ -280,7 +238,8 @@
                                 font-size: 20px;
                                 font-weight: bold;
                             }
-                            ul{
+
+                            ul {
                                 display: block;
                             }
                         }
@@ -361,7 +320,9 @@
             background: transparent;
             border: none;
             font-size: 22px;
+          i{
             color: #222;
+          }
         }
     }
 }

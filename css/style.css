@@ -236,23 +236,7 @@ label {
   color: #fff;
 }
 
-.header-area.transparent-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9888;
-}
-.header-area.transparent-header .black-logo {
-  display: none;
-}
-.header-area.transparent-header .open-menu-btn button i {
-  color: #fff;
-}
-.header-area.transparent-header.sticky-header .open-menu-btn button i {
-  color: #222;
-}
-.header-area.sticky-header {
+.header-area {
   position: fixed;
   top: 0;
   left: 0;
@@ -261,22 +245,10 @@ label {
   background-color: #fff;
   filter: drop-shadow(0px 0px 20px gray);
 }
-.header-area.sticky-header .btn-area .nav-btn {
-  color: #fff;
-}
-.header-area.sticky-header .logo-area .transparent-logo {
+.header-area.transparent-header .transparent-logo {
   display: none;
 }
-.header-area.sticky-header .logo-area .black-logo {
-  display: block;
-}
-.header-area.sticky-header .main-menu-area .primary-menu ul li a {
-  color: #222;
-}
-.header-area.sticky-header .main-menu-area .primary-menu ul li.has-dropdown::before {
-  color: #222;
-}
-.header-area.sticky-header .btn-area a {
+.header-area.transparent-header .open-menu-btn button i {
   color: #222;
 }
 .header-area ul {
@@ -303,7 +275,7 @@ label {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  color: rgb(255, 255, 255);
+  color: #07080C;
   text-transform: capitalize;
   margin-right: 30px;
   min-height: 80px;
@@ -329,7 +301,7 @@ label {
   font-weight: bold;
   font-size: 14px;
   transition: transform ease-in 0.5s;
-  color: #fff;
+  color: #07080C;
 }
 .header-area .main-menu-area .primary-menu ul li.has-dropdown:hover::before {
   transform: rotate(180deg);
@@ -492,6 +464,8 @@ label {
   background: transparent;
   border: none;
   font-size: 22px;
+}
+.header-area .open-menu-btn button i {
   color: #222;
 }
 
