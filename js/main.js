@@ -233,7 +233,7 @@ if (document.querySelector(".vertical-slider") !== null) {
     // sticky menu
 
     $(window).scroll(function () {
-      if ($(window).scrollTop() >= 230) {
+      if ($(window).scrollTop() >= 100) {
         $(".header-area").addClass("sticky-header");
       } else {
         $(".header-area").removeClass("sticky-header");
