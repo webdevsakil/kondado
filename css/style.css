@@ -362,12 +362,13 @@ label {
   line-height: 18px;
   font-size: 16px;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #07080C;
 }
 .header-area .btn-area a.nav-btn {
   background-color: #1DA8DF;
   margin-left: 30px;
   padding: 16px 34px;
+  color: #fff;
 }
 .header-area .mobile-menu-area {
   position: fixed;
@@ -493,7 +494,7 @@ label {
 
 @media all and (max-width: 991px) {
   .header-area {
-    padding: 20px 0px;
+    padding: 15px 0px;
   }
 }
 .footer-area .logo-area p {
