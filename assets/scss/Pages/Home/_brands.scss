@@ -13,7 +13,7 @@
         padding: 30px;
         background-color: #fff;
         filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.06));
-       
+
 
         h3 {
             margin: 15px 0px;
@@ -39,12 +39,14 @@
     }
 
     .cards-row {
-        .card-item{
-            a{
+        .card-item {
+            a {
                 color: gray;
                 text-decoration: none;
-                &:hover{
-                    color: #243b8b;;
+
+                &:hover {
+                    color: #243b8b;
+                    ;
                 }
             }
         }
@@ -162,5 +164,17 @@
     .brands-area .card-item a {
         font-size: 16px;
         line-height: 20px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .brands-area {
+        .section-heading {
+            h2 {
+                font-size: 22px;
+                line-height: 32px;
+                text-align: left;
+            }
+        }
     }
 }
