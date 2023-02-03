@@ -118,9 +118,12 @@
         p {
             font-family: $inter;
             font-weight: 200;
-            font-size: 14px;
+            font-size: 13px;
             line-height: 24px;
             color: rgba(126, 126, 129, 1);
+            span{
+                font-size: 12px;
+            }
 
             a {
                 color: #0077B5;
