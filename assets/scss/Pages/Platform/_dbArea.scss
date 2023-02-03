@@ -14,14 +14,15 @@
             }
 
         }
+
+
     }
-
-
 
 
     article {
         position: relative;
         padding: 0 1rem;
+
 
     }
 
@@ -30,9 +31,14 @@
         display: flex;
         align-items: center;
         height: 500px;
+
+        &:first-child {
+            align-items: start;
+        }
     }
 
     .step .content-area {
+        margin-top: 60px;
         background-color: #233B8B;
         width: 100%;
         padding: 35px 32px;

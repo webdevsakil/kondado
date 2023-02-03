@@ -5,6 +5,7 @@ var figure = scrolly.select("figure");
 var article = scrolly.select("article");
 var step = article.selectAll(".step");
 
+
 // initialize the scrollama
 var scroller = scrollama();
 
