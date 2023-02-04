@@ -1,30 +1,30 @@
 // using d3 for convenience
-var main = d3.select("main");
-var scrolly = main.select("#scrolly");
-var figure = scrolly.select("figure");
-var article = scrolly.select("article");
-var step = article.selectAll(".step");
-
+const main = d3.select(".db-area");
+const scrolly = main.select("#scrolly");
+const figure = scrolly.select("figure");
+const article = scrolly.select("article");
+const step = article.selectAll(".step");
 
 // initialize the scrollama
-var scroller = scrollama();
+const scroller = scrollama();
 
 // generic window resize listener event
 function handleResize() {
   // 1. update height of step elements
-  var stepH = Math.floor(window.innerHeight * 0.75);
+  const stepH = Math.floor(window.innerHeight * 0.75);
   step.style("height", stepH + "px");
 
-  var figureHeight = window.innerHeight / 2;
-  var figureMarginTop = (window.innerHeight - figureHeight) / 2;
+  const figureHeight = window.innerHeight / 2;
+  const figureMarginTop = (window.innerHeight - figureHeight) / 2;
 
   figure
     .style("height", figureHeight + "px")
-    .style("top", figureMarginTop + "px");
+    .style("top", figureMarginTop * 1.5 + "px");
 
   // 3. tell scrollama to update new element dimensions
   scroller.resize();
 }
+
 const imgLists = document.querySelectorAll("#scrolly figure .img-area");
 // scrollama event handlers
 function handleStepEnter(response) {
@@ -38,13 +38,6 @@ function handleStepEnter(response) {
       el.style.display = "block";
     }
   });
-  // add color to current step only
-  // step.classed("is-active", function (d, i) {
-  //   return i === response.index + 2;
-  // });
-
-  // update graphic based on step
-  // figure.select("p").text(response.index + 1);
 }
 
 function init() {

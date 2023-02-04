@@ -7098,6 +7098,9 @@ xs device
   .mt-xs-0{
     margin-top: 0px !important;
   }
+  .mb-xs-0{
+    margin-bottom: 0px;
+  }
   .mt-xs-5 {
     margin-top: 5px;
   }

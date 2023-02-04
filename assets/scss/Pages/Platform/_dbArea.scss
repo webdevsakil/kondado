@@ -1,18 +1,26 @@
 .db-area {
+
     #scrolly {
         position: relative;
 
-        .img-area {
 
-            height: 160px;
+
+        figure {
             position: sticky;
+            // height: 100vh;
             top: 50%;
             transform: translateY(-50%);
 
-            &:not(:nth-child(1)) {
-                display: none;
-            }
 
+            .img-area {
+
+                height: 300px;
+
+                &:not(:nth-child(1)) {
+                    display: none;
+                }
+
+            }
         }
 
 
@@ -29,11 +37,12 @@
 
     .step {
         display: flex;
-        align-items: center;
-        height: 500px;
+        align-items: center !important;
+
 
         &:first-child {
-            align-items: start;
+            align-items: start !important;
+            margin-top: 50px;
         }
     }
 
@@ -60,4 +69,45 @@
         color: #3b3b3b;
     }
 
+}
+@media screen and (min-width:1200px) {
+    #platform-banner{
+     
+            margin-bottom: 200px !important;
+        
+    }
+}
+
+@media screen and (min-width:991px) and (max-width:1350px) {
+    .db-area .step .content-area p {
+
+        font-size: 18px;
+        line-height: 28px;
+
+    }
+
+    .db-area .step:first-child {
+        align-items: start !important;
+        margin-top: 0px;
+    }
+}
+
+// css for small devices
+
+.db-area-small {
+    padding: 50px 20px;
+
+    .db-single-item {
+        margin-top: 20px;
+        text-align: center;
+        .db-heading {
+            margin-top: 15px;
+            padding: 20px 0px;
+            h3 {
+                font-size: 18px;
+                line-height: 28px;
+                color: #07080C;
+            }
+        }
+    }
 }

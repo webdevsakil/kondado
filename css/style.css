@@ -1061,13 +1061,15 @@ label {
 .db-area #scrolly {
   position: relative;
 }
-.db-area #scrolly .img-area {
-  height: 160px;
+.db-area #scrolly figure {
   position: sticky;
   top: 50%;
   transform: translateY(-50%);
 }
-.db-area #scrolly .img-area:not(:nth-child(1)) {
+.db-area #scrolly figure .img-area {
+  height: 300px;
+}
+.db-area #scrolly figure .img-area:not(:nth-child(1)) {
   display: none;
 }
 .db-area article {
@@ -1076,11 +1078,11 @@ label {
 }
 .db-area .step {
   display: flex;
-  align-items: center;
-  height: 500px;
+  align-items: center !important;
 }
 .db-area .step:first-child {
-  align-items: start;
+  align-items: start !important;
+  margin-top: 50px;
 }
 .db-area .step .content-area {
   margin-top: 60px;
@@ -1100,6 +1102,38 @@ label {
 .db-area .step.is-active {
   background-color: goldenrod;
   color: #3b3b3b;
+}
+
+@media screen and (min-width: 1200px) {
+  #platform-banner {
+    margin-bottom: 200px !important;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1350px) {
+  .db-area .step .content-area p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .db-area .step:first-child {
+    align-items: start !important;
+    margin-top: 0px;
+  }
+}
+.db-area-small {
+  padding: 50px 20px;
+}
+.db-area-small .db-single-item {
+  margin-top: 20px;
+  text-align: center;
+}
+.db-area-small .db-single-item .db-heading {
+  margin-top: 15px;
+  padding: 20px 0px;
+}
+.db-area-small .db-single-item .db-heading h3 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #07080C;
 }
 
 .blog-area .card-item {
@@ -1256,9 +1290,12 @@ label {
   background-color: #fff;
   padding: 40px;
   filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.08));
-  min-height: 245px;
-  display: block;
+  min-height: 265px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-decoration: none;
+  position: relative;
 }
 .data-sources .data-card a {
   text-decoration: none;
@@ -1273,8 +1310,11 @@ label {
   color: #5D5F66;
 }
 .data-sources .data-card .btn-area {
-  opacity: 0;
-  visibility: hidden;
+  display: none;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .data-sources .data-card .btn-area span {
   text-decoration: none;
@@ -1289,12 +1329,10 @@ label {
   display: inline-block;
 }
 .data-sources .data-card:hover {
-  padding: 20px;
-  transition: all ease-in-out 0.4s;
+  padding: 10px 40px;
 }
 .data-sources .data-card:hover .btn-area {
-  opacity: 1;
-  visibility: visible;
+  display: block;
 }
 .data-sources .data-card:hover .title {
   margin-top: 20px;
@@ -1304,6 +1342,10 @@ label {
   font-size: 20px;
   line-height: 30px;
   color: #07080C;
+}
+.data-sources .data-card:hover .icon {
+  transition: all ease-in 0.3s;
+  margin-top: -40px;
 }
 
 @media screen and (max-width: 768px) {
