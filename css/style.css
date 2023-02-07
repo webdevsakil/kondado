@@ -1078,8 +1078,8 @@ label {
   }
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
-  .platform-banner .form-wrapper {
-    margin-top: 55px;
+  #platform-banner .platform-banner .form-wrapper {
+    margin-top: 20px;
   }
   #platform-banner {
     margin-top: 30px;
@@ -1750,12 +1750,29 @@ label {
 .pricing-banner .form-wrapper {
   background-color: transparent;
   padding: 50px 30px;
+  margin-right: -45px;
   filter: unset;
 }
 .pricing-banner .form-wrapper input {
   background: #f4f4f4;
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .pricing-banner .form-wrapper {
+    padding: 15px 30px;
+    margin-right: 0px;
+  }
+  .pricing-banner {
+    min-height: fit-content;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .pricing-banner .form-wrapper {
+    padding: 15px 30px;
+    margin-right: 0px;
+  }
+}
 @media screen and (max-width: 768px) {
   .pricing-banner {
     height: fit-content;
@@ -1775,6 +1792,9 @@ label {
   }
   .pricing-banner-wrapper {
     padding-bottom: 0px;
+  }
+  .pricing-banner .form-wrapper {
+    margin-right: 0px;
   }
 }
 .choose-plan-area {
@@ -1931,11 +1951,6 @@ label {
   font-weight: 300;
 }
 
-.list-area ul {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 0px;
-}
 .list-area ul li {
   margin-bottom: 15px;
 }
@@ -2031,12 +2046,6 @@ label {
 .faq-area .accordion-area {
   min-height: 640px;
 }
-.faq-area .accordion-area .accordion-button:not(.collapsed)::after {
-  display: none;
-}
-.faq-area .accordion-area .accordion-button::after {
-  display: none;
-}
 .faq-area .accordion-area .accordion-button {
   font-weight: 700;
   font-size: 18px;
@@ -2048,6 +2057,19 @@ label {
 .faq-area .accordion-area .accordion-button:focus {
   outline: none;
   box-shadow: unset;
+}
+.faq-area .accordion-area .accordion-button::after {
+  flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  margin-left: auto;
+  content: "";
+  background-image: var(--bs-accordion-btn-icon);
+  background-repeat: no-repeat;
+  background-size: var(--bs-accordion-btn-icon-width);
+  transition: var(--bs-accordion-btn-icon-transition);
+  display: nonw;
+  display: none;
 }
 .faq-area .accordion-area .accordion-button:not(.collapsed) {
   box-shadow: unset;

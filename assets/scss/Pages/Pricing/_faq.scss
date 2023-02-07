@@ -5,14 +5,6 @@
 
         min-height: 640px;
 
-        .accordion-button:not(.collapsed)::after {
-            display: none;
-        }
-
-        .accordion-button::after {
-            display: none;
-        }
-
         .accordion-button {
             font-weight: 700;
             font-size: 18px;
@@ -26,6 +18,26 @@
                 box-shadow: unset;
             }
 
+        }
+
+        // .accordion-button:not(.collapsed)::after {
+        //     background-image: "+";
+        //     transform: var(--bs-accordion-btn-icon-transform);
+        //     display: none;
+        // }
+
+        .accordion-button::after {
+            flex-shrink: 0;
+            width: var(--bs-accordion-btn-icon-width);
+            height: var(--bs-accordion-btn-icon-width);
+            margin-left: auto;
+            content: "";
+            background-image: var(--bs-accordion-btn-icon);
+            background-repeat: no-repeat;
+            background-size: var(--bs-accordion-btn-icon-width);
+            transition: var(--bs-accordion-btn-icon-transition);
+            display: nonw;
+            display: none;
         }
 
         .accordion-button:not(.collapsed) {

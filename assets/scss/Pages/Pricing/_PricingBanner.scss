@@ -5,7 +5,7 @@
 .pricing-banner {
     min-height: 790px;
 
- 
+
 
     .subscribe-form-area {
         max-width: 530px;
@@ -84,11 +84,31 @@
     .form-wrapper {
         background-color: transparent;
         padding: 50px 30px;
+        margin-right: -45px;
         filter: unset;
 
         input {
             background: #f4f4f4;
         }
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .pricing-banner .form-wrapper {
+        padding: 15px 30px;
+        margin-right: 0px;
+    }
+
+    .pricing-banner {
+        min-height: fit-content;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-width:575px) and (max-width:767px) {
+    .pricing-banner .form-wrapper {
+        padding: 15px 30px;
+        margin-right: 0px;
     }
 }
 
@@ -115,5 +135,10 @@
 
     .pricing-banner-wrapper {
         padding-bottom: 0px;
+    }
+
+    .pricing-banner .form-wrapper {
+        margin-right: 0px;
+
     }
 }
