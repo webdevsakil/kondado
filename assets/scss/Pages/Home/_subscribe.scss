@@ -19,6 +19,7 @@
             padding-left: 30px;
             border: none;
             outline: none;
+
             &::placeholder {
                 font-weight: 400;
                 font-size: 14px;
@@ -40,7 +41,7 @@
                 font-size: 15px;
                 text-transform: capitalize;
             }
-                       
+
         }
     }
 
@@ -59,18 +60,19 @@
     }
 }
 
-@media screen and (min-width:992px) and (max-width:1200px) {
+@media (min-width:992px) and (max-width:1200px) {
     .subscribe-area .subscribe-heading {
         padding: 20px 80px;
     }
 }
-@media screen and (min-width:769px) and (max-width:992px) {
+
+@media (min-width:769px) and (max-width:992px) {
     .subscribe-area .subscribe-heading {
         padding: 20px 50px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .subscribe-area .subscribe-heading {
         padding: 0px 0px;
 

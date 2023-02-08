@@ -93,7 +93,7 @@
 
         &:hover {
             padding: 10px 40px;
-  
+
 
             .btn-area {
                 display: block;
@@ -121,7 +121,7 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .data-sources .heading h2 {
         font-size: 24px;
         line-height: 32px;

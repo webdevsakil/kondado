@@ -93,7 +93,7 @@
     }
 }
 
-@media screen and (min-width:768px) and (max-width:991px) {
+@media (min-width:768px) and (max-width:991px) {
     .pricing-banner .form-wrapper {
         padding: 15px 30px;
         margin-right: 0px;
@@ -105,14 +105,14 @@
     }
 }
 
-@media screen and (min-width:575px) and (max-width:767px) {
+@media (min-width:575px) and (max-width:767px) {
     .pricing-banner .form-wrapper {
         padding: 15px 30px;
         margin-right: 0px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .pricing-banner {
         height: fit-content;
         padding-bottom: 50px;

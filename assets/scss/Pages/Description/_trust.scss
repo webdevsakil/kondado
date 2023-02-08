@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (min-width:1400px) {
+@media (min-width:1400px) {
     .trust-area {
         .brands-wrapper {
 
@@ -33,7 +33,7 @@
     }
 }
 
-@media screen and (min-width:768px) and (max-width:991px) {
+@media (min-width:768px) and (max-width:991px) {
     .trust-area {
         h2 {
             font-size: 32px;
@@ -53,7 +53,7 @@
     }
 }
 
-@media screen and (min-width:577px) and (max-width:768px) {
+@media (min-width:577px) and (max-width:768px) {
     .trust-area {
         h2 {
             font-size: 28px;
@@ -73,7 +73,7 @@
     }
 }
 
-@media screen and (max-width:576px) {
+@media (max-width:576px) {
     .trust-area {
         h2 {
             font-size: 24px;
@@ -93,7 +93,7 @@
     }
 }
 
-@media screen and (min-width:330px) and (max-width:380px) {
+@media (min-width:330px) and (max-width:380px) {
     .trust-area .brands-wrapper ul li img {
         width: 75px;
     }

@@ -25,7 +25,7 @@
     }
 }
 
-@media screen and (min-width:769px) and (max-width:1000px) {
+@media (min-width:769px) and (max-width:1000px) {
     .platform-blog-area {
 
 
@@ -51,14 +51,14 @@
     }
 }
 
-@media screen and (min-width:576px) and (max-width:768px) {
+@media (min-width:576px) and (max-width:768px) {
     .platform-blog-area {
         padding-left: 80px;
         padding-right: 80px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .platform-blog-area {
         padding: 0px 30px;
 

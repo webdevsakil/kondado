@@ -22,14 +22,14 @@
     }
 }
 
-@media screen and (min-width:576px) and (max-width:768px) {
+@media (min-width:576px) and (max-width:768px) {
     .pipeline-blog {
         padding-left: 50px;
         padding-right: 50px;
     }
 }
 
-@media screen and (max-width:576px) {
+@media (max-width:576px) {
     .pipeline-blog {
         .card-item {
             .icon {

@@ -32,14 +32,14 @@
 
 
 
-@media screen and (min-width:576px) and (max-width:768px) {
+@media  (min-width:576px) and (max-width:768px) {
     .banner {
         padding: 0px 80px;
         padding-bottom: 50px;
     }
 }
 
-@media screen and (min-width:769px) and (max-width:992px) {
+@media  (min-width:769px) and (max-width:992px) {
     .banner {
         height: fit-content;
 
@@ -59,7 +59,7 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media  (max-width:768px) {
     .banner {
         height: fit-content;
 

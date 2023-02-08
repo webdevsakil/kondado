@@ -17,11 +17,11 @@
         }
     }
 
-  
+
 
 }
 
-@media screen and (min-width:991px) and (max-width:1199px) {
+@media (min-width:991px) and (max-width:1199px) {
     .choose-plan-area .heading h2 {
         text-align: start;
         margin-top: 50px;
@@ -45,7 +45,7 @@
 
 }
 
-@media screen and (min-width:769px) and (max-width:992px) {
+@media (min-width:769px) and (max-width:992px) {
     .choose-plan-area .heading {
         padding: 0px 100px;
 
@@ -70,7 +70,7 @@
     }
 }
 
-@media screen and (min-width:576px) and (max-width:768px) {
+@media (min-width:576px) and (max-width:768px) {
 
 
     .choose-plan-area .heading h2 {
@@ -103,7 +103,7 @@
 
 }
 
-@media screen and (max-width:575px) {
+@media (max-width:575px) {
 
     .progress-wrapper {
         padding: 10px 20px !important;

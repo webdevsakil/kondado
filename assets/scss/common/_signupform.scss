@@ -144,7 +144,7 @@
        }
    }
 
-   @media screen and (max-width:576px) {
+   @media (max-width:576px) {
        .form-wrapper {
            padding: 30px 20px;
        }
@@ -160,7 +160,7 @@
        }
 
        .form-wrapper .right-bottom-area p {
-        
+
            line-height: 20px;
        }
 

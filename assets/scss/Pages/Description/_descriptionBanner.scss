@@ -6,6 +6,7 @@
 
     height: 560px;
     margin-top: 80px;
+
     .form-wrapper {
         margin-top: 50px;
     }
@@ -34,7 +35,7 @@
     }
 }
 
-@media screen and (min-width:992px) and (max-width:1199px) {
+@media (min-width:992px) and (max-width:1199px) {
 
     .description-banner .left-area .banner-heading h1 {
         font-size: 32px;
@@ -42,7 +43,7 @@
     }
 }
 
-@media screen and (min-width:768px) and (max-width:991px) {
+@media (min-width:768px) and (max-width:991px) {
     .description-banner {
         height: fit-content;
 
@@ -60,7 +61,7 @@
     }
 }
 
-@media screen and (min-width:577px) and (max-width:767px) {
+@media (min-width:577px) and (max-width:767px) {
     .description-banner {
         height: fit-content;
 
@@ -88,9 +89,10 @@
     }
 }
 
-@media screen and (max-width:576px) {
+@media (max-width:576px) {
     .description-banner {
         height: fit-content;
+        margin-top: 65px;
 
         .banner-icon {
             img {

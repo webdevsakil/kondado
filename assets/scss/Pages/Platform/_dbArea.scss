@@ -72,7 +72,7 @@
 }
 
 
-@media screen and (min-width:991px) and (max-width:1350px) {
+@media (min-width:991px) and (max-width:1350px) {
     .db-area .step .content-area p {
 
         font-size: 18px;
@@ -94,9 +94,11 @@
     .db-single-item {
         margin-top: 20px;
         text-align: center;
+
         .db-heading {
             margin-top: 15px;
             padding: 20px 0px;
+
             h3 {
                 font-size: 18px;
                 line-height: 28px;

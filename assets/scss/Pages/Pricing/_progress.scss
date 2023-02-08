@@ -1,6 +1,6 @@
 .progress-wrapper {
     padding: 20px 40px;
- 
+
 
     .range {
         font-weight: 400;
@@ -79,7 +79,7 @@
 
 .list-area {
     ul {
-   
+
         li {
             margin-bottom: 15px;
 
@@ -118,7 +118,8 @@
             font-size: 13px;
             line-height: 24px;
             color: rgba(126, 126, 129, 1);
-            span{
+
+            span {
                 font-size: 12px;
             }
 
@@ -130,7 +131,7 @@
     }
 }
 
-@media screen and (min-width:992px) and (max-width:1250px) {
+@media (min-width:992px) and (max-width:1250px) {
     .list-area ul {
         column-gap: 5px;
     }
@@ -149,7 +150,7 @@
     }
 }
 
-@media screen and (min-width:576px) and (max-width:768px) {
+@media (min-width:576px) and (max-width:768px) {
     .list-area ul {
         column-gap: 20px;
     }
@@ -160,7 +161,7 @@
     }
 }
 
-@media screen and (max-width:575px) {
+@media (max-width:575px) {
     .list-area {
         ul {
             display: grid;

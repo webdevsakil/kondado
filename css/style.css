@@ -503,7 +503,7 @@ label {
   color: #00ccff;
 }
 
-@media all and (max-width: 991px) {
+@media (max-width: 991px) {
   .header-area {
     padding: 15px 0px;
   }
@@ -562,7 +562,7 @@ label {
   color: #1DA8DF;
 }
 
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .footer-area {
     padding-left: 30px;
   }
@@ -683,7 +683,7 @@ label {
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .form-wrapper {
     padding: 30px 20px;
   }
@@ -723,13 +723,13 @@ label {
   color: #EDEDED;
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .banner {
     padding: 0px 80px;
     padding-bottom: 50px;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 992px) {
   .banner {
     height: fit-content;
   }
@@ -745,7 +745,7 @@ label {
     line-height: 24px;
   }
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .banner {
     height: fit-content;
   }
@@ -795,7 +795,7 @@ label {
   text-transform: capitalize;
 }
 
-@media screen and (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
   .banner-area {
     min-height: fit-content;
     padding-bottom: 40px;
@@ -815,7 +815,7 @@ label {
     text-align: center;
   }
 }
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .banner-area {
     min-height: fit-content;
     padding-bottom: 40px;
@@ -831,7 +831,7 @@ label {
     font-size: 20px;
   }
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .banner-area {
     min-height: fit-content;
     padding-bottom: 40px;
@@ -893,12 +893,12 @@ label {
   color: #243b8b;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .brands-area .left-bottom-area img {
     margin-left: 0px;
   }
 }
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .brands-area .section-heading {
     padding: 0px 100px;
   }
@@ -919,24 +919,24 @@ label {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
   .brands-area .section-heading {
     padding: 0px 0px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .brands-area .section-heading h2 {
     font-size: 32px;
     line-height: 42px;
   }
 }
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .brands-area .section-heading h2 {
     font-size: 28px;
     line-height: 38px;
   }
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .brands-area .section-heading h2 {
     font-size: 24px;
     line-height: 32px;
@@ -968,7 +968,7 @@ label {
     line-height: 20px;
   }
 }
-@media screen and (max-width: 370px) {
+@media (max-width: 370px) {
   .brands-area .section-heading h2 {
     font-size: 22px;
     line-height: 32px;
@@ -1022,17 +1022,17 @@ label {
   margin: auto;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .subscribe-area .subscribe-heading {
     padding: 20px 80px;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 992px) {
   .subscribe-area .subscribe-heading {
     padding: 20px 50px;
   }
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .subscribe-area .subscribe-heading {
     padding: 0px 0px;
   }
@@ -1065,13 +1065,13 @@ label {
   top: 80px;
 }
 
-@media screen and (min-width: 991px) and (max-width: 1250px) {
+@media (min-width: 991px) and (max-width: 1250px) {
   #platform-banner .platform-banner .form-wrapper {
     top: 80px;
     right: 5%;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
   #platform-banner .platform-banner .form-wrapper {
     position: unset;
   }
@@ -1079,7 +1079,7 @@ label {
     margin-top: -40px;
   }
 }
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   #platform-banner .platform-banner .form-wrapper {
     margin-top: 20px;
   }
@@ -1091,7 +1091,7 @@ label {
     position: unset;
   }
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   #platform-banner .platform-banner .form-wrapper {
     position: unset;
     margin-top: 0px;
@@ -1150,7 +1150,7 @@ label {
   color: #3b3b3b;
 }
 
-@media screen and (min-width: 991px) and (max-width: 1350px) {
+@media (min-width: 991px) and (max-width: 1350px) {
   .db-area .step .content-area p {
     font-size: 18px;
     line-height: 28px;
@@ -1197,7 +1197,7 @@ label {
   color: rgb(126, 126, 129);
 }
 
-@media screen and (min-width: 769px) and (max-width: 1000px) {
+@media (min-width: 769px) and (max-width: 1000px) {
   .platform-blog-area .card-item .icon img {
     width: 60px;
     height: 60px;
@@ -1212,13 +1212,13 @@ label {
     line-height: 26px;
   }
 }
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .platform-blog-area {
     padding-left: 80px;
     padding-right: 80px;
   }
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .platform-blog-area {
     padding: 0px 30px;
   }
@@ -1241,17 +1241,17 @@ label {
     padding: 20px;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
   .banner.pipelines-banner .form-wrapper {
     margin-top: 20px;
   }
 }
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .banner.pipelines-banner .form-wrapper {
     margin-top: 50px;
   }
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .banner.pipelines-banner .form-wrapper {
     margin-top: 25px;
   }
@@ -1274,13 +1274,13 @@ label {
   min-height: 216px;
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .pipeline-blog {
     padding-left: 50px;
     padding-right: 50px;
   }
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .pipeline-blog .card-item .icon img {
     width: 40px;
     height: 40px;
@@ -1389,7 +1389,7 @@ label {
   margin-top: -40px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .data-sources .heading h2 {
     font-size: 24px;
     line-height: 32px;
@@ -1426,13 +1426,13 @@ label {
   font-family: "Inter", sans-serif;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .description-banner .left-area .banner-heading h1 {
     font-size: 32px;
     line-height: 48px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .description-banner {
     height: fit-content;
   }
@@ -1445,7 +1445,7 @@ label {
     line-height: 46px;
   }
 }
-@media screen and (min-width: 577px) and (max-width: 767px) {
+@media (min-width: 577px) and (max-width: 767px) {
   .description-banner {
     height: fit-content;
   }
@@ -1464,9 +1464,10 @@ label {
     margin-top: -30px;
   }
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .description-banner {
     height: fit-content;
+    margin-top: 65px;
   }
   .description-banner .banner-icon img {
     width: 170px;
@@ -1527,7 +1528,7 @@ label {
   color: #243b8b;
 }
 
-@media screen and (min-width: 1400px) {
+@media (min-width: 1400px) {
   .why-kondado .cards-wrapper .single-item {
     position: relative;
     min-height: 320px;
@@ -1537,7 +1538,7 @@ label {
     bottom: 20px;
   }
 }
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .why-kondado .cards-wrapper .single-item {
     position: relative;
     min-height: 360px;
@@ -1547,7 +1548,7 @@ label {
     bottom: 20px;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
   .why-kondado .section-top .section-heading h2 {
     font-size: 30px;
     line-height: 40px;
@@ -1557,7 +1558,7 @@ label {
     line-height: 24px;
   }
 }
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .why-kondado .section-top .section-heading h2 {
     font-size: 28px;
     line-height: 38px;
@@ -1567,7 +1568,7 @@ label {
     line-height: 24px;
   }
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .why-kondado .section-top .section-heading h2 {
     font-size: 24px;
     line-height: 32px;
@@ -1602,7 +1603,7 @@ label {
   height: 205px;
 }
 
-@media screen and (min-width: 991px) and (max-width: 1200px) {
+@media (min-width: 991px) and (max-width: 1200px) {
   .capaign-data .campaign-heading {
     padding: 0px 100px;
   }
@@ -1611,7 +1612,7 @@ label {
     line-height: 40px;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
   .capaign-data .campaign-heading {
     padding: 0px 0px;
   }
@@ -1620,7 +1621,7 @@ label {
     line-height: 40px;
   }
 }
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .capaign-data .campaign-heading {
     padding: 0px 0px;
   }
@@ -1629,7 +1630,7 @@ label {
     line-height: 32px;
   }
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .capaign-data .campaign-heading {
     padding: 0px 0px;
   }
@@ -1648,12 +1649,12 @@ label {
   filter: grayscale(0);
 }
 
-@media screen and (min-width: 1400px) {
+@media (min-width: 1400px) {
   .trust-area .brands-wrapper ul li {
     padding: 20px 20px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .trust-area h2 {
     font-size: 32px;
     line-height: 42px;
@@ -1663,7 +1664,7 @@ label {
     width: 120px;
   }
 }
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .trust-area h2 {
     font-size: 28px;
     line-height: 38px;
@@ -1673,7 +1674,7 @@ label {
     width: 120px;
   }
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .trust-area h2 {
     font-size: 24px;
     line-height: 32px;
@@ -1683,7 +1684,7 @@ label {
     width: 90px;
   }
 }
-@media screen and (min-width: 330px) and (max-width: 380px) {
+@media (min-width: 330px) and (max-width: 380px) {
   .trust-area .brands-wrapper ul li img {
     width: 75px;
   }
@@ -1759,7 +1760,7 @@ label {
   background: #f4f4f4;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .pricing-banner .form-wrapper {
     padding: 15px 30px;
     margin-right: 0px;
@@ -1769,13 +1770,13 @@ label {
     padding-bottom: 40px;
   }
 }
-@media screen and (min-width: 575px) and (max-width: 767px) {
+@media (min-width: 575px) and (max-width: 767px) {
   .pricing-banner .form-wrapper {
     padding: 15px 30px;
     margin-right: 0px;
   }
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .pricing-banner {
     height: fit-content;
     padding-bottom: 50px;
@@ -1815,7 +1816,7 @@ label {
   margin-left: -70px;
 }
 
-@media screen and (min-width: 991px) and (max-width: 1199px) {
+@media (min-width: 991px) and (max-width: 1199px) {
   .choose-plan-area .heading h2 {
     text-align: start;
     margin-top: 50px;
@@ -1833,7 +1834,7 @@ label {
     padding: 10px 25px;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 992px) {
   .choose-plan-area .heading {
     padding: 0px 100px;
   }
@@ -1852,7 +1853,7 @@ label {
     margin-top: -11px;
   }
 }
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .choose-plan-area .heading h2 {
     margin-top: 50px;
     margin-left: 0px;
@@ -1874,7 +1875,7 @@ label {
     margin-top: -11px;
   }
 }
-@media screen and (max-width: 575px) {
+@media (max-width: 575px) {
   .progress-wrapper {
     padding: 10px 20px !important;
   }
@@ -1988,7 +1989,7 @@ label {
   text-decoration: none;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1250px) {
+@media (min-width: 992px) and (max-width: 1250px) {
   .list-area ul {
     column-gap: 5px;
   }
@@ -2003,7 +2004,7 @@ label {
     line-height: 15px;
   }
 }
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .list-area ul {
     column-gap: 20px;
   }
@@ -2012,7 +2013,7 @@ label {
     padding-left: 20px;
   }
 }
-@media screen and (max-width: 575px) {
+@media (max-width: 575px) {
   .list-area ul {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -2077,7 +2078,7 @@ label {
   line-height: 24px;
 }
 
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .faq-area .heading h2 {
     font-size: 24px;
     line-height: 32px;
