@@ -365,6 +365,7 @@ label {
   height: fit-content;
   opacity: 1;
   visibility: visible;
+  box-shadow: 0px 1px 10px rgba(35, 59, 139, 0.1);
 }
 .header-area .btn-area a {
   text-decoration: none;
