@@ -6,10 +6,11 @@
     width: 100%;
     z-index: 9999;
     background-color: #fff;
-    filter: drop-shadow(0px 0px 20px gray);
+    box-shadow: 0px 1px 1px #e1e7f7;
 
     &.transparent-header {
         background-color: transparent;
+        box-shadow: unset;
 
         .main-menu-area .primary-menu ul li a {
             color: #ffff;
@@ -106,7 +107,7 @@
                             color: #07080C;
                         }
 
-                     
+
 
                         // dropdown One
                         ul {
@@ -244,7 +245,7 @@
 
                         }
 
-                    
+
 
                         &.submenuOpen {
                             &::before {
