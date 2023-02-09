@@ -5,6 +5,8 @@ const figure = scrolly.select("figure");
 const article = scrolly.select("article");
 const step = article.selectAll(".step");
 
+
+
 // initialize the scrollama
 const scroller = scrollama();
 

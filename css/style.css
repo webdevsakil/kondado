@@ -1129,10 +1129,10 @@ label {
 }
 .db-area .step {
   display: flex;
-  align-items: center !important;
+  align-items: center;
 }
 .db-area .step:first-child {
-  align-items: start !important;
+  align-items: start;
   margin-top: 50px;
 }
 .db-area .step .content-area {

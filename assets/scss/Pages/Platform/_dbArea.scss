@@ -37,11 +37,11 @@
 
     .step {
         display: flex;
-        align-items: center !important;
+        align-items: center;
 
 
         &:first-child {
-            align-items: start !important;
+            align-items: start;
             margin-top: 50px;
         }
     }
