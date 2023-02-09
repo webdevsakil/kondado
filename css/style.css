@@ -975,6 +975,11 @@ label {
     text-align: left;
   }
 }
+.subscribe-area {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
 .subscribe-area .subscribe-heading {
   padding: 0px 200px;
 }
