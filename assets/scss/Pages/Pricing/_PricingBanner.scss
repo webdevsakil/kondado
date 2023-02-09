@@ -6,7 +6,6 @@
     min-height: 790px;
 
 
-
     .subscribe-form-area {
         max-width: 530px;
         margin: 0 auto;
@@ -64,6 +63,10 @@
     }
 
     .choose-plan-area {
+
+        padding-bottom: 40px;
+        filter: unset;
+
         .heading {
             padding: 0px 0px;
 
@@ -116,6 +119,10 @@
     .pricing-banner {
         height: fit-content;
         padding-bottom: 50px;
+    }
+
+    .pricing-banner .choose-plan-area {
+        padding-bottom: 0px;
     }
 
     .pricing-banner .subscribe-form-area .subscribe-heading h1 {

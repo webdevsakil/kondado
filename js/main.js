@@ -27,16 +27,10 @@ var swiper = new Swiper(".brands-slider", {
 });
 
 
-// const mobileMenuArea = document.querySelectorAll('.mobile-menu-area .has-dropdown');
-// mobileMenuArea.forEach(item => {
-//   console.log(item)
-// })
-
-
 
 
 (function ($) {
-  "use strict";
+
 
   $(document).ready(function ($) {
 
