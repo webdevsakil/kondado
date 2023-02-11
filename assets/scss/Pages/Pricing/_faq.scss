@@ -48,6 +48,15 @@
         }
 
     }
+
+
+    .accordion-button:not(.collapsed)::after {
+        transform: rotate(0deg);
+    }
+
+    .accordion-button[aria-expanded=true]::after {
+        transform: rotate(180deg) !important;
+    }
 }
 
 @media (max-width:576px) {
