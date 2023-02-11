@@ -14,17 +14,17 @@
       $(".mobile-menu-area").removeClass("toggle-mobile-menu");
     });
 
+  
 
-    const mobileMenuChildrens = $(".mobile-menu-area .has-dropdown");
+      const mobileMenuChildrens = $(".mobile-menu-area .has-dropdown");
 
-    Array.from(mobileMenuChildrens).forEach(function (hasSubmenu) {
-      $(hasSubmenu).on('click', function () {
-        $(this).toggleClass('submenuOpen');
+      Array.from(mobileMenuChildrens).forEach(function (hasSubmenu) {
+        $(hasSubmenu).on('click', function () {
+          $(this).toggleClass('submenuOpen');
+        });
       });
-    });
 
-
-
+    
     // sticky menu
     $(window).scroll(function () {
       if ($(window).scrollTop() > 20) {
