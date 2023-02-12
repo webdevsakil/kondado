@@ -14,9 +14,11 @@
 6. Footer
 */
 @font-face {
-  font-family: "Helvetica";
-  src: url("fonts/Helvetica.eot");
-  src: url("fonts/Helvetica.eot?#iefix") format("embedded-opentype"), url("fonts/Helvetica.woff2") format("woff2"), url("fonts/Helvetica.woff") format("woff"), url("fonts/Helvetica.ttf") format("truetype"), url("fonts/Helvetica.svg#Helvetica") format("svg");
+  @font-face {
+    font-family: "Helvetica";
+    src: url("fonts/Helvetica.eot");
+    src: url("fonts/Helvetica.eot?#iefix") format("embedded-opentype"), url("fonts/Helvetica.woff2") format("woff2"), url("fonts/Helvetica.woff") format("woff"), url("fonts/Helvetica.ttf") format("truetype"), url("fonts/Helvetica.svg#Helvetica") format("svg");
+  }
 }
 body {
   font-family: "Helvetica", sans-serif;
@@ -33,6 +35,10 @@ html {
 a,
 .button,
 button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
@@ -161,24 +167,6 @@ label {
 }
 
 *::-moz-placeholder {
-  color: #555555;
-  font-size: 14px;
-  opacity: 1;
-}
-
-*::-webkit-input-placeholder {
-  color: #555555;
-  font-size: 14px;
-  opacity: 1;
-}
-
-*:-ms-input-placeholder {
-  color: #555555;
-  font-size: 14px;
-  opacity: 1;
-}
-
-*::-ms-input-placeholder {
   color: #555555;
   font-size: 14px;
   opacity: 1;
@@ -349,8 +337,6 @@ label {
   position: relative;
 }
 .header-area .main-menu-area .primary-menu ul li.has-dropdown ul li a {
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
   min-height: fit-content;
   display: block;
   border-bottom: 1px solid rgba(0, 0, 0, 0.072);
@@ -371,15 +357,11 @@ label {
   visibility: hidden !important;
 }
 .header-area .main-menu-area .primary-menu ul li.has-dropdown ul li:hover ul {
-  height: -webkit-fit-content !important;
-  height: -moz-fit-content !important;
   height: fit-content !important;
   opacity: 1 !important;
   visibility: visible !important;
 }
 .header-area .main-menu-area .primary-menu ul li.has-dropdown:hover ul {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   opacity: 1;
   visibility: visible;
@@ -419,8 +401,6 @@ label {
   padding: 0px;
 }
 .header-area .mobile-menu-area .primary-menu ul li a {
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
   min-height: fit-content;
   display: block;
   width: 100%;
@@ -593,8 +573,7 @@ label {
 .form-wrapper {
   background-color: #fff;
   padding: 50px 30px;
-  -webkit-filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.1));
-          filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.1));
+  filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.1));
   position: relative;
 }
 .form-wrapper .right-top-area h3 {
@@ -689,34 +668,6 @@ label {
   padding: 10px;
   background: #F4F4F4;
 }
-.form-area form input::-webkit-input-placeholder {
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 14px;
-  line-height: 16px;
-  color: #7E7E81;
-}
-.form-area form input::-moz-placeholder {
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 14px;
-  line-height: 16px;
-  color: #7E7E81;
-}
-.form-area form input:-ms-input-placeholder {
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 14px;
-  line-height: 16px;
-  color: #7E7E81;
-}
-.form-area form input::-ms-input-placeholder {
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 14px;
-  line-height: 16px;
-  color: #7E7E81;
-}
 .form-area form input::placeholder {
   text-align: center;
   text-transform: capitalize;
@@ -781,8 +732,6 @@ label {
 }
 @media (min-width: 769px) and (max-width: 992px) {
   .banner {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
   }
   .banner .banner-heading {
@@ -799,8 +748,6 @@ label {
 }
 @media (max-width: 768px) {
   .banner {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
   }
   .banner .banner-heading {
@@ -851,8 +798,6 @@ label {
 
 @media (min-width: 769px) and (max-width: 991px) {
   .banner-area {
-    min-height: -webkit-fit-content;
-    min-height: -moz-fit-content;
     min-height: fit-content;
     padding-bottom: 40px;
   }
@@ -873,8 +818,6 @@ label {
 }
 @media (min-width: 577px) and (max-width: 768px) {
   .banner-area {
-    min-height: -webkit-fit-content;
-    min-height: -moz-fit-content;
     min-height: fit-content;
     padding-bottom: 40px;
   }
@@ -891,8 +834,6 @@ label {
 }
 @media (max-width: 576px) {
   .banner-area {
-    min-height: -webkit-fit-content;
-    min-height: -moz-fit-content;
     min-height: fit-content;
     padding-bottom: 40px;
   }
@@ -926,8 +867,7 @@ label {
 .brands-area .card-item {
   padding: 30px;
   background-color: #fff;
-  -webkit-filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.06));
-          filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.06));
+  filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.06));
 }
 .brands-area .card-item h3 {
   margin: 15px 0px;
@@ -1059,34 +999,6 @@ label {
   border: none;
   outline: none;
 }
-.subscribe-area form input::-webkit-input-placeholder {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  color: #7E7E81;
-  text-transform: capitalize;
-}
-.subscribe-area form input::-moz-placeholder {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  color: #7E7E81;
-  text-transform: capitalize;
-}
-.subscribe-area form input:-ms-input-placeholder {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  color: #7E7E81;
-  text-transform: capitalize;
-}
-.subscribe-area form input::-ms-input-placeholder {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  color: #7E7E81;
-  text-transform: capitalize;
-}
 .subscribe-area form input::placeholder {
   font-weight: 400;
   font-size: 14px;
@@ -1202,7 +1114,6 @@ label {
   position: relative;
 }
 .db-area #scrolly figure {
-  position: -webkit-sticky;
   position: sticky;
   top: 50%;
   transform: translateY(-50%);
@@ -1399,34 +1310,6 @@ label {
   background-color: #eaebec;
   padding: 18px 28px;
 }
-.data-sources .search-form input::-webkit-input-placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7E7E81;
-  text-transform: capitalize;
-}
-.data-sources .search-form input::-moz-placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7E7E81;
-  text-transform: capitalize;
-}
-.data-sources .search-form input:-ms-input-placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7E7E81;
-  text-transform: capitalize;
-}
-.data-sources .search-form input::-ms-input-placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7E7E81;
-  text-transform: capitalize;
-}
 .data-sources .search-form input::placeholder {
   font-weight: 400;
   font-size: 16px;
@@ -1453,8 +1336,7 @@ label {
 .data-sources .data-card {
   background-color: #fff;
   padding: 40px;
-  -webkit-filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.08));
-          filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.08));
+  filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.08));
   min-height: 265px;
   display: flex;
   flex-direction: column;
@@ -1558,8 +1440,6 @@ label {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .description-banner {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
   }
   .description-banner .banner-icon img {
@@ -1573,8 +1453,6 @@ label {
 }
 @media (min-width: 577px) and (max-width: 767px) {
   .description-banner {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
   }
   .description-banner .banner-icon img {
@@ -1594,8 +1472,6 @@ label {
 }
 @media (max-width: 576px) {
   .description-banner {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     margin-top: 65px;
   }
@@ -1625,8 +1501,7 @@ label {
 }
 .why-kondado .cards-wrapper .single-item {
   background-color: #fff;
-  -webkit-filter: drop-shadow(0 4px 120px rgba(17, 116, 185, 0.1));
-          filter: drop-shadow(0 4px 120px rgba(17, 116, 185, 0.1));
+  filter: drop-shadow(0 4px 120px rgba(17, 116, 185, 0.1));
   padding: 30px;
   min-height: 330px;
 }
@@ -1717,10 +1592,7 @@ label {
     line-height: 30px;
   }
   .why-kondado .cards-wrapper .single-item {
-    -webkit-filter: drop-shadow(0 4px 50px rgba(17, 116, 185, 0.1));
-            filter: drop-shadow(0 4px 50px rgba(17, 116, 185, 0.1));
-    min-height: -webkit-fit-content;
-    min-height: -moz-fit-content;
+    filter: drop-shadow(0 4px 50px rgba(17, 116, 185, 0.1));
     min-height: fit-content;
   }
 }
@@ -1775,14 +1647,12 @@ label {
 }
 .trust-area .brands-wrapper ul li img {
   max-width: 180px;
-  -webkit-filter: grayscale(1);
-          filter: grayscale(1);
+  filter: grayscale(1);
   opacity: 0.5;
 }
 .trust-area .brands-wrapper ul li img:hover {
   opacity: 1;
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
+  filter: grayscale(0);
 }
 
 @media (min-width: 1400px) {
@@ -1859,18 +1729,6 @@ label {
   font-size: 15px;
   height: 50px;
 }
-.pricing-banner .subscribe-form-area form input::-webkit-input-placeholder {
-  color: #7E7E81;
-}
-.pricing-banner .subscribe-form-area form input::-moz-placeholder {
-  color: #7E7E81;
-}
-.pricing-banner .subscribe-form-area form input:-ms-input-placeholder {
-  color: #7E7E81;
-}
-.pricing-banner .subscribe-form-area form input::-ms-input-placeholder {
-  color: #7E7E81;
-}
 .pricing-banner .subscribe-form-area form input::placeholder {
   color: #7E7E81;
 }
@@ -1890,8 +1748,7 @@ label {
 }
 .pricing-banner .choose-plan-area {
   padding-bottom: 40px;
-  -webkit-filter: unset;
-          filter: unset;
+  filter: unset;
 }
 .pricing-banner .choose-plan-area .heading {
   padding: 0px 0px;
@@ -1907,8 +1764,7 @@ label {
   background-color: transparent;
   padding: 50px 30px;
   margin-right: -45px;
-  -webkit-filter: unset;
-          filter: unset;
+  filter: unset;
 }
 .pricing-banner .form-wrapper input {
   background: #f4f4f4;
@@ -1920,8 +1776,6 @@ label {
     margin-right: 0px;
   }
   .pricing-banner {
-    min-height: -webkit-fit-content;
-    min-height: -moz-fit-content;
     min-height: fit-content;
     padding-bottom: 40px;
   }
@@ -1934,8 +1788,6 @@ label {
 }
 @media (max-width: 768px) {
   .pricing-banner {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     padding-bottom: 50px;
   }
@@ -1962,8 +1814,7 @@ label {
   }
 }
 .choose-plan-area {
-  -webkit-filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.06));
-          filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.06));
+  filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.06));
 }
 .choose-plan-area .heading {
   padding: 0px 380px;
@@ -2073,9 +1924,7 @@ label {
   height: 8px;
   width: 100%;
   border: none;
-  -webkit-appearance: auto;
-     -moz-appearance: auto;
-          appearance: auto;
+  appearance: auto;
   outline: none;
   background-color: #D4DEFF;
   border-radius: 8px;
@@ -2088,8 +1937,7 @@ label {
   width: 15px;
   border-radius: 50%;
   background-color: #4285F4;
-  -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   border: none;
   outline: none;
 }
@@ -2156,8 +2004,7 @@ label {
 
 @media (min-width: 992px) and (max-width: 1250px) {
   .list-area ul {
-    -moz-column-gap: 5px;
-         column-gap: 5px;
+    column-gap: 5px;
   }
   .progress-wrapper .price span {
     font-size: 25px;
@@ -2172,8 +2019,7 @@ label {
 }
 @media (min-width: 576px) and (max-width: 768px) {
   .list-area ul {
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+    column-gap: 20px;
   }
   .list-area ul {
     grid-template-columns: repeat(1, 1fr);
@@ -2236,8 +2082,7 @@ label {
 }
 .faq-area .accordion-area .accordion-item {
   margin-bottom: 15px;
-  -webkit-filter: drop-shadow(0px 4px 120px rgba(27, 62, 87, 0.041));
-          filter: drop-shadow(0px 4px 120px rgba(27, 62, 87, 0.041));
+  filter: drop-shadow(0px 4px 120px rgba(27, 62, 87, 0.041));
   border: none;
 }
 .faq-area .accordion-area .accordion-body p {
@@ -2258,3 +2103,5 @@ label {
     line-height: 32px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
