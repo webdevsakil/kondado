@@ -1,4 +1,4 @@
-.banner-area {
+.hero-area {
     min-height: 880px;
     position: relative;
 
@@ -29,28 +29,19 @@
             }
         }
 
-        .left-area-video-player {
-            span {
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 700;
-                color: #FFFFFF;
-                text-transform: capitalize;
-            }
-        }
     }
 
 
 }
 
 @media (min-width:769px) and (max-width:991px) {
-    .banner-area {
+    .hero-area {
         min-height: fit-content;
         padding-bottom: 40px;
     }
 
 
-    .banner-heading {
+    .hero-heading {
         margin-top: 80px;
 
         h1 {
@@ -59,24 +50,24 @@
         }
     }
 
-    .banner-area .form-wrapper .login-btn-area {
+    .hero-area .form-wrapper .login-btn-area {
         max-width: 380px;
         margin: auto;
     }
 
-    .banner-area .form-wrapper .right-bottom-area p {
+    .hero-area .form-wrapper .right-bottom-area p {
         text-align: center;
     }
 }
 
 @media (min-width:577px) and (max-width:768px) {
-    .banner-area {
+    .hero-area {
         min-height: fit-content;
         padding-bottom: 40px;
     }
 
 
-    .banner-heading {
+    .hero-heading {
         margin-top: 80px;
 
         h1 {
@@ -85,20 +76,20 @@
         }
     }
 
-    .banner-area .left-area p {
+    .hero-area .left-area p {
         font-size: 20px;
     }
 }
 
 @media (max-width:576px) {
-    .banner-area {
+    .hero-area {
         min-height: fit-content;
         padding-bottom: 40px;
     }
 
 
 
-    .banner-heading {
+    .hero-heading {
         margin-top: 80px;
 
         h1 {
@@ -107,7 +98,7 @@
         }
     }
 
-    .banner-area .left-area p {
+    .hero-area .left-area p {
         font-size: 20px;
     }
 
@@ -115,7 +106,7 @@
         margin-top: 32px;
     }
 
-    .banner-area .left-area .btn-play {
+    .hero-area .left-area .btn-play {
 
         height: 43px;
         width: 43px;

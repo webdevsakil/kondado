@@ -762,18 +762,18 @@ label {
     line-height: 24px;
   }
 }
-.banner-area {
+.hero-area {
   min-height: 880px;
   position: relative;
 }
-.banner-area .left-area p {
+.hero-area .left-area p {
   font-size: 24px;
   line-height: 30px;
   color: #EDEDED;
   margin-top: 30px;
   font-family: "Inter", sans-serif;
 }
-.banner-area .left-area .btn-play {
+.hero-area .left-area .btn-play {
   background: transparent;
   height: 60px;
   width: 60px;
@@ -783,78 +783,71 @@ label {
   justify-content: center;
   align-items: center;
 }
-.banner-area .left-area .btn-play a {
+.hero-area .left-area .btn-play a {
   text-decoration: none;
   color: #fff;
   font-size: 22px;
 }
-.banner-area .left-area .left-area-video-player span {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #FFFFFF;
-  text-transform: capitalize;
-}
 
 @media (min-width: 769px) and (max-width: 991px) {
-  .banner-area {
+  .hero-area {
     min-height: fit-content;
     padding-bottom: 40px;
   }
-  .banner-heading {
+  .hero-heading {
     margin-top: 80px;
   }
-  .banner-heading h1 {
+  .hero-heading h1 {
     font-size: 46px;
     line-height: 56px;
   }
-  .banner-area .form-wrapper .login-btn-area {
+  .hero-area .form-wrapper .login-btn-area {
     max-width: 380px;
     margin: auto;
   }
-  .banner-area .form-wrapper .right-bottom-area p {
+  .hero-area .form-wrapper .right-bottom-area p {
     text-align: center;
   }
 }
 @media (min-width: 577px) and (max-width: 768px) {
-  .banner-area {
+  .hero-area {
     min-height: fit-content;
     padding-bottom: 40px;
   }
-  .banner-heading {
+  .hero-heading {
     margin-top: 80px;
   }
-  .banner-heading h1 {
+  .hero-heading h1 {
     font-size: 40px;
     line-height: 50px;
   }
-  .banner-area .left-area p {
+  .hero-area .left-area p {
     font-size: 20px;
   }
 }
 @media (max-width: 576px) {
-  .banner-area {
+  .hero-area {
     min-height: fit-content;
     padding-bottom: 40px;
   }
-  .banner-heading {
+  .hero-heading {
     margin-top: 80px;
   }
-  .banner-heading h1 {
+  .hero-heading h1 {
     font-size: 34px;
     line-height: 36px;
   }
-  .banner-area .left-area p {
+  .hero-area .left-area p {
     font-size: 20px;
   }
   .left-area-video-player {
     margin-top: 32px;
   }
-  .banner-area .left-area .btn-play {
+  .hero-area .left-area .btn-play {
     height: 43px;
     width: 43px;
   }
-  .banner-area .left-area .btn-play i {
+  .hero-area .left-area .btn-play i {
     font-size: 16px;
   }
 }
