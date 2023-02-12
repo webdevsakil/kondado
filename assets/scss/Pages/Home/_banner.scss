@@ -1,7 +1,9 @@
 .hero-area {
     min-height: 880px;
     position: relative;
-
+    .row{
+        align-items: center;
+    }
 
     .left-area {
         p {
