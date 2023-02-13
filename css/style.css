@@ -1957,6 +1957,23 @@ label {
   background-color: #D4DEFF;
   border-radius: 8px;
 }
+.progress-wrapper .range-input:focus {
+  outline: none;
+}
+.progress-wrapper .range-input::-moz-range-thumb, .progress-wrapper .range-input::-webkit-slider-thumb {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #4285F4;
+  appearance: none;
+  border: none;
+  outline: none;
+}
+.progress-wrapper .range-input::-moz-range-progress, .progress-wrapper .range-input::-webkit-slider-runnable-track {
+  height: 8px;
+  border-radius: 8px;
+  background-color: #4285F4;
+}
 .progress-wrapper .progress-wrapper .range {
   margin-bottom: 0px;
 }

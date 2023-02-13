@@ -20,27 +20,27 @@
         background-color: #D4DEFF;
         border-radius: 8px;
 
-        // &:focus {
-        //     outline: none;
-        // }
+        &:focus {
+            outline: none;
+        }
 
-        // &::-moz-range-thumb,
-        // &::-webkit-slider-thumb {
-        //     height: 15px;
-        //     width: 15px;
-        //     border-radius: 50%;
-        //     background-color: #4285F4;
-        //     appearance: none;
-        //     border: none;
-        //     outline: none;
-        // }
+        &::-moz-range-thumb,
+        &::-webkit-slider-thumb {
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            background-color: #4285F4;
+            appearance: none;
+            border: none;
+            outline: none;
+        }
 
-        // &::-moz-range-progress,
-        // &::-webkit-slider-runnable-track {
-        //     height: 8px;
-        //     border-radius: 8px;
-        //     background-color: #4285F4;
-        // }
+        &::-moz-range-progress,
+        &::-webkit-slider-runnable-track {
+            height: 8px;
+            border-radius: 8px;
+            background-color: #4285F4;
+        }
 
     }
 
