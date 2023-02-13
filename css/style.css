@@ -890,7 +890,6 @@ label {
 .brands-area .card-item {
   padding: 30px;
   background-color: #fff;
-  filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.06));
 }
 .brands-area .card-item h3 {
   margin: 15px 0px;
@@ -990,6 +989,11 @@ label {
   .brands-area .card-item a {
     font-size: 16px;
     line-height: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .brands-area .card-item {
+    filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.06));
   }
 }
 @media (max-width: 370px) {
