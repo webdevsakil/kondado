@@ -570,81 +570,81 @@ label {
     margin-top: -9px;
   }
 }
-.form-wrapper {
+.signup-form-wrapper {
   background-color: #fff;
   padding: 50px 30px;
   filter: drop-shadow(0px 4px 120px rgba(17, 116, 185, 0.1));
   position: relative;
 }
-.form-wrapper .right-top-area .form-heading {
+.signup-form-wrapper .right-top-area .form-heading {
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
   color: #07080C;
 }
-.form-wrapper .right-top-area .form-desc {
+.signup-form-wrapper .right-top-area .form-desc {
   font-size: 16px;
   line-height: 24px;
   color: #7E7E81;
   margin-top: 6px;
 }
-.form-wrapper .login-btn-area {
+.signup-form-wrapper .login-btn-area {
   max-width: 280px;
   margin: auto;
 }
-.form-wrapper .login-btn-area .icon {
+.signup-form-wrapper .login-btn-area .icon {
   width: 41px;
   height: 38px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.form-wrapper .login-btn-area li {
+.signup-form-wrapper .login-btn-area li {
   padding: 2px;
   margin-bottom: 6px;
 }
-.form-wrapper .login-btn-area li:first-child .icon {
+.signup-form-wrapper .login-btn-area li:first-child .icon {
   background-color: #fff;
 }
-.form-wrapper .login-btn-area li span {
+.signup-form-wrapper .login-btn-area li span {
   font-weight: 700;
   font-size: 15px;
   color: #FFFFFF;
   margin-left: 10px;
   display: block;
 }
-.form-wrapper .login-btn-area li a {
+.signup-form-wrapper .login-btn-area li a {
   text-decoration: none;
   color: #fff;
   text-transform: capitalize;
 }
-.form-wrapper .login-btn-area li:first-child {
+.signup-form-wrapper .login-btn-area li:first-child {
   background-color: #4285F4;
 }
-.form-wrapper .login-btn-area li:nth-child(2) {
+.signup-form-wrapper .login-btn-area li:nth-child(2) {
   background-color: #0077B5;
 }
-.form-wrapper .login-btn-area li:nth-child(3) {
+.signup-form-wrapper .login-btn-area li:nth-child(3) {
   background-color: #2F2F2F;
 }
-.form-wrapper .login-btn-area li:nth-child(4) {
+.signup-form-wrapper .login-btn-area li:nth-child(4) {
   background-color: #3975EA;
 }
-.form-wrapper .spacer-text span {
+.signup-form-wrapper .spacer-text span {
   color: #7E7E81;
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
   text-transform: capitalize;
 }
-.form-wrapper .right-bottom-area p {
+.signup-form-wrapper .right-bottom-area p {
   font-size: 13px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   color: #7E7E81;
   line-height: 16px;
 }
-.form-wrapper .right-bottom-area p a {
+.signup-form-wrapper .right-bottom-area p a {
   color: #008862;
 }
 
@@ -686,40 +686,40 @@ label {
 }
 
 @media (max-width: 576px) {
-  .form-wrapper {
+  .signup-form-wrapper {
     padding: 30px 20px;
   }
-  .form-wrapper .right-top-area h3 {
+  .signup-form-wrapper .right-top-area h3 {
     font-size: 24px;
     line-height: 22px;
   }
-  .form-wrapper .right-top-area p {
+  .signup-form-wrapper .right-top-area p {
     font-size: 14px;
     line-height: 22px;
   }
-  .form-wrapper .right-bottom-area p {
+  .signup-form-wrapper .right-bottom-area p {
     line-height: 20px;
   }
-  .form-wrapper .right-bottom-area p {
+  .signup-form-wrapper .right-bottom-area p {
     text-align: center;
   }
 }
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-  .form-wrapper {
+  .signup-form-wrapper {
     padding: 30px 20px;
   }
-  .form-wrapper .right-top-area h3 {
+  .signup-form-wrapper .right-top-area h3 {
     font-size: 24px;
     line-height: 22px;
   }
-  .form-wrapper .right-top-area p {
+  .signup-form-wrapper .right-top-area p {
     font-size: 14px;
     line-height: 22px;
   }
-  .form-wrapper .right-bottom-area p {
+  .signup-form-wrapper .right-bottom-area p {
     line-height: 20px;
   }
-  .form-wrapper .right-bottom-area p {
+  .signup-form-wrapper .right-bottom-area p {
     text-align: center;
   }
 }
