@@ -570,80 +570,80 @@ label {
     margin-top: -9px;
   }
 }
-.signup-form-wrapper {
+.form-wrapper {
   background-color: #fff;
   padding: 50px 30px;
   position: relative;
 }
-.signup-form-wrapper .right-top-area .form-heading {
+.form-wrapper .right-top-area .form-heading {
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
   color: #07080C;
 }
-.signup-form-wrapper .right-top-area .form-desc {
+.form-wrapper .right-top-area .form-desc {
   font-size: 16px;
   line-height: 24px;
   color: #7E7E81;
   margin-top: 6px;
 }
-.signup-form-wrapper .login-btn-area {
+.form-wrapper .login-btn-area {
   max-width: 280px;
   margin: auto;
 }
-.signup-form-wrapper .login-btn-area .icon {
+.form-wrapper .login-btn-area .icon {
   width: 41px;
   height: 38px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.signup-form-wrapper .login-btn-area li {
+.form-wrapper .login-btn-area li {
   padding: 2px;
   margin-bottom: 6px;
 }
-.signup-form-wrapper .login-btn-area li:first-child .icon {
+.form-wrapper .login-btn-area li:first-child .icon {
   background-color: #fff;
 }
-.signup-form-wrapper .login-btn-area li span {
+.form-wrapper .login-btn-area li span {
   font-weight: 700;
   font-size: 15px;
   color: #FFFFFF;
   margin-left: 10px;
   display: block;
 }
-.signup-form-wrapper .login-btn-area li a {
+.form-wrapper .login-btn-area li a {
   text-decoration: none;
   color: #fff;
   text-transform: capitalize;
 }
-.signup-form-wrapper .login-btn-area li:first-child {
+.form-wrapper .login-btn-area li:first-child {
   background-color: #4285F4;
 }
-.signup-form-wrapper .login-btn-area li:nth-child(2) {
+.form-wrapper .login-btn-area li:nth-child(2) {
   background-color: #0077B5;
 }
-.signup-form-wrapper .login-btn-area li:nth-child(3) {
+.form-wrapper .login-btn-area li:nth-child(3) {
   background-color: #2F2F2F;
 }
-.signup-form-wrapper .login-btn-area li:nth-child(4) {
+.form-wrapper .login-btn-area li:nth-child(4) {
   background-color: #3975EA;
 }
-.signup-form-wrapper .spacer-text span {
+.form-wrapper .spacer-text span {
   color: #7E7E81;
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
   text-transform: capitalize;
 }
-.signup-form-wrapper .right-bottom-area p {
+.form-wrapper .right-bottom-area p {
   font-size: 13px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   color: #7E7E81;
   line-height: 16px;
 }
-.signup-form-wrapper .right-bottom-area p a {
+.form-wrapper .right-bottom-area p a {
   color: #008862;
 }
 
