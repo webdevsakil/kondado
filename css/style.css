@@ -685,6 +685,25 @@ label {
   color: #FFFFFF;
 }
 
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  .form-wrapper {
+    padding: 30px 20px;
+  }
+  .form-wrapper .right-top-area h3 {
+    font-size: 24px;
+    line-height: 22px;
+  }
+  .form-wrapper .right-top-area p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .form-wrapper .right-bottom-area p {
+    line-height: 20px;
+  }
+  .form-wrapper .right-bottom-area p {
+    text-align: center;
+  }
+}
 @media (max-width: 576px) {
   .form-wrapper {
     padding: 30px 20px;
