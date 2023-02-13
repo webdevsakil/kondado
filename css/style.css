@@ -1323,6 +1323,9 @@ label {
     line-height: 24px;
   }
 }
+.data-sources {
+  background-color: #FCFBFF;
+}
 .data-sources .heading h2 {
   line-height: 54px;
 }
@@ -1334,7 +1337,6 @@ label {
 .data-sources .search-form input {
   width: 100%;
   border: none;
-  background-color: #eaebec;
   padding: 18px 28px;
 }
 .data-sources .search-form input::placeholder {
@@ -1361,7 +1363,7 @@ label {
   width: 68px;
 }
 .data-sources .data-card {
-  background-color: #FCFBFF;
+  background-color: #fff;
   padding: 40px;
   min-height: 265px;
   display: flex;

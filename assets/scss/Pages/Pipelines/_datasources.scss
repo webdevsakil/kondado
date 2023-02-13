@@ -1,4 +1,6 @@
 .data-sources {
+    background-color: #FCFBFF;
+
     .heading {
         h2 {
             line-height: 54px;
@@ -13,7 +15,6 @@
         input {
             width: 100%;
             border: none;
-            background-color: #eaebec;
             padding: 18px 28px;
 
             &::placeholder {
@@ -49,7 +50,7 @@
             text-decoration: none;
         }
 
-        background-color: #FCFBFF;
+        background-color:#fff;
         padding: 40px;
 
 
