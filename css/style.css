@@ -611,6 +611,7 @@ label {
   font-size: 15px;
   color: #FFFFFF;
   margin-left: 10px;
+  display: block;
 }
 .form-wrapper .login-btn-area li a {
   text-decoration: none;
@@ -768,6 +769,9 @@ label {
 }
 .hero-area .row {
   align-items: center;
+}
+.hero-area .left-area {
+  display: block;
 }
 .hero-area .left-area p {
   font-size: 24px;
