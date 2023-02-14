@@ -788,7 +788,9 @@ label {
 }
 .hero-area {
   min-height: 880px;
-  position: relative;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
 }
 .hero-area .row {
   align-items: center;
