@@ -158,9 +158,9 @@
 
                                 &:hover {
                                     ul {
-                                        height: fit-content !important;
-                                        opacity: 1 !important;
-                                        visibility: visible !important;
+                                        height: fit-content;
+                                        opacity: 1;
+                                        visibility: visible;
                                     }
                                 }
                             }
@@ -227,6 +227,7 @@
                         color: #fff !important;
                         border-bottom: 1px solid rgba(255, 255, 255, 0.109);
                         padding: 15px 15px;
+                        text-decoration: none;
 
                         &:hover {
                             color: #00ccff;
@@ -235,48 +236,52 @@
 
 
                     &.has-dropdown {
+                        position: relative;
+
                         &::before {
                             position: absolute;
-                            top: 10px;
-                            right: 20px;
-                            content: "+";
-                            font-weight: 700;
-                            color: #fff !important;
+                            top: 16px;
+                            right: 10px;
+                            content: "\2b";
+                            font-size: 16px;
+                            line-height: 20px;
+                            font-family: 'Font Awesome 6 Free';
+                            font-weight: bold;
                             font-size: 14px;
-
-                        }
-                        
-                        &.submenuOpen {
-                            &::before {
-                                content: "-";
-                                font-size: 20px;
-                                font-weight: bold;
-                            }
-
-                            ul {
-                                display: block;
-                            }
-                        }
-
-                        &::before {
-                            top: 14px;
+                            transition: transform ease-in 0.5s;
+                            color: #fff;
                         }
 
                         ul {
                             position: relative;
-                            display: none;
+                            height: 0px;
+                            opacity: 0;
+                            visibility: hidden;
                             width: 290px !important;
                             margin-left: 5px;
 
                             li {
                                 a {
-                                    color: #222 !important;
+                                    color: #fff !important;
                                     padding: 10px 25px;
 
                                     &:hover {
                                         color: #00ccff !important;
                                     }
                                 }
+                            }
+                        }
+
+                        &.active {
+                            &::before {
+
+                                content: "\f068";
+                            }
+
+                            ul {
+                                height: fit-content;
+                                opacity: 1;
+                                visibility: visible;
                             }
                         }
                     }
@@ -388,7 +393,7 @@
 
 // menu space
 
-@media  (max-width:991px) {
+@media (max-width:991px) {
     .header-area {
         padding: 15px 0px;
     }

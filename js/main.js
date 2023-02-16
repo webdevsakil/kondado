@@ -18,8 +18,8 @@
     const mobileMenuChildrens = $(".mobile-menu-area .has-dropdown");
 
     Array.from(mobileMenuChildrens).forEach(function (hasSubmenu) {
-      $(hasSubmenu).on('mouseover', function () {
-        $(this).toggleClass('submenuOpen');
+      $(hasSubmenu).on('click', function () {
+        $(this).toggleClass('active');
       });
     });
 

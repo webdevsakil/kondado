@@ -357,9 +357,9 @@ label {
   visibility: hidden !important;
 }
 .header-area .main-menu-area .primary-menu ul li.has-dropdown ul li:hover ul {
-  height: fit-content !important;
-  opacity: 1 !important;
-  visibility: visible !important;
+  height: fit-content;
+  opacity: 1;
+  visibility: visible;
 }
 .header-area .main-menu-area .primary-menu ul li.has-dropdown:hover ul {
   height: fit-content;
@@ -408,42 +408,49 @@ label {
   color: #fff !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.109);
   padding: 15px 15px;
+  text-decoration: none;
 }
 .header-area .mobile-menu-area .primary-menu ul li a:hover {
   color: #00ccff;
 }
+.header-area .mobile-menu-area .primary-menu ul li.has-dropdown {
+  position: relative;
+}
 .header-area .mobile-menu-area .primary-menu ul li.has-dropdown::before {
   position: absolute;
-  top: 10px;
-  right: 20px;
+  top: 16px;
+  right: 10px;
   content: "+";
-  font-weight: 700;
-  color: #fff !important;
-  font-size: 14px;
-}
-.header-area .mobile-menu-area .primary-menu ul li.has-dropdown.submenuOpen::before {
-  content: "-";
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Font Awesome 6 Free";
   font-weight: bold;
-}
-.header-area .mobile-menu-area .primary-menu ul li.has-dropdown.submenuOpen ul {
-  display: block;
-}
-.header-area .mobile-menu-area .primary-menu ul li.has-dropdown::before {
-  top: 14px;
+  font-size: 14px;
+  transition: transform ease-in 0.5s;
+  color: #fff;
 }
 .header-area .mobile-menu-area .primary-menu ul li.has-dropdown ul {
   position: relative;
-  display: none;
+  height: 0px;
+  opacity: 0;
+  visibility: hidden;
   width: 290px !important;
   margin-left: 5px;
 }
 .header-area .mobile-menu-area .primary-menu ul li.has-dropdown ul li a {
-  color: #222 !important;
+  color: #fff !important;
   padding: 10px 25px;
 }
 .header-area .mobile-menu-area .primary-menu ul li.has-dropdown ul li a:hover {
   color: #00ccff !important;
+}
+.header-area .mobile-menu-area .primary-menu ul li.has-dropdown.active::before {
+  content: "\f068";
+}
+.header-area .mobile-menu-area .primary-menu ul li.has-dropdown.active ul {
+  height: fit-content;
+  opacity: 1;
+  visibility: visible;
 }
 .header-area .mobile-menu-area .mobile-menu-top {
   border-bottom: 1px solid rgba(255, 255, 255, 0.092);
